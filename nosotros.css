@@ -1,3 +1,7 @@
+.body-nosotros{
+    background: linear-gradient( 180deg, #ffffff, #cfcfcf, #b4b4b4, #8a8a8a);
+}
+
 .section-sobrenosotros-baner{
     margin-top: 110px;
 }
@@ -9,7 +13,6 @@
     border-radius: 20px;
     height: 100%;
     padding: 4%;
-    /* drop-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); */
 }
 
 .card-text{
@@ -48,7 +51,7 @@
     border-radius: 8px;
     padding: 10px;
     width: 250px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
     text-align: center;
     transition: transform 0.7s ease;
     height: 300px;

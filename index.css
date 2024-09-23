@@ -9,8 +9,7 @@ html{
     font-style: normal;
 }
 
-body{
-    /* background-color: #f1f1f1; */
+.body-home{
     background: linear-gradient( 180deg, #ffffff, #cfcfcf, #b4b4b4, #8a8a8a);
 }
 
@@ -53,6 +52,7 @@ p{
 /* Footer */
 
 .footer-content{
+    width: 100%;
     background: linear-gradient( 180deg, #528E96, #2F6A74);
     margin: none;
     padding: 0px 3%;

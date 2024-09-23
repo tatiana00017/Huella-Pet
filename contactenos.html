@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Link de Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Link GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Inconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./contactenos.css">
+</head>
+
+<body class="body-contactenos">
+
+  <!-- Sectión Navbar ----------------------------------->
+
+  <header>
+    <nav class="navbar navbar-expand-lg color-nav fixed-top">
+      <div class="container-fluid">
+        <img src="./img/Logo.png" alt="" class="nav-img">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Acerca de HuellaPet
+              </a>
+              <ul class="dropdown-menu color-nav">
+                <li><a class="dropdown-item" href="./nosotros.html">Acerca de Nosotros</a></li>
+                <li><a class="dropdown-item" href="#">Contactenos</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Sectión Contactenos ----------------------------------->
+
+  <main class="section-contacto">
+    <section class="section-info-contacto">
+      <article class="info-contacto">
+
+        <h2>Información de Contacto</h2>
+        <h5>¡Nos gusaria conocer tu opinión! </h5>
+        <h6>Contactanos através de los siguientes enlaces</h6>
+        <div class="content-link-contacto">
+          <i class="fa-brands fa-whatsapp" style="color: #000000;"></i>
+          <a class="link-contacto" href="https://wa.me/+573102806291" target="_blank">+57 3102806291</a>
+        </div>
+
+        <div class="content-link-contacto">
+          <i class="fa-regular fa-envelope" style="color: #000000;"></i>
+          <a class="link-contacto" href="mailto:jhonatantrabajos24@gmail.com">Correo Contacto</a>
+        </div>
+
+        <h6>Estamos ubicados en</h6>
+
+        <div class="content-link-contacto">
+          <i class="fa-solid fa-location-dot"></i>
+          <a class="link-contacto" href="https://www.google.com/maps/search/?api=1&query=Ak.+58+%23127-59"
+            target="_blank">Ak. 58 #127-59</a>
+        </div>
+      </article>
+
+      <div class="circle"></div>
+      <div class="circle1"></div>
+    </section>
+
+    <section class="section-form-contacto">
+      <form class="form-contacto" action="https://formspree.io/f/xnnakqjv" method="POST">
+
+        <div class="content-label-input">
+
+          <div class="label-input">
+            <label for="selectlist">Motivo de consulta *</label>
+            <select class="general-input" id="selectlist" name="selectlist">
+              <option value="Sin opción" name="selectlist">Seleccione...</option>
+              <option value="Servicio al cliente" name="selectlist">Servicio al cliente</option>
+              <option value="Felicitacion" name="selectlist">Felicitación</option>
+              <option value="Peticion" name="selectlist">Petición</option>
+              <option value="Queja" name="selectlist">Queja</option>
+              <option value="Reclamo" name="selectlist">Reclamo</option>
+            </select>
+          </div>
+
+          <div class="label-input">
+            <label for="name">Nombre *</label>
+            <input class="general-input" id="name" name="name" type="text" required>
+          </div>
+          <div class="label-input">
+            <label for="email">Correo Electronico *</label>
+            <input class="general-input" id="email" name="email" type="email" required>
+          </div>
+          <div class="label-input">
+            <label for="tel">Telefono *</label>
+            <input class="general-input" id="tel" name="tel" type="tel" required>
+          </div>
+        </div>
+
+        <div class="label-input hola">
+          <label for="message">Descripción *</label>
+          <textarea class="general-input descripcion-input" id="message" name="message" rows="1" required></textarea>
+        </div>
+
+        <div class="content-forma-contacto">
+          <label>¿Como te gustaría que te contactemos?</label>
+          <div class="forma-contacto">
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                id="radio-telefono">Telefono</label>
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
+                checked>WhatsApp</label>
+          </div>
+        </div>
+
+        <label name="novedades" class="checkbox">
+          <input name="novedades" type="checkbox" checked>¿Te gustaría recibir novedades de HuellaPet?
+        </label>
+
+        <div class="content-boton">
+          <button class="boton-form-contactenos" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Sección de pie de pagina ----------------------------------->
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 footer-content">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="./index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="./img/Logo.png" alt="" class="footer-img">
+      </a>
+      <span class="mb-3 mb-md-0" style="color: #ffffff; font-weight: bold;">
+        © 2024 HuellaPet, Inc.
+      </span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <a href="https://web.whatsapp.com/">
+        <li class="ms-3"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></li>
+      </a>
+      <a href="https://www.facebook.com/">
+        <li class="ms-3"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></li>
+      </a>
+      <a href="https://www.instagram.com/">
+        <li class="ms-3"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></li>
+      </a>
+    </ul>
+  </footer>
+
+  <!-- Scripts ----------------------------------->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/validator@13.7.0/validator.min.js"></script>
+
+  <script src="./contactenos.js"></script>
+</body>
+
+</html>
