@@ -28,52 +28,87 @@
 </head>
 
 <body class="body-nosotros">
-    <!-- Sectión Navbar ----------------------------------->
-    <header>
+      <!-- Navbar ----------------------------------------------- -->
 
-        <nav class="navbar navbar-expand-lg color-nav fixed-top">
-            <div class="container-fluid">
-                <img src="./img/Logo.png" alt="" class="nav-img">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li> -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Acerca de HuellaPet
-                            </a>
-                            <ul class="dropdown-menu color-nav">
-                                <li><a class="dropdown-item" href="#">Acerca de Nosotros</a></li>
-                                <li><a class="dropdown-item" href="./contactenos.html">Contactenos</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <!-- <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li> -->
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+  <header>
 
-    </header>
+    <nav class="navbar navbar-expand-lg color-nav fixed-top d-flex">
+      <div class="container-fluid d-flex">
+        <img src="./img/Logo.png" alt="" class="nav-img">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse content-nav" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-lg-0">
+            <li class="nav-item">
+              <a href="./index.html">
+                <h6 aria-current="page">Inicio</h6>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 input-nav" type="search" placeholder="Busca aqui tu producto"
+              aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i
+                class="fa-solid fa-magnifying-glass lupa"></i></button>
+          </form>
+          <a href="./inicio-compras.html"><h6 href=""> <i class="fa-solid fa-user icon-nav"></i> Iniciar Sesión</h6></a>
+          <h6 class="icon-nav"><i class="fa-solid fa-location-dot "></i> Bogotá</h6>
+          <a href="./inicio-compras.html"><h6 href="" class=""> <i class="fa-solid fa-cart-shopping icon-nav"></i>Comprar</h6></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="nav2">
+
+      <div>
+        <i class="fa-solid fa-layer-group" style="color: #ffffff;"></i>
+        <h6 class="boton-categorias"> Categorias</h6>
+      </div>
+      <div>
+        <a href="./mundoOfertas.html">
+        <i class="fa-solid fa-tag" style="color: #ffffff;"></i>
+        <h6>Mundo Ofertas</h6>
+        </a>
+      </div>
+      <div>
+        <a href="./favoritos.html">
+        <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+        <h6>Mis Favoritos</h6></a>
+      </div>
+      <div>
+        <a href="./misCompras.html">
+        <i class="fa-solid fa-cart-arrow-down" style="color: #ffffff;"></i>
+        <h6>Mis Compras</h6></a>
+      </div>
+      <div>
+        <a href="./blog.html">
+        <i class="fa-brands fa-blogger" style="color: #ffffff;"></i>
+        <h6>Blog</h6></a>
+      </div>
+
+    </section>
+
+  </header>
+
+  <!-- Menu categorias ----------------------------------------------- -->
+
+  <div class="modal-card">
+    <div class="content-categoria">
+      <i class="fa-solid fa-xmark boton-cerrar fa-xl" style="color: #2F6A74;"></i>
+      <h4>¡Bienvenidos!</h4>
+      <div class="content-link-categoria">
+        <a href="./categoria.html"><h3 class="link-categoria"><i class="fa-solid fa-soap" style="color: #2F6A74;"></i>Cuidado e Higiene</h3></a>
+        <a href="./categoria.html" ><h3 class="link-categoria"><i class="fa-solid fa-bone" style="color: #2F6A74;"></i> Alimento</h3></a>
+        <a href="./categoria.html" ><h3 class="link-categoria"><i class="fa-solid fa-heart-pulse" style="color: #2F6A74;"></i>Farmacia</h3></a>
+        <a href="./categoria.html" ><h3 class="link-categoria"><i class="fa-solid fa-paw" style="color: #2F6A74;"></i>Accesorios</h3></a>
+        <a href="./categoria.html" ><h3 class="link-categoria"><i class="fa-solid fa-baseball" style="color: #2F6A74;"></i>Juguetes</h3></a>
+      </div>
+      <!-- <p>Explora nuestras categorías y encuentra productos diseñados para el bienestar y la diversión de tu mascota, todo en un solo lugar</p> -->
+      <img src="./img/Logo.png" alt="">
+    </div>
+  </div>
 
     <!-- Sección sobre nosotros - banner ----------------------------------->
 
@@ -143,30 +178,87 @@
         </div>
     </section>
 
-    <!-- Sección de pir de pagina ----------------------------------->
+  <!-- Sección de pie de pagina ----------------------------------->
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 footer-content">
-        <div class="col-md-4 d-flex align-items-center">
-            <a href="./index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <img src="./img/Logo.png" alt="" class="footer-img">
+  <footer class="footer-content">
+    <section>
+      <a href="./index.html" class="">
+        <img src="./img/Logo3.png" alt="" class="footer-img">
+      </a>
+      <div class="content-info-pie">
+        <div class="info-pie">
+          <h5>Nosotros</h5>
+          <ul>
+            <li class="list-info-pie">Ak. 58 #127-59</li>
+            <li class="list-info-pie">Bogotá, Colombia</li>
+            <li class="list-info-pie">+57 3102806291</li>
+            <li class="list-info-pie">contactenos@huellapet.com</li>
+          </ul>
+        </div>
+        <div class=" info-pie info-pie-nosotros">
+          <h5>Categorías</h5>
+          <ul>
+            <a href="./categoria.html"><li class="list-info-pie">Cuidado e Higiene</li></a>
+            <a href="./categoria.html"><li class="list-info-pie">Alimento</li></a>
+            <a href="./categoria.html"><li class="list-info-pie">Farmacia</li></a>
+            <a href="./categoria.html"><li class="list-info-pie">Accesorios</li></a>
+            <a href="./categoria.html"><li class="list-info-pie">Juguetes</li></a>
+          </ul>
+        </div>
+        <div class="info-pie">
+          <h5>Otros Links</h5>
+          <ul>
+            <a href="./contactenos.html">
+              <li class="list-info-pie">Contactenos</li>
             </a>
-            <span class="mb-3 mb-md-0" style="color: #ffffff; font-weight: bold;">
-                © 2024 HuellaPet, Inc.
-            </span>
+            <a href="./nosotros.html">
+              <li class="list-info-pie">Sobre Nosotros</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="content-footer">
+
+      <div class="footer-tarjetas">
+        <h6 class="link-tarjetas"><i class="fa-brands fa-cc-visa fa-2xl" style="color: #ffffff;"></i>Visa</h6>
+        <h6 class="link-tarjetas"><i class="fa-brands fa-cc-mastercard fa-2xl" style="color: #ffffff;"></i>Master Card
+        </h6>
+        <h6 class="link-tarjetas"><i class="fa-brands fa-cc-diners-club fa-2xl" style="color: #ffffff;"></i>Diners Club
+        </h6>
+        <h6 class="link-tarjetas gap-tarjetas"><img src="./img/american.png" class="img-tarjetas" alt="">American
+          Express</h6>
+        <h6 class="link-tarjetas gap-tarjetas"><img src="./img/pse.png" class="img-tarjetas" alt="">PSE</h6>
+        <h6 class="link-tarjetas"><i class="fa-solid fa-hand-holding-dollar fa-2xl" style="color: #ffffff;"></i>Contra
+          entrega</h6>
+      </div>
+
+      <div class="footer-redes">
+
+        <div class="d-flex align-items-center">
+          <span class="" style="color: #ffffff; font-weight: bold;">
+            © 2024 HuellaPet, Inc.
+          </span>
         </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <a href="https://web.whatsapp.com/">
-                <li class="ms-3"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></li>
-            </a>
-            <a href="https://www.facebook.com/">
-                <li class="ms-3"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></li>
-            </a>
-            <a href="https://www.instagram.com/">
-                <li class="ms-3"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></li>
-            </a>
+        <ul class="redes-icon">
+          <a href="https://web.whatsapp.com/">
+            <li><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></li>
+          </a>
+          <a href="https://www.facebook.com/">
+            <li><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></li>
+          </a>
+          <a href="https://www.instagram.com/">
+            <li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
+          </a>
         </ul>
-    </footer>
+
+      </div>
+
+    </div>
+  </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -174,6 +266,7 @@
         crossorigin="anonymous"></script>
 
     <script src="./script.js"></script>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
