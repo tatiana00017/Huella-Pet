@@ -80,3 +80,9 @@
     background-color: #808f92; /* Cambia el color a un tono verde */
     color: white; /* Cambia el color del texto a blanco */
 }
+
+@media(max-width: 991px){
+    .section-sobrenosotros-baner{
+        margin: 100px; 
+    }
+}

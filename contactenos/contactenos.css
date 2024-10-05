@@ -98,28 +98,6 @@
     margin: 3%;
 }
 
-.boton-form-contactenos{
-    width: 20%;
-    border-radius: 5px;
-    border: 1px solid #2F6A74;
-    color: white;
-    background-color: #2F6A74;
-    padding: 1%;
-    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
-}
-
-.content-boton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.boton-form-contactenos:hover{
-    background-color: white;
-    border: 1px solid #2F6A74;
-    color: #2F6A74;
-    transition: all 0.5s ease;
-}
 
 /* Contendor de información *************************************************/
 
@@ -192,6 +170,7 @@
 @media (max-width: 1000px){
     .section-contacto{
         flex-direction: column;
+        margin-top: 100px;
     }
 
     .section-form-contacto{

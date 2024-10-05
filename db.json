@@ -1,103 +1,453 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "smartbones",
-      "categoria": "Alimento",
-      "precio": 18360,
-      "descripcion": "comida muy sabrosa",
-      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/images_products/2626_Smartbones_Pollo_Mini_8_Unidades_500X500.jpg",
-      "disponibilidad": true
-    },
-    {
-      "id": 2,
-      "nombre": "Royal canin",
-      "categoria": "Alimento",
-      "precio": 185360,
-      "descripcion": "comida muy sabrosa",
-      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/ab7b7b3878df9e7c423c68dd5a0bf7ff_1669223250.jpg",
-      "disponibilidad": true
-    },
-    {
-      "id": "d003",
-      "nombre": "pro plan",
-      "categoria": "Alimento",
-      "precio": "379000",
-      "descripcion": "comida muy cara",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/06f9b6876028860239b2ac97f5a43de1_1678734991.jpg",
-      "disponibilidad": true
-    },
-    {
-      "id": "075e",
-      "nombre": "Ringo original",
-      "categoria": "Alimento",
-      "precio": 97250,
-      "descripcion": "Cachorro comida",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/3355a719e0eef5511ecdd714b63407d8_1700084016.jpg",
-      "disponibilidad": true
-    },
-    {
-      "id": "c50b",
-      "nombre": "cama gato",
+      "id": "1ac",
+      "nombre": "Tula Marley",
       "categoria": "Accesorios",
-      "precio": 45000,
-      "descripcion": "Cama para gato",
-      "imagen": "https://www.agrocampo.com.co/media/catalog/product/cache/c49bee17ef1a166135589f0329fd61b1/_/3/_3_0_303021178.jpg",
-      "disponibilidad": false
-    },
-    {
-      "id": "aed3",
-      "nombre": "jabon",
-      "categoria": "Cuidado",
-      "precio": 5500,
-      "descripcion": "jabon para pulgas",
-      "imagen": "https://www.agrocampo.com.co/media/catalog/product/cache/dd0974c17aa11c1008feb0c4f8e4080c/5/7/5757457405740000005-v2-min.jpg",
+      "precio": 161910,
+      "descripcion": "Totto Pets - Tula Marley Cargador De Mascotas Verde",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/567ba1a96672c53c69f5d4fb0aad665c_1688046128.jpg",
       "disponibilidad": true
     },
     {
-      "id": "4b22",
-      "nombre": "sumplemento",
-      "categoria": "Farmacia",
-      "precio": 30000,
-      "descripcion": "vitamina perro",
-      "imagen": "https://www.agrocampo.com.co/media/catalog/product/cache/dd0974c17aa11c1008feb0c4f8e4080c/5/9/5959459405940000013-min.jpg",
-      "disponibilidad": false
+      "id": "2ac",
+      "nombre": "Protector Silla",
+      "categoria": "Accesorios",
+      "precio": 161910,
+      "descripcion": "Totto Pets - Protector Silla Trasera Carro Trip",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/6b858f3b28905f2dd7601e5f7db59c8a_1671142901.jpg",
+      "disponibilidad": true
     },
     {
-      "id": "4554",
-      "nombre": "Juguete perro",
+      "id": "3ac",
+      "nombre": "Comedor Travel",
+      "categoria": "Accesorios",
+      "precio": 88110,
+      "descripcion": "Il Can - Comedero Travel Bowl Gris",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/2bdef82897ca5ee52eeac87db93dabc2_1697232054.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "4ac",
+      "nombre": "Dispensador comida",
+      "categoria": "Accesorios",
+      "precio": 376785,
+      "descripcion": "Dispensador de Comida Inteligente Doble Platón",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/fdb24e834f161ddf6ea7ae746b5b49cf_1710519475.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "5ac",
+      "nombre": "Cama Alina",
+      "categoria": "Accesorios",
+      "precio": 260910,
+      "descripcion": "La base aerodinámica está rellena de poliéster hilado elástico y proporciona a tu perro un lugar ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/99d2a4e13a47a0262eb341cfd5f11930_1688135358.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "6ac",
+      "nombre": "Bolso Mascotas",
+      "categoria": "Accesorios",
+      "precio": 164700,
+      "descripcion": "Primavera - Bolso Mascotas 11' Disney",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/28c618b230501b9886b7b8f286ad9834_1699990853.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "7ac",
+      "nombre": "Comedero Anti-Reflujo",
+      "categoria": "Accesorios",
+      "precio": 131760,
+      "descripcion": "Comedero Anti-Reflujo con Pesa para Macotas",
+      "imagen": "https://laikapp.s3.amazonaws.com/dev_images_products/cf2e8cc5dbf1f718132f687c7e1b72ec_1717775223.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "8ac",
+      "nombre": "Coche Premium",
+      "categoria": "Accesorios",
+      "precio": 1068210,
+      "descripcion": "Calabaza Pets - Coche Premium Deluxe Plegable",
+      "imagen": "https://laikapp.s3.amazonaws.com/dev_images_products/1a592c37a45a50fe3ef59a5c443168f5_1715196741.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "9ac",
+      "nombre": "Tula Marley",
+      "categoria": "Accesorios",
+      "precio": 161910,
+      "descripcion": "Totto Pets - Tula Marley Cargador De Mascotas Negro",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/0aa8d631b13558b5d1cbcf0c8fc6bafd_1688046516.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "10ac",
+      "nombre": "Arnés Impermeable",
+      "categoria": "Accesorios",
+      "precio": 85500,
+      "descripcion": "Il Can - Arnés Impermeable Verde Militar y Amarillo Neon",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/948aea2a7dd6af41325dfac2cf695ee2_1697231000.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "1f",
+      "nombre": "Promoción NexGard + Pañitos Húmedos",
+      "categoria": "Farmacia",
+      "precio": 50000,
+      "descripcion": "¡Protege a tu perro y a tu familia con NexGard®!, esta tableta masticable contra parásitos ofrece una solución mensual efectiva y segura para combatir pulgas y garrapatas. ¡Y lo mejor de todo es que a tu perro le encantará!",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/164949-500-auto?v=638451854577400000&width=500&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "2f",
+      "nombre": "Traumeel ad us vet Tabletas",
+      "categoria": "Farmacia",
+      "precio": 70000,
+      "descripcion": "¿Quieres ver a tu mascota disfrutar de una vida más saludable y activa? Imagina cómo sería si pudieras aliviar su dolor y mejorar su calidad de vida de manera natural. Traumeel ad us vet Tabletas es la respuesta que estabas buscando.",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/157191-1200-auto?v=638108555482170000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "3f",
+      "nombre": "SUPLEMENTO VETERINARIO RENALOF",
+      "categoria": "Farmacia",
+      "precio": 97500,
+      "descripcion": "SUPLEMENTO VETERINARIO RENALOF",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/161256-1200-auto?v=637696532643470000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "4f",
+      "nombre": "Zeel ad us vet Tabletas",
+      "categoria": "Farmacia",
+      "precio": 137500,
+      "descripcion": "¿Quieres que tu mascota viva una vida sin dolor y llena de vitalidad? ¿Sabías que las enfermedades osteoarticulares crónicas pueden afectar su movilidad y bienestar? Con Zeel ad us vet Tabletas, puedes darle a tu compañero peludo el cuidado que se merece.",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/163334-1200-auto?v=638138007060500000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "5f",
+      "nombre": "Esencia Floral Stress",
+      "categoria": "Farmacia",
+      "precio": 18500,
+      "descripcion": "¿Quieres ayudar a tu mascota a enfrentar los desafíos emocionales con una solución natural y armonizadora? Introducimos EF STRESS SPRAY 250ML de Magnovet, exclusivamente en Animal's Veterinaria, diseñado para tranquilizar a tu compañero peludo o emplumado. Este spray vibracional de esencias florales, no solo modula los estados emocionales sino que también armoniza el campo energético de tu mascota, brindando un refugio de paz en momentos de cambio o enfermedad.",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/158735-1200-auto?v=637538377898500000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "6f",
+      "nombre": "SUPLEMENTO ALIMENTICIO CONDROMEG",
+      "categoria": "Farmacia",
+      "precio": 57500,
+      "descripcion": "SUPLEMENTO ALIMENTICIO CONDROMEG",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/161265-1200-auto?v=637696532801270000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "7f",
+      "nombre": "CUTAMYCON VF",
+      "categoria": "Farmacia",
+      "precio": 18200,
+      "descripcion": "¿Sabías que la solución para esas molestas afecciones de piel en tus animales está a solo un clic de distancia?En Animal's Veterinaria, tu tienda de confianza, te traemos la revolución dermatológica: CUTAMYCON VF. Esta no es una crema cualquiera, es la aliada perfecta que has estado buscando para tus bovinos, equinos, perros y gatos.",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/163035-1200-auto?v=638103677288670000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "8f",
+      "nombre": "Previcox",
+      "categoria": "Farmacia",
+      "precio": 66600,
+      "descripcion": "",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/163228-1200-auto?v=638132091866900000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "9f",
+      "nombre": "Previcox Dog S",
+      "categoria": "Farmacia",
+      "precio": 76000,
+      "descripcion": "¿Quieres que tu perro viva sin dolor e inflamación, disfrutando al máximo cada día?¡Tienes en tus manos la solución! En Animal's Veterinaria presentamos el PREVICOX Dog S. Diseñado específicamente para nuestros amigos caninos, este producto es la respuesta definitiva a esas molestias que impiden que tu peludo compañero disfrute de una vida plena y feliz.",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/163228-1200-auto?v=638132091866900000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "10f",
+      "nombre": "ENGYSTOL",
+      "categoria": "Farmacia",
+      "precio": 82400,
+      "descripcion": "ENGYSTOL",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/157559-1200-auto?v=638040558526300000&width=1200&height=auto&aspect=true",
+      "disponibilidad": true
+    },
+    {
+      "id": "1c",
+      "nombre": "Whole Barf",
+      "categoria": "Alimento",
+      "precio": 5200,
+      "descripcion": "Alimento Crudo Para Perro Whole Barf Tasty Tilapia - 500 Gr",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/181879-150-150/alimento-crudo-para-perro-whole-barf-tasty-tilapia-1.png?v=637914385798970000",
+      "disponibilidad": true
+    },
+    {
+      "id": "2c",
+      "nombre": "Agility",
+      "categoria": "Alimento",
+      "precio": 156510,
+      "descripcion": "Alimento Para Perro Agility Gold Pequeños Adultos Piel - 1.5 Kg",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/185225-210-210/agilitygoldfront.png?v=638071491297230000",
+      "disponibilidad": true
+    },
+    {
+      "id": "3c",
+      "nombre": "Pixie",
+      "categoria": "Alimento",
+      "precio": 10900,
+      "descripcion": "Alimento Húmedo Para Perro Pixie Dieta De Pollo Al Horno - 500 Gr",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/183185-1000-1000/7709376807642.png?v=637970528315700000",
+      "disponibilidad": true
+    },
+    {
+      "id": "4c",
+      "nombre": "Chunky",
+      "categoria": "Alimento",
+      "precio": 18900,
+      "descripcion": "Alimento Para Perro Chunky Adulto Nuggets Pollo - 2 kg",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/166729-1000-1000/EAN-7707205156855.jpg?v=637353519327230000",
+      "disponibilidad": true
+    },
+    {
+      "id": "5c",
+      "nombre": "Wow Can",
+      "categoria": "Alimento",
+      "precio": 6000,
+      "descripcion": "Alimento Húmedo Para Perro Pouch Wow Can Sabor Pollo - 300 Gr",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/176738-1000-1000/wow-can-pollo.png?v=637692156538100000",
+      "disponibilidad": true
+    },
+    {
+      "id": "6c",
+      "nombre": "Felix",
+      "categoria": "Alimento",
+      "precio": 3150,
+      "descripcion": "Alimento Húmedo Para Gato Felix Classic Atún - 85 Gr",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/169911-1000-1000/7501072209801_FX_ATUNSALSA_Pouch_85g_F.png?v=637453773325630000",
+      "disponibilidad": true
+    },
+    {
+      "id": "7c",
+      "nombre": "Max Cat",
+      "categoria": "Alimento",
+      "precio": 28900,
+      "descripcion": "Alimento Para Gato Max Adultos Pollo Y Arroz - 1 Kg",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/158407-1000-1000/max-cat-p-line-adulto-frango-e-arroz-101-kg-940259b5e638ce97bc1de10876a4e7e6.jpg?v=636937257056570000",
+      "disponibilidad": true
+    },
+    {
+      "id": "8c",
+      "nombre": "Orijen",
+      "categoria": "Alimento",
+      "precio": 158900,
+      "descripcion": "Alimento Para Gato Orijen Original Cat - 1.8 Kg",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/184763-1000-1000/ACANA.png?v=638043017074200000",
+      "disponibilidad": true
+    },
+    {
+      "id": "9c",
+      "nombre": "Fancy Feast",
+      "categoria": "Alimento",
+      "precio": 5700,
+      "descripcion": "Alimento Húmedo Gatofancy Feast Mousse Pescado Y Camarón - 3 Onzas",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/161090-150-150/_59A1523.jpg?v=637274294096400000",
+      "disponibilidad": true
+    },
+    {
+      "id": "10c",
+      "nombre": "BR Cat",
+      "categoria": "Alimento",
+      "precio": 30900,
+      "descripcion": "Alimento Para Gato BR Cat Castrados - 1 Kg",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/161090-150-150/_59A1523.jpg?v=637274294096400000",
+      "disponibilidad": true
+    },
+    {
+      "id": "1ch",
+      "nombre": "Shampoo Antipulgas",
+      "categoria": "Cuidado",
+      "precio": 24500,
+      "descripcion": "CanAmor - Shampoo contra pulgas",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/27976_Shampoo_CanAmor_Pelo_Claro_1611856438_2048x2048.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "2ch",
+      "nombre": "Talco Desodorante",
+      "categoria": "Cuidado",
+      "precio": 20600,
+      "descripcion": "CanAmor - Talco baño seco",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/3738_36200_TALCO_CANAMOR_DESODORANTE_1609619051_213x278.png",
+      "disponibilidad": true
+    },
+    {
+      "id": "3ch",
+      "nombre": "Pañitos humedos",
+      "categoria": "Cuidado",
+      "precio": 13000,
+      "descripcion": "Petys - Pañitos humeros aroma lavanda",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/b33b8ed35d344c55f2c5e093e4a4f763_1675978521.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "4ch",
+      "nombre": "Jabon",
+      "categoria": "Cuidado",
+      "precio": 18000,
+      "descripcion": "Allegry Pets - Jabon para el pelo de tu mascota",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/b29bc43a0b3a1f862b7a4198ee4560ab_1705697469.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "5ch",
+      "nombre": "Kit oral",
+      "categoria": "Cuidado",
+      "precio": 129000,
+      "descripcion": "Cuida los dientes de tu mascota",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/16982_KIT_FRESH_BREATH_DE_CUIDADO_ORAL_PARA_PERRO_ADULTO_PEQUE%C3%91O_1600643438_500x500.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "6ch",
+      "nombre": "Perfume",
+      "categoria": "Cuidado",
+      "precio": 25000,
+      "descripcion": "CanAmor - perfume para perros",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/23702_36498_Perfume_Canamor_Perros_1609942816_213x278.png",
+      "disponibilidad": true
+    },
+    {
+      "id": "7ch",
+      "nombre": "Cepillo peinar",
+      "categoria": "Cuidado",
+      "precio": 21700,
+      "descripcion": "Peina a tu mascota",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/10213_100983_Cepillo_Lujo_1623630290_500x500.jpeg",
+      "disponibilidad": true
+    },
+    {
+      "id": "8ch",
+      "nombre": "Bolsa repuesto",
+      "categoria": "Cuidado",
+      "precio": 10000,
+      "descripcion": "Repuesto de bolsas para tu mascota",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/80342_Pet_Spa___Repuesto_Tradicional_Bolsa_1658845155_0_500x500.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "9ch",
+      "nombre": "Dispensador bolsas",
+      "categoria": "Cuidado",
+      "precio": 25000,
+      "descripcion": "Dispensador para las bolsas de tu mascota",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/b318dc6011436767ff3a0665472bfb59_1695411124.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "10ch",
+      "nombre": "Pañal",
+      "categoria": "Cuidado",
+      "precio": 25500,
+      "descripcion": "Pañal para perros tapete entrenador",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/3604_169693_Argos___Pa__al_Para_Perro_Tapete_Entrenador_1657732911_500x500.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "e1e9",
+      "nombre": "Vara Peces Con Láser",
+      "categoria": "Juguetes",
+      "precio": 51500,
+      "descripcion": "El KONG Láser Teaser es el último láser interactivo dos en uno disfrazado de juguete teaser. El atractivo movimiento del colorido teaser atrae a los gatos, mientras que el impredecible movimiento del láser fomenta el juego activo y la diversión duradera. \n\nEl KONG Laser Teaser es el nuevo dos en uno láser interactivo camuflado en un divertido señuelo. Medidas: 49 x 9.6 x 5 cm. \n\nEl Láser interactivo para gatos garantiza satisfacer a tu felino. Movimiento tentador estimula el juego activo. Señuelo colorido para una mayor diversión. ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/16883_KONG_GATO_BARA_PECES_CON_LASER_1600231636_225x225.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "e1e9",
+      "nombre": "Pelota Metálica con Ratón",
+      "categoria": "Juguetes",
+      "precio": 4000,
+      "descripcion": "Pelota interactiva metálica con aberturas para que tu gato se desestrese y juegue todo el día Tamaño de la mascota: Todos los Tamaños. Etapa de la vida: Todas las Edades. \n\nPelota interactiva metálica con aberturas para que tu gato se desestrese y juegue todo el día. \n\nEnriquecer el ambiente de tus peludos con micha diversión. ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/26adfcf093d2959cd8693c8c34c8a4d2_1710856102.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "e1e9",
+      "nombre": "Rascador Para Gato",
+      "categoria": "Juguetes",
+      "precio": 78000,
+      "descripcion": "Una manera eficaz de mantener alejado de los muebles: este rascador viene con un poste rascador totalmente envuelto y la tabla rascadora permite que tus felinos rayen y afilen sus garras desde cualquier ángulo como quieran. Gimnasio rascador tapizado en tela térmica con juguete resorte y juguete colgante. \n\nSaludable y divertido, diseñado con un gran poste rascador, y una acogedora plataforma de cama en la parte superior. \n\nMedidas: Alto 52cm, Ancho 40cm, Fondo 40cm. ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/e8c82fa0008a0336b0a0db56c6cd1031_1688662434.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "e1e9",
+      "nombre": "Rascador Esfera Para Gato",
+      "categoria": "Juguetes",
+      "precio": 138000,
+      "descripcion": "Rascadera con una esfera de fique que gira atrayendo la atención del gato. Base en forma de gato, lindo diseño. Materiales resistentes y de calidad. Tamaño de la mascota: Todos los Tamaños. Etapa de la vida: Todas las Edades. \n\nEsfera giratoria en fique de 6 mm de diámetro, base en madera cubierta con alfombra. Medidas: 24x33x35 cm. ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/d6f8946fd63823beca8988ee1f853c08_1698758468.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "e1e9",
+      "nombre": "Tumblr para Gato",
+      "categoria": "Juguetes",
+      "precio": 33000,
+      "descripcion": "Juguete interactivo para gatos de todos los tamaños, dispensador de comida y ajustable. \n\nLa parte superior del juguete tiene una varilla burlona y diseño de bola, por lo que no importa de qué cómo juegue el gato el juguete, no se caerá. \n\nAyuda al desarrollo físico y mental de tu gato, reduce la aseidad y es para todos los tamaños. ",
+      "imagen": "https://laikapp.s3.amazonaws.com/dev_images_products/c60f4e4f7b55009cacf80358a59f4e8c_1717773956.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "8fd3",
+      "nombre": "Lazo Elástico Con Aro Mordedor",
+      "categoria": "Juguetes",
+      "precio": 30000,
+      "descripcion": "Bungee Puppy es un juguete de halar elástico ideal para perros destructores. Incluye un aro en caucho natural super resistente. ¡2 juguetes en 1! Sujeta el lazo por uno de los extremos, motiva a tu perro a agarrar el otro y ¡qué empiece el juego! También puedes separar el aro del lazo y usarlo para lanzar o como mordedor. Solo deshaz el nudo que sostiene el aro y lánzalo hacia el aire como un Fresbee, o hacia el suelo para que rebote. Luego puedes volver a unir el juguete con un nudo simple y firme. Garantía de una semana para cambio por daños o defectos de fábrica. Es un juguete fuerte pero no indestructible. Evita que tu perro mastique la tela, enséñale que el juguete de morder es el aro. Para que tu perro juegue solo dale únicamente el aro. Este uso no aplica para razas extra-fuertes. Tamaño de la mascota: Mediano. Etapa de la vida: Todas las Edades. ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/e7b0aa50730cb10d9b07a85a43fe7082_1707860807.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": "e1e9",
+      "nombre": "Pelota - Let's Play",
       "categoria": "Juguetes",
       "precio": 15500,
-      "descripcion": "Juguete cuerda para perro",
-      "imagen": "https://www.agrocampo.com.co/media/catalog/product/cache/dd0974c17aa11c1008feb0c4f8e4080c/3/3/333303868-min.jpg",
+      "descripcion": "Pelota en goma, completamente maciza con textura en forma de huella.  Pelota de alta resistencia para razas pequeñas, por su peso y textura dificulta la mordida y su daño en corto plazo. \n\nPelota maciza de 6,5 cm de diametro, ideal para razas pequeñas y destructivas. ",
+      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/de1d295d34182828d3745be12422f98e_1702922110.jpg",
       "disponibilidad": true
     },
     {
-      "id": "aad4",
-      "nombre": "purina",
-      "categoria": "Alimento",
-      "precio": 29000,
-      "descripcion": "Prebiótico y extracto de Yuca que reducen el olor de las heces.",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/b10a6195c9b57ad79f7309854871d911_1678227361.jpg",
+      "id": "1501",
+      "nombre": "Aro de Goma",
+      "categoria": "Juguetes",
+      "precio": 20750,
+      "descripcion": "Juguete aro de goma, que hará que tu amigo perro pase horas entretenido.\n\nResistente y duradera, ideal para juegos interactivos y reducir l estrés de tu mascota. Ayuda a la salud dental Tamaño de la mascota: Mediano. Etapa de la vida: Todas las Edades. \n\nDiversión y controla la placa dental.  ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/729b86bef1a86b6616e236687561111d_1710789638.jpg",
       "disponibilidad": true
     },
     {
-      "id": "aad4",
-      "nombre": "purina",
-      "categoria": "Alimento",
-      "precio": 29000,
-      "descripcion": "Prebiótico y extracto de Yuca que reducen el olor de las heces.",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/b10a6195c9b57ad79f7309854871d911_1678227361.jpg",
+      "id": "1501",
+      "nombre": "Pelota Fuga de Comida",
+      "categoria": "Juguetes",
+      "precio": 11500,
+      "descripcion": "Divertido juguete en colores surtidos.\n\nPodrá pasar horas de diversión con este entretenido juguete diseñado especialmente para nuestro querido peludo. Tamaño de la mascota: Pequeño. Etapa de la vida: Todas las Edades.  ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/79301f2d685319576cf69e644aea2113_1710854375.jpg",
       "disponibilidad": true
     },
- 
     {
-      "id": "2",
-      "nombre": "Concentrado",
-      "categoria": "Alimento",
-      "precio": 19000,
-      "descripcion": "Concentrado para perro",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/f771e3b9ed99cc884577fb328235cc1b_1669309608.jpg",
+      "id": "1501",
+      "nombre": "Hueso Plástico Nudo",
+      "categoria": "Juguetes",
+      "precio": 19700,
+      "descripcion": "Hueso plástico nudo argos normal, Juguete en forma de hueso hecho de goma. Viene en diferentes colores y es de primera calidad, ya que es bastante resistente.\n\nEstá disponible en diferentes tamaños, es decir que es apto para cualquier raza de perros. Diseñado con colores llamativos y con un efecto traslúcido será el juguete favorito de tu perro y seguro estará distraido por horas jugando con él. \n\nY es especial para satisfacer la necesidad que usualmente tienen ellos por morder.  ",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/11054_161627_Hueso_Pl__stico_Nudo_Argos_1653669156_500x500.png",
       "disponibilidad": true
     }
   ]

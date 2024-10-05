@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const contenedorProductos = document.getElementById("mostrar-productos");
-  
+ 
     const params = new URLSearchParams(window.location.search);
     const categoria = params.get('categoria');
 
@@ -14,14 +14,17 @@ document.addEventListener("DOMContentLoaded", function() {
         .then((data) => {
           const productosFiltrados = data.filter(producto => producto.categoria === categoria);
           const cards = productosFiltrados.map((producto) => {
+            const precioFormateado = producto.precio.toLocaleString('es-ES');
             return `
-                <div class="card" style="width: 18rem;">
-                    <img src="${producto.imagen}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">${producto.nombre}</h5>
-                        <p class="card-text">${producto.descripcion}</p>
-                        <h3>$ ${producto.precio}</h3>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card container-card" style="width: 17rem;">
+                    <img src="${producto.imagen}" class="card-img-top imagen-product" alt="${producto.nombre}">
+                    <div class="card-body card-info-product">
+                        <h5 class="card-title title-product">${producto.nombre}</h5>
+                        <p class="card-text descrpcion-product">${producto.descripcion}</p>
+                        <h5 class="precio-product">$ ${precioFormateado}</h5>
+                        <div class="content-boton">
+                            <a href="#" class="boton-huellapet">Agregar al carrito</a>
+                        </div>    
                     </div>
                 </div>
                 `;

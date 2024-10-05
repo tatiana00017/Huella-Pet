@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Crear Productos</title> <!-- Link de Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"> <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="./formulario.css">
 </head>
-<body>
- 
-    <h1>Agregar nuevo producto</h1>
-    <form id="productoForm">
-        <label for="imagen">Imagen</label>
-        <input type="text" id="imagen" required />
- 
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" required />
- 
-        <label for="categoria">Categoría:</label>
-        <input type="text" id="categoria" required />
- 
-        <label for="precio">Precio:</label>
-        <input type="number" id="precio" step="0.01" required />
- 
-        <label for="disponibilidad">Disponibilidad:</label>
-        <input type="checkbox" id="disponibilidad" />
- 
-        <label for="descripcion">Descripción:</label>
-        <textarea id="descripcion" required></textarea>
- 
-        <button type="submit">Agregar Producto</button>
-    </form>
- 
-    <div id="mostrar-productos">
- 
-    </div>
 
- 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./formulario.js"></script>
+<body class="body-Crear-Productos">
+    <main class="section-Crear-Productos">
+        <section class="section-form-crear-producto">
+            <h1 id="titulo-crear">Agregar nuevo producto</h1>
+            <form id="productoForm" class="form-crear-producto">
+                <div class="content-label-crear">
+                    <div class="label-crear"> <label for="imagen">Imagen*</label> <input class="input-crear-producto"
+                            type="text" id="imagen" required /> </div>
+                    <div class="label-crear"> <label for="nombre">Nombre*</label> <input class="input-crear-producto"
+                            type="text" id="nombre" required /> </div>
+                    <div class="label-crear">
+                        <label for="selectlist">Motivo de consulta *</label> 
+                        <select class="general-input"
+                            id="categoria" name="selectlist">
+                            <option value="Sin opción" name="selectlist">Seleccione...</option>
+                            <option value="Cuidado" name="selectlist">Cuidado</option>
+                            <option value="Alimento" name="selectlist">Alimento</option>
+                            <option value="Farmacia" name="selectlist">Farmacia</option>
+                            <option value="Accesorios" name="selectlist">Accesorios</option>
+                            <option value="Juguetes" name="selectlist">Juguetes</option>
+                        </select>
+                    </div>
+                    <div class="label-precio-descripcion">
+                        <div class="label-crear">
+                            <div class=" label-precio">
+                                <label for="precio">Precio* </label>
+                                <input class="input-crear-producto" type="number" id="precio" step="0.01" required />
+                            </div>
+                            <div class="label-disponibilidad">
+                                <label for="disponibilidad">Disponibilidad* </label>
+                                <input type="checkbox" id="disponibilidad" />
+                            </div>
+                        </div>
+                        <div class="label-crear descripcion"> <label for="descripcion">Descripción* </label> <textarea
+                                class="input-crear-producto  descripcion-crear" id="descripcion" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-boton-crear"> <button id="boton-crear" type="submit">Agregar</button> </div>
+            </form>
+        </section>
+    </main>
+    <div id="mostrar-productos" class="productos-container"></div>> </div>
+    <!-- ***************************---------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./formulario.js"> </script>
 </body>
+
 </html>
