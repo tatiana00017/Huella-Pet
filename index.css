@@ -34,6 +34,32 @@ ul{
     margin:0;
 }
 
+/* Botones */
+.content-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-huellapet{
+    width: fit-content;
+    border-radius: 10px;
+    /* border: 1px solid #2F6A74; */
+    color: white;
+    background-color: #B29984;
+    padding: 8px 25px;
+    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+
+.boton-huellapet:hover{
+    background-color: white;
+    border: 1px solid #2F6A74;
+    color: #2F6A74;
+    transition: all 0.5s ease;
+}
+
+
+
 /* Nav1************************* */
 
 .content-nav{
@@ -317,10 +343,6 @@ ul{
     }
 
     .info-pie-nosotros, .footer-img{
-        display: none;
-    }
-
-    .footer-content section a{
         display: none;
     }
 
