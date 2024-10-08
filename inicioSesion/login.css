@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+} */
+
+.login-container {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 95%;
+    text-align: center;
+      
+}   
+
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color: #2F6A74; 
+    margin-bottom: 30px; 
+}
+
+#loginForm{
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-form{
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.input-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2F6A74;   
+}
+
+.input-form input {
+    width: 100%;
+    padding: 10px;
+    border:  1.0px solid #2F6A74;
+    transition: border-color 0.5s;
+    border-radius: 5px;
+    font-size: 14px;
+    outline:#2F6A74;
+}
+
+.input-form input:focus{
+    outline: 1.2px solid #2F6A74;
+    border-color: #2F6A74;
+}
+
+.olvido-password {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    color: #2F6A74;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+/* esto registro */
+
+.registro-container{
+    display: none;
+    background-color: white;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 95%;
+    text-align: center; 
+    overflow: auto;
+
+}
+
+.registro-container h2 {
+    margin-bottom: 15px;
+    color: #2F6A74; 
+}
+
+.mascota {
+    font-size: 13px;
+    margin-bottom: 1rem;
+    color: #2F6A74;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: start;
+    width: 100%;
+}
+
+.mascotas-check{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 2px;
+}
+
+.tyc{
+    
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* aca */
+.login-button {
+    background-color: #2F6A74;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #398891;
+    color: #f0f7f9; 
+}
+
+.registro-link {
+    display: block;
+    margin: 1rem 0;
+    font-size: 14px;
+    color: #2F6A74;
+    text-decoration: none;
+    padding: 10px;   
+    border-radius: 5px;
+    border: 1px solid ; 
+    width:100% 
+}
+
+.redesSociales-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.opcion-redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width:140px ;
+    /* max-width: 140px; */
+    margin-top: 4px;
+    border: 1px solid #2F6A74;
+}
+
+p {
+    font-size: 30px;
+    color: #2F6A74;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.social-icons i {   
+    cursor: pointer;
+}
+
+.modal-login{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1d1d1d73;
+    z-index: 998; /*sobrepone  */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+}
+
+@media(max-width:704px){
+    hr{
+        width:100px;
+    }
+    .tyc{
+        font-size:small;
+    }
+    
+}
+

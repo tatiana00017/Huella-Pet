@@ -22,6 +22,8 @@
 
   <!-- Hoja de estilos -->
   <link rel="stylesheet" href="./index.css">
+  <!--Estilos login-->
+  <link rel="stylesheet" href="./inicioSesion/login.css">
 
 </head>
 
@@ -52,8 +54,8 @@
             <button class="btn btn-outline-success" type="submit"><i
                 class="fa-solid fa-magnifying-glass lupa"></i></button>
           </form>
-          <a href="./inicioSesion/inicio-sesion.html">
-            <h6 href=""> <i class="fa-solid fa-user icon-nav"></i> Iniciar Sesión</h6>
+          <a>
+            <h6 class="btnInicio-login"> <i class="fa-solid fa-user icon-nav "></i> Iniciar Sesión</h6>
           </a>
           <h6 class="icon-nav"><i class="fa-solid fa-location-dot "></i> Bogotá</h6>
           <a href="./carrito/carrito.html">
@@ -106,7 +108,8 @@
       <h4>¡Bienvenidos!</h4>
       <div class="content-link-categoria">
         <a href="/Huella-Pet/categoria/categoria.html?categoria=Cuidado">
-          <h3 class="link-categoria categoria-btn"><i class="fa-solid fa-soap" style="color: #2F6A74;"></i>Cuidado e Higiene</h3>
+          <h3 class="link-categoria categoria-btn"><i class="fa-solid fa-soap" style="color: #2F6A74;"></i>Cuidado e
+            Higiene</h3>
         </a>
         <a href="/Huella-Pet/categoria/categoria.html?categoria=Alimento">
           <h3 class="link-categoria"><i class="fa-solid fa-bone" style="color: #2F6A74;"></i> Alimento</h3>
@@ -135,6 +138,126 @@
       doloribus, repudiandae at quam modi ab expedita voluptas harum rem delectus nam repellat officiis odit!</h1>
   </main>
 
+  <!-- Inicio de sesion y registrate ----------------------------------------------- -->
+  <div class="modal-login">
+    <i class="fa-solid fa-x cerrar-login"></i>
+    <section class="login-container mostrar-login">
+
+      <h2>¡Bienvenido!</h2>
+
+      <form action="" id="loginForm">
+
+        <div class="input-form">
+          <input type="email" placeholder="Esciba su correo electrónico" id="correo" required outofocus>
+        </div>
+
+        <div class="input-form">
+          <input type="password" placeholder="Digite su contraseña" id="password" required>
+        </div>
+
+        <!-- <h6>Debe contener minímo 8 caracteres*</h6> -->
+        <a href="#" class="olvido-password"><strong><b>¿Olvidó su contraseña?</b></strong></a>
+
+
+        <button type="submit" class="login-button">Iniciar Sesión</button>
+        <!-- <input type="submit" value="Iniciar Sesión"> -->
+
+        <button id="login-iniciar-sesion" class="registro-link">¿Eres cliente nuevo? <strong><b>Regístrate
+              aquí</b></strong></button>
+
+        <!-- <button> Eres cliente nuevo? <a href="registoLogin.html"> Registrate aquí </a></button> -->
+        <div class="opcion-redes">
+          <hr>
+          <!-- <div class="hr1">
+                  
+              </div> -->
+          <div class="counter">
+            <p>o</p>
+          </div>
+
+          <!-- <div class="hr2">
+                  
+              </div> -->
+          <hr>
+
+        </div>
+        <div class="redesSociales-login">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #2f6a74;"></i>
+            <i class="fa-brands fa-google fa-xl" style="color: #2f6a74;"></i>
+          </div>
+        </div>
+
+
+      </form>
+
+    </section>
+    <section class="registro-container mostrar-registro">
+
+      <h2>¡Regístrate!</h2>
+
+      <form action="" id="registroForm">
+
+        <div class="input-form">
+          <input type="texto" placeholder="Esciba sus nombres y apellidos" id="nombreApellido" required outofocus>
+        </div>
+
+        <div class="input-form">
+          <input type="email" placeholder="Esciba su correo electronico" id="correo" required outofocus>
+        </div>
+
+        <div class="input-form">
+          <input type="password" placeholder="Esciba su contraseña" id="password" required>
+        </div>
+
+        <p class="mascota">¿Tienes mascota?</p>
+
+        <div class="mascotas-check">
+
+          <input type="checkbox" name="gato" value="gato" id="gato">
+          <label for="gato"> Gato</label>
+          <input type="checkbox" name="perro" value="perro" id="perro">
+          <label for="perro"> Perro</label>
+
+        </div>
+
+        <div class="tyc">
+          <input type="checkbox" name="condiciones" value="condiciones">
+          <label for="condiciones"> Acepto términos y condiciones y autorizo tratamiento de datos y
+            politicas.</label>
+        </div>
+
+        <!-- <input type="submit" value="Crear Cuenta"> -->
+        <button type="submit" class="login-button">Crear Cuenta</button>
+
+        <button id="login-registro" class="registro-link">¿ ya tienes una cuenta? <strong><b>Inicia
+              Sesión</b></strong></button>
+        <!-- <button> ya tienes una cuenta? <a href="login.html"> Inicia Seision </a></button> -->
+
+        <div class="opcion-redes">
+          <hr>
+          <!-- <div class="hr1">                  
+              </div> -->
+          <div class="counter">
+            <p>o</p>
+          </div>
+          <!-- <div class="hr2">
+                  
+              </div> -->
+          <hr>
+
+        </div>
+        <div class="redesSociales-login">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #2f6a74;"></i>
+            <i class="fa-brands fa-google fa-xl" style="color: #2f6a74;"></i>
+          </div>
+        </div>
+      </form>
+
+    </section>
+  </div>
+
   <!-- Sección de pie de pagina ----------------------------------->
 
   <footer class="footer-content">
@@ -155,11 +278,21 @@
         <div class=" info-pie info-pie-nosotros">
           <h5>Categorías</h5>
           <ul>
-            <a href="/Huella-Pet/categoria/categoria.html?categoria=Cuidado"><li class="list-info-pie">Cuidado e Higiene</li></a>
-            <a href="/Huella-Pet/categoria/categoria.html?categoria=Alimento"><li class="list-info-pie">Alimento</li></a>
-            <a href="/Huella-Pet/categoria/categoria.html?categoria=Farmacia"><li class="list-info-pie">Farmacia</li></a>
-            <a href="/Huella-Pet/categoria/categoria.html?categoria=Accesorios"><li class="list-info-pie">Accesorios</li></a>
-            <a href="/Huella-Pet/categoria/categoria.html?categoria=Juguetes"><li class="list-info-pie">Juguetes</li></a>
+            <a href="/Huella-Pet/categoria/categoria.html?categoria=Cuidado">
+              <li class="list-info-pie">Cuidado e Higiene</li>
+            </a>
+            <a href="/Huella-Pet/categoria/categoria.html?categoria=Alimento">
+              <li class="list-info-pie">Alimento</li>
+            </a>
+            <a href="/Huella-Pet/categoria/categoria.html?categoria=Farmacia">
+              <li class="list-info-pie">Farmacia</li>
+            </a>
+            <a href="/Huella-Pet/categoria/categoria.html?categoria=Accesorios">
+              <li class="list-info-pie">Accesorios</li>
+            </a>
+            <a href="/Huella-Pet/categoria/categoria.html?categoria=Juguetes">
+              <li class="list-info-pie">Juguetes</li>
+            </a>
           </ul>
         </div>
         <div class="info-pie">
@@ -224,6 +357,9 @@
 
   <script src="./categoria/modal.js"></script>
   <script src="./categoria/formularioProducto/formulario.js"></script>
+  <script src="./inicioSesion/loginRegistro.js"></script>
+  <script src="./inicioSesion/modalLogin.js"></script>
 
 </body>
+
 </html>
