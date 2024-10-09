@@ -16,12 +16,21 @@
 }
 
 .card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
     text-align: justify;
 }
 
 .card-banner-title{
     color: #2F6A74;
     text-align: center;
+}
+
+.span-nosotros{
+    color: #2F6A74;
+    font-style: oblique;
+    font-weight: 500;
 }
 
 /* ************************************* */
@@ -81,8 +90,12 @@
     color: white; /* Cambia el color del texto a blanco */
 }
 
+.linkedin-link{
+    margin-top: 12px;
+}
+
 @media(max-width: 991px){
     .section-sobrenosotros-baner{
-        margin: 100px; 
+        margin-top: 100px; 
     }
 }

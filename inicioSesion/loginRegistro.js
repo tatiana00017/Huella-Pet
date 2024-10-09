@@ -2,52 +2,75 @@
 const loginForm = document.querySelector('#loginForm')
 
 loginForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const correo = document.querySelector('#correo').value;
-    const password = document.querySelector('#password').value;
-    const Usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
-    // Realizo una busque dentro de mi data por medio del find para poderle dar acceso a la aplicación
-    const validarUsuario = Usuarios.find(usuario => usuario.correo === correo && usuario.password === password)
-    // si me trae un undefined quere decir que el usuario ingreso mal alguno de los campos
-    // Entonces para ello salimos de la función
-    if(!validarUsuario){
-        return alert('Usuario y/o contraseña incorrectos')
-    }
-    alert(`Bienvenido ${validarUsuario.nombreApellido}`)
+  e.preventDefault();
+  const correo = document.querySelector('#correo-login').value;
+  const password = document.querySelector('#password-login').value;
+  const Usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
 
-    
+  
+  const validarUsuario = Usuarios.find(usuario => {
+      const decryptedCorreo = CryptoJS.AES.decrypt(usuario.correo, 'clave-secreta').toString(CryptoJS.enc.Utf8);
+      const decryptedPassword = CryptoJS.AES.decrypt(usuario.password, 'clave-secreta').toString(CryptoJS.enc.Utf8);
+      return decryptedCorreo === correo && decryptedPassword === password;
+  });
 
-})
+  function extraerDominioCorreo(correo) {
+    const regex = /@([a-zA-Z0-9-]+\.[a-zA-Z]{2,})/;
+    const match = correo.match(regex);
+    return match ? match[1] : null;
+}
 
+  if (!validarUsuario) {
+      return alert('Usuario y/o contraseña incorrectos');
+  } else {
+    alert(`Bienvenido ${validarUsuario.nombreApellido}`);
+    document.querySelector(".btnInicio-login").innerHTML = `<i class="fa-solid fa-user icon-nav "></i> Hola, ${validarUsuario.nombreApellido}`
+
+    if(extraerDominioCorreo(correo) == "huellapet.com"){
+      window.location.href = '/Huella-Pet/categoria/formularioProducto/formulario.html'
+    }    
+  }
+
+});
 //Lógica del registro 
 
 const signupForm = document.querySelector('#registroForm');
 
-signupForm.addEventListener('submit', (e)=> {
-  e.preventDefault() //para que no se nos recarge la pagina
+signupForm.addEventListener('submit', (e) => {
+  e.preventDefault();
   const nombreApellido = document.querySelector('#nombreApellido').value;
-  const correo = document.querySelector('#correo').value;
-  const password = document.querySelector('#password').value;
-  const opcGato = document.querySelector('#gato').value;
-  const opcPerro = document.querySelector('#perro').value;
-  // const ciudad = document.querySelector('#').value;
-  // const direccion = document.querySelector('#').value;
-  // const telefono = document.querySelector('#').value;
+  const correo = document.querySelector('#correo-registro').value;
+  const password = document.querySelector('#password-registro').value;
+  const opcGato = document.querySelector('#gato').checked;
+  const opcPerro = document.querySelector('#perro').checked;
 
-  const Usuarios = JSON.parse(localStorage.getItem('usuarios')) || [] // Guarda o mantiene el array vacio
-  const esUsuarioRegistrado = Usuarios.find(usuario => usuario.correo === correo)
-  //valido
-  if(esUsuarioRegistrado){
-    return alert('El usuario ya se encuentra registrado!')
+  const Usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
+
+  const esUsuarioRegistrado = Usuarios.find(usuario => usuario.correo === correo);
+
+  if (esUsuarioRegistrado) {
+      return alert('El usuario ya se encuentra registrado!');
   }
 
-  //sino está registrado tendriamos que agregarlo a la db:
-  Usuarios.push({nombreApellido:nombreApellido,correo:correo, password:password,opcGato:opcGato,opcPerro:opcPerro})
-  localStorage.setItem('usuarios',JSON.stringify(Usuarios))
-  alert('Registro Exitoso!')
+  // Encriptar correo y password usando AES
+  const encryptedCorreo = CryptoJS.AES.encrypt(correo, 'clave-secreta').toString();
+  const encryptedPassword = CryptoJS.AES.encrypt(password, 'clave-secreta').toString();
+
+  Usuarios.push({
+      nombreApellido: nombreApellido,
+      correo: encryptedCorreo,
+      password: encryptedPassword,
+      opcGato: opcGato,
+      opcPerro: opcPerro
+  });
+
+  localStorage.setItem('usuarios', JSON.stringify(Usuarios));
+  alert('Registro Exitoso!');
   signupForm.reset();
-  
-})
+
+  formLogin.style.display = "block";
+  formRegistro.style.display = "none";
+});
 
 // Lógica mostrar login  y registro
 

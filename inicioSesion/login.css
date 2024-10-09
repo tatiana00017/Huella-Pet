@@ -4,20 +4,14 @@
     
 }
 
-/* body { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7rem;
-} */
-
 .login-container {
+    position: relative;
     background-color: white;
     padding: 4rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 500px;
-    height: 95%;
+    height: 85%;
     text-align: center;
       
 }   
@@ -77,9 +71,17 @@
     text-align: right;
     width: 100%;
 }
+
+.cerrar-login, .cerrar-registro{
+    position: absolute;
+    cursor: pointer;
+    top: 6%;
+    right: 5%;
+}
 /* esto registro */
 
 .registro-container{
+    position: relative;
     display: none;
     background-color: white;
     padding: 2rem 4rem;
@@ -163,14 +165,14 @@
     align-items: center;
 }
 
-hr{
+.opcion-redes hr{
     width:140px ;
     /* max-width: 140px; */
     margin-top: 4px;
     border: 1px solid #2F6A74;
 }
 
-p {
+.counter p {
     font-size: 30px;
     color: #2F6A74;
 }

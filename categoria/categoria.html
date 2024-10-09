@@ -23,6 +23,7 @@
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="./categoria.css">
+    <link rel="stylesheet" href="../inicioSesion/login.css">
 
 </head>
 
@@ -54,8 +55,8 @@
                         <button class="btn btn-outline-success" type="submit"><i
                                 class="fa-solid fa-magnifying-glass lupa"></i></button>
                     </form>
-                    <a href="../inicioSesion/inicio-sesion.html">
-                        <h6 href=""> <i class="fa-solid fa-user icon-nav"></i> Iniciar Sesión</h6>
+                    <a>
+                        <h6 class="btnInicio-login"> <i class="fa-solid fa-user icon-nav "></i> Iniciar Sesión</h6>
                     </a>
                     <h6 class="icon-nav"><i class="fa-solid fa-location-dot "></i> Bogotá</h6>
                     <a href="../carrito/carrito.html">
@@ -133,13 +134,116 @@
     <!-- Sección de productos -->
 
     <article class="mostrar-publicidad">
-            <img src="https://laikapp.s3.amazonaws.com/dev_images_banners/1727962027BANNER%20WEB%20%2835%29.jpg" alt="">
+        <img src="https://laikapp.s3.amazonaws.com/dev_images_banners/1727962027BANNER%20WEB%20%2835%29.jpg" alt="">
     </article>
 
     <section id="mostrar-productos">
-    
+
     </section>
 
+      <!-- Inicio de sesion y registrate ----------------------------------------------- -->
+  <div class="modal-login">
+    <section class="login-container mostrar-login">
+      <i class="fa-solid fa-xmark fa-xl cerrar-login" style="color: #2F6A74;"></i>
+
+      <h2>¡Bienvenido!</h2>
+
+      <form action="" id="loginForm">
+
+        <div class="input-form">
+          <input type="email" placeholder="Esciba su correo electrónico" id="correo-login" required outofocus>
+        </div>
+
+        <div class="input-form">
+          <input type="password" placeholder="Digite su contraseña" id="password-login" required>
+        </div>
+
+        <a href="#" class="olvido-password"><strong><b>¿Olvidó su contraseña?</b></strong></a>
+
+        <button type="submit" class="login-button">Iniciar Sesión</button>
+
+        <button id="login-iniciar-sesion" class="registro-link">¿Eres cliente nuevo? <strong><b>Regístrate
+              aquí</b></strong></button>
+
+        <div class="opcion-redes">
+          <hr>
+
+          <div class="counter">
+            <p>o</p>
+          </div>
+          <hr>
+
+        </div>
+        <div class="redesSociales-login">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #2f6a74;"></i>
+            <i class="fa-brands fa-google fa-xl" style="color: #2f6a74;"></i>
+          </div>
+        </div>
+
+
+      </form>
+
+    </section>
+    <section class="registro-container mostrar-registro">
+      <i class="fa-solid fa-xmark fa-xl cerrar-registro" style="color: #2F6A74;"></i>
+
+      <h2>¡Regístrate!</h2>
+
+      <form action="" id="registroForm">
+
+        <div class="input-form">
+          <input type="texto" placeholder="Esciba sus nombres y apellidos" id="nombreApellido" required outofocus>
+        </div>
+
+        <div class="input-form">
+          <input type="email" placeholder="Esciba su correo electronico" id="correo-registro" required outofocus>
+        </div>
+
+        <div class="input-form">
+          <input type="password" placeholder="Esciba su contraseña" id="password-registro" required>
+        </div>
+
+        <p class="mascota">¿Tienes mascota?</p>
+
+        <div class="mascotas-check">
+
+          <input type="checkbox" name="gato" value="gato" id="gato">
+          <label for="gato"> Gato</label>
+          <input type="checkbox" name="perro" value="perro" id="perro">
+          <label for="perro"> Perro</label>
+
+        </div>
+
+        <div class="tyc">
+          <input type="checkbox" name="condiciones" value="condiciones">
+          <label for="condiciones"> Acepto términos y condiciones y autorizo tratamiento de datos y
+            politicas.</label>
+        </div>
+
+        <button type="submit" class="login-button">Crear Cuenta</button>
+
+        <button id="login-registro" class="registro-link">¿ ya tienes una cuenta? <strong><b>Inicia
+              Sesión</b></strong></button>
+
+        <div class="opcion-redes">
+          <hr>
+          <div class="counter">
+            <p>o</p>
+          </div>
+          <hr>
+
+        </div>
+        <div class="redesSociales-login">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #2f6a74;"></i>
+            <i class="fa-brands fa-google fa-xl" style="color: #2f6a74;"></i>
+          </div>
+        </div>
+      </form>
+
+    </section>
+  </div>
 
     <!-- Sección de pie de pagina ----------------------------------->
 
@@ -237,9 +341,14 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="./formularioProducto/formulario.js"></script>
     <script src="./modal.js"></script>
+    <script src="../inicioSesion/loginRegistro.js"></script>
+    <script src="../inicioSesion/modalLogin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> 
 </body>
 
 </html>
