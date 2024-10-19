@@ -29,7 +29,7 @@ loginForm.addEventListener('submit', (e) => {
     Swal.fire({
       position: "center",
       icon: "success",
-      title: `¡Bienvenido, ${validarUsuario.nombreApellido}!`,
+      title: `¡Bienvenido ${validarUsuario.nombreApellido}`,
       showConfirmButton: false,
       timer: 2000
     });

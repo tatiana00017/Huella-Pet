@@ -23,13 +23,17 @@
     padding: 2%;
 }
 
+#titulo-crear {
+    color: #2F6A74;
+    text-align: center;
+}
+
 .form-crear-producto {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
-    /* background-color: blueviolet;  */
 }
 
 .content-label-crear {
@@ -37,20 +41,13 @@
     display: flex;
     flex-wrap: wrap;
     padding: 5%;
-    /* background-color: rgb(226, 43, 43);  */
     justify-content: space-between;
 }
 
 .label-crear {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    /* background-color: aqua; */
-}
-
-.descripcion{
-    display: flex;
-    /* background-color: #2f4574; */
+    gap: 20px;   
 }
 
 .label-crear label {
@@ -64,7 +61,6 @@
     width: 200px;
     outline: 0;
     transition: border-color 0.9s;
-    /* background-color: rgb(255, 127, 127); */
 }
 
 .input-crear-producto:focus {
@@ -72,35 +68,9 @@
     transition: border-color 0.8s;
 }
 
-.descripcion-crear {
-    /* background-color: aquamarine; */
-    width: 230%;
-    /* Ajusta según sea necesario */
-}
-
-#titulo-crear {
-    color: #2F6A74;
-}
-
-.productos-container {
+.label-precio{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    /* Espacio entre las tarjetas */
-}
-
-.card-container-crear {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.card-crear {
-    margin-bottom: 20px;
-}
-
-.card-title-crear {
-    color: #742f2f;
+    flex-direction: column;
 }
 
 .label-precio-descripcion {
@@ -109,21 +79,6 @@
     gap: 6%;
     width: 100%;
     margin-top: 20px;
-    /* background-color: #742f2f; */
-}
-
-.label-precio{
-    display: flex;
-    flex-direction: column;
-}
-
-.label-disponibilidad {
-    display: flex;
-    margin-right: 30%;
-}
-
-#titulo-crear {
-    text-align: center;
 }
 
 .content-boton-crear {
@@ -148,6 +103,39 @@
     border: 1px solid #2F6A74;
     color: #2F6A74;
     transition: all 0.5s ease;
+}
+
+.descripcion{
+    display: flex;
+}
+
+.descripcion-crear {
+    width: 230%;
+}
+
+.label-disponibilidad {
+    display: flex;
+    margin-right: 30%;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-container-crear {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-crear {
+    margin-bottom: 20px;
+}
+
+.card-title-crear {
+    color: #742f2f;
 }
 
 @media (max-width: 978px) {
