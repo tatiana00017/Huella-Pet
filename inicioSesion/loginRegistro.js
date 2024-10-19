@@ -21,10 +21,24 @@ loginForm.addEventListener('submit', (e) => {
 }
 
   if (!validarUsuario) {
-      return alert('Usuario y/o contraseña incorrectos');
+      return Swal.fire({   
+        icon: "error",   
+        title: "Error",   
+        text: '¡Usuario y/o contraseña incorrectos'})
   } else {
-    alert(`Bienvenido ${validarUsuario.nombreApellido}`);
-    document.querySelector(".btnInicio-login").innerHTML = `<i class="fa-solid fa-user icon-nav "></i> Hola, ${validarUsuario.nombreApellido}`
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: `¡Bienvenido, ${validarUsuario.nombreApellido}!`,
+      showConfirmButton: false,
+      timer: 2000
+    });
+    document.querySelector(".btnInicio-login").innerHTML = `<i class="fa-solid fa-user icon-nav "></i> Hola, <span class="span-nombre-inicio">${validarUsuario.nombreApellido}</span>`
+  
+  // Cerrar el modal después de un inicio de sesión exitoso
+  const modalLogin = document.querySelector('.modal-login');
+  modalLogin.style.display = "none"; // Cerrar el modal
+    
 
     if(extraerDominioCorreo(correo) == "huellapet.com"){
       window.location.href = '/Huella-Pet/categoria/formularioProducto/formulario.html'
@@ -32,6 +46,7 @@ loginForm.addEventListener('submit', (e) => {
   }
 
 });
+
 //Lógica del registro 
 
 const signupForm = document.querySelector('#registroForm');
@@ -49,7 +64,19 @@ signupForm.addEventListener('submit', (e) => {
   const esUsuarioRegistrado = Usuarios.find(usuario => usuario.correo === correo);
 
   if (esUsuarioRegistrado) {
-      return alert('El usuario ya se encuentra registrado!');
+      return Swal.fire({   
+              icon: "error",   
+              title: "Error",   
+              text: 'El usuario ya se encuentra registrado!'});
+  }
+
+  // Validar la contraseña
+  const passwordRegex = /^(?=.*[A-Z]).{8,}$/; // Al menos 8 caracteres y al menos una mayúscula
+  if (!passwordRegex.test(password)) {
+      return Swal.fire({  
+              icon: "error",   
+              title: "Error",   
+              text: 'La contraseña debe tener al menos 8 caracteres y al menos una letra mayúscula.'});
   }
 
   // Encriptar correo y password usando AES
@@ -65,7 +92,13 @@ signupForm.addEventListener('submit', (e) => {
   });
 
   localStorage.setItem('usuarios', JSON.stringify(Usuarios));
-  alert('Registro Exitoso!');
+  Swal.fire({
+    position: "center",
+    icon: "success",
+    title: "¡Registro Exitoso!'",
+    showConfirmButton: false,
+    timer: 1500
+  });
   signupForm.reset();
 
   formLogin.style.display = "block";
@@ -89,6 +122,22 @@ btnRegistro.addEventListener('click',e =>{
   formRegistro.style.display="none"
 })
 
+// Logica para ocultar y ver contraseña
+
+const togglePassword = document.querySelector('#togglePassword');
+const passwordInput = document.querySelector('#password-registro');
+const eyeIcon = togglePassword.querySelector('.fa-eye');
+const eyeSlashIcon = togglePassword.querySelector('.fa-eye-slash');
+
+togglePassword.addEventListener('click', () => {
+    // Cambia el tipo de input entre 'password' y 'text'
+    const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+    passwordInput.setAttribute('type', type);
+    
+    // Alterna la visibilidad de los íconos
+    eyeIcon.style.display = type === 'password' ? 'block' : 'none';
+    eyeSlashIcon.style.display = type === 'password' ? 'none' : 'block';
+});
 
 
 

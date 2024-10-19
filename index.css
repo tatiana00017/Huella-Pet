@@ -130,7 +130,6 @@ ul{
     display: flex;
     color: white;
     cursor: pointer;
- 
 }
 .nav2 div {
     padding: 1% 0%;
@@ -146,7 +145,7 @@ ul{
     align-items: center;
     gap: 8px;
 }
- 
+
 /* Modal */
 .modal-card{
     display: none;

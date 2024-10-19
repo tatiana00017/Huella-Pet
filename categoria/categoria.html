@@ -18,7 +18,7 @@
         rel="stylesheet">
 
     <!-- Inconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="../index.css">
@@ -68,9 +68,9 @@
 
         <section class="nav2">
 
-            <div>
-                <i class="fa-solid fa-layer-group" style="color: #ffffff;"></i>
-                <h6 class="boton-categorias"> Categorias</h6>
+            <div class="boton-categorias">
+                <i class="fa-solid fa-layer-group fa-beat" style="color: #ffffff;"></i>
+                <h6> Categorias</h6>
             </div>
             <div>
                 <a href="../mundoOfertas/mundoOfertas.html">
@@ -141,7 +141,7 @@
 
     </section>
 
-      <!-- Inicio de sesion y registrate ----------------------------------------------- -->
+    <!-- Inicio de sesion y registrate ----------------------------------------------- -->
   <div class="modal-login">
     <section class="login-container mostrar-login">
       <i class="fa-solid fa-xmark fa-xl cerrar-login" style="color: #2F6A74;"></i>
@@ -151,7 +151,7 @@
       <form action="" id="loginForm">
 
         <div class="input-form">
-          <input type="email" placeholder="Esciba su correo electrónico" id="correo-login" required outofocus>
+          <input type="email" placeholder="Escriba su correo electrónico" id="correo-login" required outofocus>
         </div>
 
         <div class="input-form">
@@ -185,6 +185,9 @@
       </form>
 
     </section>
+
+    <!-- Registro -->
+
     <section class="registro-container mostrar-registro">
       <i class="fa-solid fa-xmark fa-xl cerrar-registro" style="color: #2F6A74;"></i>
 
@@ -193,15 +196,20 @@
       <form action="" id="registroForm">
 
         <div class="input-form">
-          <input type="texto" placeholder="Esciba sus nombres y apellidos" id="nombreApellido" required outofocus>
+          <input type="texto" placeholder="Escriba sus nombres y apellidos" id="nombreApellido" required outofocus>
         </div>
 
         <div class="input-form">
-          <input type="email" placeholder="Esciba su correo electronico" id="correo-registro" required outofocus>
+          <input type="email" placeholder="Escriba su correo electronico" id="correo-registro" required outofocus>
         </div>
 
         <div class="input-form">
-          <input type="password" placeholder="Esciba su contraseña" id="password-registro" required>
+          <input type="password" placeholder="Escriba su contraseña" id="password-registro" required>
+          <button type="button" id="togglePassword" aria-label="Mostrar contraseña">
+            <i class="fa-solid fa-eye fa-shake icono-contraseña" style="color: #2F6A74;"></i>
+            <i class="fa-solid fa-eye-slash icono-contraseña" style="color: #2F6A74; display: none;"></i>
+          </button>
+          <h5 class="condicion-contraseña">Debe contener al menos 8 caracteres y una mayuscula *</h5>
         </div>
 
         <p class="mascota">¿Tienes mascota?</p>
@@ -216,14 +224,14 @@
         </div>
 
         <div class="tyc">
-          <input type="checkbox" name="condiciones" value="condiciones">
-          <label for="condiciones"> Acepto términos y condiciones y autorizo tratamiento de datos y
-            politicas.</label>
+          <input type="checkbox" name="condiciones" value="condiciones" required>
+          <label for="condiciones"> Acepto términos y condiciones y autorizo <a href="https://drive.google.com/file/d/1L_bXOPT4kBmFB6Wgdw8wjVUI033o7i6S/view?usp=sharing" target="_blank">tratamiento de datos y
+            politicas.</a></label>
         </div>
 
         <button type="submit" class="login-button">Crear Cuenta</button>
 
-        <button id="login-registro" class="registro-link">¿ ya tienes una cuenta? <strong><b>Inicia
+        <button id="login-registro" class="registro-link">¿Ya tienes una cuenta? <strong><b>Inicia
               Sesión</b></strong></button>
 
         <div class="opcion-redes">
@@ -244,7 +252,6 @@
 
     </section>
   </div>
-
     <!-- Sección de pie de pagina ----------------------------------->
 
     <footer class="footer-content">
@@ -348,7 +355,8 @@
     <script src="./modal.js"></script>
     <script src="../inicioSesion/loginRegistro.js"></script>
     <script src="../inicioSesion/modalLogin.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
