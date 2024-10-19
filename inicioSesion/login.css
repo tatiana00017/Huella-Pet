@@ -272,18 +272,3 @@
 .swal2-icon{
     border: 6px solid #2F6A74 !important;
 }
-
-
-.line-md--check-all {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cmask id='lineMdCheckAll0'%3E%3Cg fill='none' stroke='%23fff' stroke-dasharray='24' stroke-dashoffset='24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M2 13.5l4 4l10.75 -10.75'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' dur='0.4s' values='24;0'/%3E%3C/path%3E%3Cpath stroke='%23000' stroke-width='6' d='M7.5 13.5l4 4l10.75 -10.75'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' begin='0.4s' dur='0.4s' values='24;0'/%3E%3C/path%3E%3Cpath d='M7.5 13.5l4 4l10.75 -10.75'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' begin='0.4s' dur='0.4s' values='24;0'/%3E%3C/path%3E%3C/g%3E%3C/mask%3E%3Crect width='24' height='24' fill='%23000' mask='url(%23lineMdCheckAll0)'/%3E%3C/svg%3E");
-    background-color: currentColor;
-    -webkit-mask-image: var(--svg);
-    mask-image: var(--svg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-  }
