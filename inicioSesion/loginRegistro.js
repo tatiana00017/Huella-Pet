@@ -26,6 +26,10 @@ loginForm.addEventListener('submit', (e) => {
         title: "Error",   
         text: '¡Usuario y/o contraseña incorrectos'})
   } else {
+    localStorage.setItem('authToken', JSON.stringify({
+      nombreApellido: validarUsuario.nombreApellido,
+      correo: correo
+      }));
     Swal.fire({
       position: "center",
       icon: "success",
