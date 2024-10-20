@@ -96,7 +96,7 @@
       "categoria": "Farmacia",
       "precio": 50000,
       "descripcion": "¡Protege a tu perro y a tu familia con NexGard®!, esta tableta masticable contra parásitos ofrece una solución mensual efectiva y segura para combatir pulgas y garrapatas. ¡Y lo mejor de todo es que a tu perro le encantará!",
-      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/164949-500-auto?v=638451854577400000&width=500&height=auto&aspect=true",
+      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/799bad5a3b514f096e69bbc4a7896cd9_1696601684.jpg",
       "disponibilidad": true
     },
     {
@@ -105,7 +105,7 @@
       "categoria": "Farmacia",
       "precio": 70000,
       "descripcion": "¿Quieres ver a tu mascota disfrutar de una vida más saludable y activa? Imagina cómo sería si pudieras aliviar su dolor y mejorar su calidad de vida de manera natural. Traumeel ad us vet Tabletas es la respuesta que estabas buscando.",
-      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/157191-1200-auto?v=638108555482170000&width=1200&height=auto&aspect=true",
+      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/10053_144346_Traumeel_Gotas_1647268581_500x500.jpg",
       "disponibilidad": true
     },
     {
@@ -132,16 +132,16 @@
       "categoria": "Farmacia",
       "precio": 18500,
       "descripcion": "¿Quieres ayudar a tu mascota a enfrentar los desafíos emocionales con una solución natural y armonizadora? Introducimos EF STRESS SPRAY 250ML de Magnovet, exclusivamente en Animal's Veterinaria, diseñado para tranquilizar a tu compañero peludo o emplumado. Este spray vibracional de esencias florales, no solo modula los estados emocionales sino que también armoniza el campo energético de tu mascota, brindando un refugio de paz en momentos de cambio o enfermedad.",
-      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/158735-1200-auto?v=637538377898500000&width=1200&height=auto&aspect=true",
+      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/9623_160560_Esencia_Floral_Paz_Y_Calma_1652908396_500x500.jpg",
       "disponibilidad": true
     },
     {
       "id": "6f",
-      "nombre": "SUPLEMENTO ALIMENTICIO CONDROMEG",
+      "nombre": "Suplemento Alimenticio ",
       "categoria": "Farmacia",
       "precio": 57500,
       "descripcion": "SUPLEMENTO ALIMENTICIO CONDROMEG",
-      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/161265-1200-auto?v=637696532801270000&width=1200&height=auto&aspect=true",
+      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/80e3b6178319591c690052e94be3c811_1690404717.jpg",
       "disponibilidad": true
     },
     {
@@ -158,7 +158,7 @@
       "nombre": "Previcox",
       "categoria": "Farmacia",
       "precio": 66600,
-      "descripcion": "",
+      "descripcion": "Antiinflamatorio no esteroideo (AINE) para el alivio del dolor y de la inflamación asociados",
       "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/163228-1200-auto?v=638132091866900000&width=1200&height=auto&aspect=true",
       "disponibilidad": true
     },
@@ -267,7 +267,7 @@
       "categoria": "Alimento",
       "precio": 30900,
       "descripcion": "Alimento Para Gato BR Cat Castrados - 1 Kg",
-      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/161090-150-150/_59A1523.jpg?v=637274294096400000",
+      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/ba528f6232e621530cc5d058b6e837dc_1691700604.jpg",
       "disponibilidad": true
     },
     {
@@ -285,7 +285,7 @@
       "categoria": "Cuidado",
       "precio": 20600,
       "descripcion": "CanAmor - Talco baño seco",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/3738_36200_TALCO_CANAMOR_DESODORANTE_1609619051_213x278.png",
+      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/3738_36200_TALCO_CANAMOR_DESODORANTE_1609619051_213x278.png",
       "disponibilidad": true
     },
     {

@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../index.css">
   <link rel="stylesheet" href="./contactenos.css">
   <link rel="stylesheet" href="../inicioSesion/login.css">
+  <link rel="stylesheet" href="../carrito/carrito.css">
 
 </head>
 
@@ -57,8 +58,11 @@
             <h6 class="btnInicio-login"> <i class="fa-solid fa-user icon-nav "></i> Iniciar Sesión</h6>
           </a>
           <h6 class="icon-nav"><i class="fa-solid fa-location-dot "></i> Bogotá</h6>
-          <a href="../carrito/carrito.html">
-            <h6 href="" class=""> <i class="fa-solid fa-cart-shopping icon-nav"></i>Comprar</h6>
+          <a>
+            <h6 class="btn-carrito"> 
+              <i class="fa-solid fa-cart-shopping icon-nav"></i>Comprar
+              <span id="cart-count" class="cart-count">0</span>
+            </h6>
           </a>
         </div>
       </div>
@@ -240,6 +244,24 @@
 
     </section>
   </div>
+
+    <!-- Carrito de compras ----------------------------------------->
+
+    <div class="modal-carrito">
+      <section class="carrito-container" >
+        <i class="fa-solid fa-xmark fa-xl cerrar-carrito" style="color: #2F6A74;"></i>
+        <h4 class="titulo-carrito">Carrito</h4>
+        <div id="productos-carrito">
+          <!-- muestra productos en el carrito -->
+        </div>
+        <button class="boton-carrito-compras" id="vaciar-carrito-btn">Vaciar Carrito</button>
+        <div id="total-carrito">
+          <h5 id="continuar-compra-btn">Continuar Compra <span id="total-precio">$0</span></h5>
+        </div>
+      </section>
+    </div>
+  
+
   <!-- Sectión Contactenos ----------------------------------->
 
   <main class="section-contacto">
@@ -437,6 +459,8 @@
   <script src="../inicioSesion/modalLogin.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../carrito/carrito.js"></script>
+  <script src="../categoria/formularioProducto/formulario.js"></script>
 </body>
 
 </html>

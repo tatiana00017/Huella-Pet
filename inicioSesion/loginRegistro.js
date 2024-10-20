@@ -50,6 +50,21 @@ loginForm.addEventListener('submit', (e) => {
   }
 
 });
+// Llama a esta función al cargar la página para verificar si hay un usuario logueado
+
+function cargarUsuarioLogueado() {
+  const authToken = localStorage.getItem('authToken');
+
+  if (authToken) {
+    const usuario = JSON.parse(authToken);
+    // Si el usuario está logueado, actualiza el botón de inicio de sesión
+    document.querySelector(".btnInicio-login").innerHTML = `<i class="fa-solid fa-user icon-nav "></i> Hola, <span class="span-nombre-inicio">${usuario.nombreApellido}</span>`;
+  }
+}
+
+// Llama a la función cuando la página se carga
+window.addEventListener('DOMContentLoaded', cargarUsuarioLogueado);
+
 
 //Lógica del registro 
 

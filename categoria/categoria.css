@@ -5,7 +5,7 @@
 .mostrar-publicidad {
     margin: 140px auto 0;
     width: 70%; 
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .mostrar-publicidad img {
@@ -38,6 +38,12 @@
     0 32px 64px rgba(61, 70, 71, 0.4);
 }
 
+.imagen-product{
+    width: 100%;
+    height: 300px; /* Ajusta esta altura según necesites */
+    object-fit: cover; 
+}
+
 .card-info-product{
     color: rgb(80, 80, 80);
     display: flex;
@@ -48,10 +54,16 @@
     background-color: #b299847a;
 }
 
+.title-product{
+    white-space: nowrap;    
+    overflow: hidden;             
+    text-overflow: ellipsis;
+}
+
 .descrpcion-product{
     white-space: nowrap;    
     overflow: hidden;             
-    text-overflow: ellipsis;  
+    text-overflow: ellipsis;
 }
 
 @media(max-width: 991px){
