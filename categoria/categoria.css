@@ -5,13 +5,14 @@
 .mostrar-publicidad {
     margin: 140px auto 0;
     width: 70%; 
+    height: 150px;
     overflow: hidden;
 }
 
 .mostrar-publicidad img {
     width: 100%;
-    height: auto; 
-    display: block; 
+    height: 100%;
+    object-fit: cover;
 }
 
 #mostrar-productos{
@@ -68,7 +69,8 @@
 
 @media(max-width: 991px){
     .mostrar-publicidad {
-        margin: 100px auto 0; 
+        margin: 100px auto 0;
+        height: 100px;
     }
     .mostrar-publicidad {
         width: 100%;
