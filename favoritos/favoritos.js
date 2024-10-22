@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <img src="${producto.imagen}" class="card-img-top imagen-product" alt="${producto.nombre}">
                   <div class="card-body card-info-product">
                     <h5 class="card-title title-product">${producto.nombre}</h5>
-                    <p class="card-text descripcion-product">${producto.descripcion}</p>
+                    <p class="card-text descrpcion-product">${producto.descripcion}</p>
                     <h5 class="precio-product">$ ${precioFormateado}</h5>
                     <div class="content-boton">
                       <button class="boton-huellapet quitar-favorito-btn" data-id="${producto.id}">Quitar de Favoritos</button>

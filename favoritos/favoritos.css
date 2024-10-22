@@ -1,3 +1,8 @@
+#mostrar-productos{
+    display: flex;
+    flex-direction: column;
+}
+
 .mostrar-publicidad {
     margin: 140px auto 0;
     width: 70%; 
