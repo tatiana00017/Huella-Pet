@@ -1,0 +1,330 @@
+{
+  "adopciones": [
+    {
+      "id": "1a",
+      "imagen1": "https://img.freepik.com/foto-gratis/hermoso-perro-escuchando-mirando-arriba_23-2149448210.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/entrenador-perros-al-aire-libre-su-perro-sesion_23-2149448251.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/hermoso-perro-escuchando-mirando-arriba_23-2149448212.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "nombre": "Zeus",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 3,
+      "raza": "Criollo, American bully",
+      "condiciones": "Ninguna",
+      "descripcion": "Este es Zeus, un amigo tan especial que requiere los mejores cuidados. Es muy activo, muy dócil y juguetón. Es un verdadero compañero que adora la compañía de los niños y siempre está listo para jugar.<br><br>Nuestro querido Zeus fue rescatado en 2022 y ha estado esperando una buena familia que le dé todo el amor que necesita. Con su ternura y energía, seguro llenará tu hogar de alegría."
+    },
+    {
+      "id": "14",
+      "imagen1": "https://img.freepik.com/foto-gratis/retrato-perro-disfraz-halloween_329181-16984.jpg?t=st=1729527906~exp=1729531506~hmac=5f3147d9a26345b9b9a0cca0d08eaee3aa90426f3264cd70df3f176a4f776054&w=360",
+      "imagen2": "https://img.freepik.com/foto-gratis/retrato-perro-negro-mirando-arriba_329181-17013.jpg?t=st=1729526150~exp=1729529750~hmac=f7b1fb56d0d4257c972c8e8aba88ca21d82532e92d8412a9deba6860d33224cd&w=360",
+      "imagen3": "https://img.freepik.com/foto-gratis/retrato-perro-negro-halo-halloween_329181-17054.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "nombre": "Matilda",
+      "especie": "Canino",
+      "genero": "Hembra",
+      "edad": 8,
+      "raza": "Criollo",
+      "condiciones": "Otitis",
+      "descripcion": "Esta es Matilda, una perrita encantadora que busca un hogar lleno de amor. A pesar de sus 8 años, Matilda es muy cariñosa y le encanta disfrutar de paseos tranquilos. Es una excelente compañía para quienes buscan un amigo leal y tierno. <br><br> Matilda fue rescatada recientemente y, aunque enfrenta un pequeño problema de otitis, su espíritu sigue siendo fuerte. Está lista para compartir su cariño con una familia que le dé la atención que necesita. "
+    },
+    {
+      "id": "12",
+      "imagen1": "https://img.freepik.com/foto-gratis/caniche-alto-angulo-sentado-regazo-propietario_23-2148415182.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/perro-feliz-divirtiendose-parque_23-2147997358.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/perro-feliz-divirtiendose-parque_23-2147997362.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "nombre": "Bruno",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 5,
+      "raza": "French poodle",
+      "condiciones": "Ninguna",
+      "descripcion": "Este es Bruno, un encantador perrito que busca un hogar donde se sienta seguro. A sus 5 años, es un compañero leal y lleno de energía. Sin embargo, es un poco nervioso con los niños, por lo que se recomienda un hogar sin pequeños o con adultos que puedan ayudarlo a adaptarse.<br><br>Rescatado recientemente, Bruno está listo para encontrar una familia que lo quiera y le dé el espacio que necesita para prosperar. Su ternura y lealtad seguramente llenarán tu hogar de alegría."
+    },
+    {
+      "id": "15",
+      "imagen1": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15721.jpg?t=st=1729530255~exp=1729533855~hmac=a600bc448b14b0b6d6d8e785a32b980179044513c45ad23dd1060fef958e231a&w=360",
+      "imagen2": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15272.jpg?t=st=1729530250~exp=1729533850~hmac=66e3640673b621075f13869c17134c689d553cfbb31425fec89fcc52cf978013&w=360",
+      "imagen3": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15272.jpg?t=st=1729530250~exp=1729533850~hmac=66e3640673b621075f13869c17134c689d553cfbb31425fec89fcc52cf978013&w=360",
+      "nombre": "Manolo",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 9,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Este es Manolo, un encantador perrito de 9 años que busca un hogar cálido y amoroso. Ha pasado casi toda su vida en la calle, enfrentando desafíos, hasta que finalmente fue rescatado y ahora está listo para disfrutar de su merecido descanso. <br><br> Es muy dormilón por su edad y le encanta estar acompañado, así que buscará la compañía de su familia para sentirse seguro y amado. Manolo es un perro muy consentido, listo para compartir su cariño y alegrar tu hogar. ¡Permítele convertirse en tu fiel compañero!"
+    },
+    {
+      "id": "13",
+      "imagen1": "https://img.freepik.com/fotos-premium/disparo-selectivo-perro-hibrido-raza-negra-martingala-roja_181624-55175.jpg?w=360",
+      "imagen2": "https://img.freepik.com/fotos-premium/primer-plano-lindo-perro-staffordshire-bull-terrier-collar-rojo-acostado-sobre-guijarros_210726-340.jpg?w=360",
+      "imagen3": "https://img.freepik.com/foto-gratis/disparo-selectivo-perro-hibrido-raza-negra-martingala-roja_181624-55244.jpg?t=st=1729529937~exp=1729533537~hmac=1f34573af4d9cc72d29f1e327073aba3244b1149c0a81a58f669af57c51cc464&w=740",
+      "nombre": "Deisy",
+      "especie": "Canino",
+      "genero": "Hembra",
+      "edad": 8,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Esta es Deisy, una dulce perrita de 8 años que busca un hogar donde pueda sentirse amada y tranquila. A pesar de su edad, sigue siendo un compañero cariñoso y juguetón. Es una perra sociable y se lleva bien con otros perros, lo que la convierte en una excelente compañera para aquellos que ya tienen mascotas en casa. <br><br>Rescatada recientemente, Deisy está lista para encontrar una familia que le brinde el cariño y la atención que merece. Su ternura y su energía suave llenarán tu hogar de amor y calidez. ¡No dudes en darle una oportunidad!."
+    },
+    {
+      "id": "1",
+      "imagen1": "https://img.freepik.com/foto-gratis/gato-rojo-o-blanco-sobre-fondo-blanco-estudio_155003-22073.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/gato-sobre-fondo-blanco_155003-20496.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/gato-sobre-fondo-blanco_155003-15385.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "nombre": "Ariana",
+      "especie": "Felino",
+      "genero": "Hembra",
+      "edad": 0.5,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Esta es Ariana, una adorable gatita de medio año que está lista para encontrar su hogar definitivo. A pesar de su corta edad, ya muestra una personalidad juguetona y curiosa. Fue encontrada en la calle, pero ahora está lista para recibir todo el amor y cuidado que se merece. <br><br>Ariana es una felina muy sociable que disfruta de la compañía de las personas y le encanta jugar con cualquier cosa que encuentre a su alrededor. Esta dulce gatita seguramente traerá alegría y ternura a tu hogar, convirtiéndose en la compañera perfecta."
+    },
+    {
+      "id": "17",
+      "imagen1": "https://img.freepik.com/foto-gratis/perro-relajando-naturaleza_23-2148199178.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/retrato-perro-labrador-negro-contra-telon-fondo-oscuro_155003-8737.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/retrato-perro-boca-abierta_23-2147902046.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "nombre": "Chocolate",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 2,
+      "raza": "Labrador Retriever",
+      "condiciones": "Ninguna",
+      "descripcion": "Este es Manolo, un energético labrador retriever de 2 años que está buscando un hogar lleno de amor y diversión. Fue recogido en pésimas condiciones, pero después de su rehabilitación, ha florecido en un perrito obediente y cariñoso.<br><br>Su entusiasmo por la vida se nota, especialmente cuando va al parque, donde corre y juega con alegría. Manolo está en perfectas condiciones de salud y listo para encontrar una familia. Le encanta la compañía de otros perros y humanos, lo que lo convierte en un compañero ideal para paseos y juegos."
+    },
+    {
+      "id": "18",
+      "imagen1": "https://img.freepik.com/foto-gratis/acercamiento-al-estilo-vida-mascotas_23-2149180532.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/acercamiento-al-estilo-vida-mascotas_23-2149180531.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/acercamiento-al-estilo-vida-mascotas_23-2149180529.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "nombre": "Rita",
+      "especie": "Felino",
+      "genero": "Hembra",
+      "edad": 1,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Esta es Rita, una gatita de 1 año que busca un hogar cariñoso. Es muy dormilona y disfruta acurrucarse, pero también le gusta jugar e interactuar con perros, así que sería una gran compañera para los que ya tienen mascotas. <br><br> Su familia actual no puede tenerla, así que está lista para encontrar un nuevo hogar donde la cuiden y le den el amor que necesita. Su dulzura y cariño llenarán tu hogar de alegría. ¡Dale una oportunidad a Rita!."
+    },
+    {
+      "id": "19",
+      "imagen1": "https://img.freepik.com/foto-gratis/cerrar-lindo-gato-interior_23-2148882585.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/hermoso-gato-acostado-sobre-almohada_23-2148882583.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/lindo-gato-sentado-silla_23-2148882589.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "nombre": "Roki",
+      "especie": "Felino",
+      "genero": "Macho",
+      "edad": 6,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Este es Roki, un encantador gatito de 6 años que busca un hogar donde se sienta cómodo. Es un felino independiente que no disfruta de que lo miman demasiado, prefiriendo recibir caricias solo cuando él lo desea. <br><br> Sin condiciones especiales, Roki está listo para encontrar una familia que respete su espacio y le brinde el cariño que le gusta. Su carácter único y su presencia segura harán que tu hogar sea un lugar especial. ¡Dale la oportunidad de conocerte y formar parte de tu vida!."
+    },
+    {
+      "id": "20",
+      "imagen1": "https://img.freepik.com/foto-gratis/lindo-gato-piso_144627-7871.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/lindo-gato-piso_144627-7876.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/lindo-gato-peludo_144627-7872.jpg?t=st=1729528842~exp=1729532442~hmac=9a66a13519a7d9909201ff6b73ddcee36d05f364f61fa96629aa7dbbc5e5a715&w=360",
+      "nombre": "Garfiel",
+      "especie": "Felino",
+      "genero": "Macho",
+      "edad": 3,
+      "raza": "Criollo",
+      "condiciones": "Dermatitis",
+      "descripcion": "Este es Garfiel, un cariñoso gatito de 3 años que busca un hogar lleno de amor. Es muy consentido y le encanta dormir, pasando la mayor parte del día acurrucado y disfrutando de la tranquilidad. <br><br> Aunque tiene dermatitis, eso no le impide ser un compañero dulce y juguetón. Garfiel está listo para encontrar una familia que le brinde los cuidados especiales que necesita y, a cambio, llenará tu hogar de cariño y alegría. ¡Dale la oportunidad de ser parte de tu vida!."
+    },
+    {
+      "id": "21",
+      "imagen1": "https://img.freepik.com/foto-gratis/perro-pequeno-siendo-adorable-estudio_23-2149016882.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/psd-gratis/lindo-perro-retrato-aislado_23-2150194076.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/psd-gratis/lindo-perro-retrato-aislado_23-2150194039.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "nombre": "Lucas",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 6,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Este es Lucas, un cariñoso perrito criollo de 6 años que está en busca de un hogar amoroso. Es un compañero muy protector, siempre alerta y listo para cuidar de su familia. A pesar de su naturaleza vigilante, Lucas es juguetón y disfruta pasar tiempo jugando y explorando. <br><br>Le encanta la compañía de gatos y niños, lo que lo convierte en un excelente amigo para todos en el hogar. Lucas es ideal para una familia que valore tanto su lado protector como su espíritu juguetón. Con su lealtad y alegría, seguramente llenará tu hogar de amor y diversión."
+    },
+    {
+      "id": "22",
+      "imagen1": "https://img.freepik.com/foto-gratis/perro-lindo-alto-angulo-al-aire-libre_23-2148699615.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/perro-sentado-cesped_23-2148144457.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/manos-primer-plano-sosteniendo-perro-sonriente_23-2148699695.jpg?t=st=1729527694~exp=1729531294~hmac=1155e17ff5aa3761dcd67ae151b0ec116243761806fc688a779fe8d2e0471c7b&w=740",
+      "nombre": "Antonia",
+      "especie": "Canino",
+      "genero": "Hembra",
+      "edad": 2,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Esta es Antonia, una perrita de 2 años que busca un hogar lleno de diversión. Le encanta jugar, especialmente con discos para saltar, y no hay nada que disfrute más que un buen rato de actividad. <br><br> Sin embargo, no le gusta la compañía de otros perros, así que sería ideal para una familia que busque una mascota única. Antonia está lista para encontrar un hogar que le dé amor y le permita disfrutar de sus juegos. ¡Dale la oportunidad de compartir su alegría contigo!."
+    },
+    {
+      "id": "23",
+      "imagen1": "https://img.freepik.com/foto-gratis/retrato-gato-hermoso-cerca_23-2149214422.jpg?t=st=1729530544~exp=1729534144~hmac=1b346c5a318ef83aacc5f50bbe9f1595bba68c94cb100c830408b6d357a94962&w=360",
+      "imagen2": "https://img.freepik.com/foto-gratis/retrato-gato-hermoso-cerca_23-2149214411.jpg?t=st=1729530513~exp=1729534113~hmac=62195bdd276b758a81d10608174ac24824b510a779890bfd4594b496a38b8794&w=360",
+      "imagen3": "https://img.freepik.com/foto-gratis/retrato-gato-hermoso-cerca_23-2149214412.jpg?t=st=1729530370~exp=1729533970~hmac=c4becfa9c787fb95c77337c207bf894b23b8fac7fc010fb1e519fc7872b8dceb&w=360",
+      "nombre": "Danna",
+      "especie": "Felino",
+      "genero": "Hembra",
+      "edad": 3,
+      "raza": "Criollo",
+      "condiciones": "Ninguna",
+      "descripcion": "Esta es Danna, una hermosa gatita criolla de 3 años que busca un hogar acogedor. Es una felina independiente que disfruta de su espacio y, por lo tanto, no le gustan los perros. <br><br> Danna es cariñosa y le encanta explorar su entorno, así que sería ideal para un hogar tranquilo donde pueda sentirse cómoda. Si buscas una compañera que valore su independencia y te brinde cariño a su manera, ¡Danna es la gatita perfecta para ti!."
+    },
+    {
+      "id": "24",
+      "imagen1": "https://img.freepik.com/foto-gratis/vista-adorable-perro-chihuahua-casa_23-2149880060.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540&semt=ais_hybrid",
+      "imagen2": "https://img.freepik.com/foto-gratis/retrato-perro-chihuahua-lindo_23-2149880011.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540&semt=ais_hybrid",
+      "imagen3": "https://img.freepik.com/foto-gratis/retrato-perro-chihuahua-lindo_23-2149880010.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540&semt=ais_hybrid",
+      "nombre": "Tony",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 3,
+      "raza": "Chihuahua",
+      "condiciones": "Queratoconjuntivitis",
+      "descripcion": "Este es Tony, un adorable chihuahua de 3 años que busca un hogar lleno de tranquilidad. Fue rescatado de un criadero, lo que lo ha hecho un poco asustadizo. Además, padece queratoconjuntivitis, por lo que necesita cuidados especiales para mantener sus ojos limpios y saludables.<br><br> Es ideal que encuentre un hogar tranquilo y amoroso, preferiblemente sin niños, donde pueda sentirse seguro y cómodo. A pesar de su timidez, Tony tiene un corazón cariñoso y está listo para encontrar una familia que le brinde el amor y la paciencia que necesita."
+    },
+    {
+      "id": "26",
+      "imagen1": "https://img.freepik.com/foto-gratis/disparo-vertical-shih-poo-sentado-casa_181624-34995.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/disparo-vertical-shih-poo-sentado-casa_181624-45577.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/disparo-vertical-shih-poo-sentado-casa_181624-44413.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "nombre": "Toby",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 6,
+      "raza": "Zuchon",
+      "condiciones": "Dermatis",
+      "descripcion": "Este es Toby, un dulce perrito de 6 años que busca un hogar lleno de tranquilidad. Antes de ser rescatado, sufrió maltrato, lo que lo ha dejado un poco asustado y le hace preferir un ambiente calmado donde se sienta seguro. <br><br> Toby es muy dócil y cariñoso, pero también padece dermatitis, por lo que necesita cuidados especiales para mantener su piel saludable. Si le brindas el amor y la atención que necesita, Toby será un compañero leal y lleno de ternura. ¡Permítele ser parte de tu familia y darle la vida que merece!."
+    },
+    {
+      "id": "28",
+      "imagen1": "https://img.freepik.com/foto-gratis/lindo-perro-gafas-sol-sentado_23-2148332389.jpg?t=st=1729529625~exp=1729533225~hmac=88ee130a344e4343542acd99a43f9fb78857dc07438e4416d0c0a4460a063335&w=740",
+      "imagen2": "https://img.freepik.com/foto-gratis/perro-parque-jugando-dueno_23-2148332381.jpg?t=st=1729529468~exp=1729533068~hmac=9185752568d68dd909687268632508ef0f2b41d7784788d2e2f2642443937b83&w=740",
+      "imagen3": "https://img.freepik.com/fotos-premium/lindo-perro-jugando-amigo-gato_23-2148332380.jpg?w=360",
+      "nombre": "Mailo",
+      "especie": "Canino",
+      "genero": "Macho",
+      "edad": 1,
+      "raza": "Jack Russell terrier",
+      "condiciones": "Ninguna",
+      "descripcion": "Este es Mailo, un enérgico perrito de 1 año que busca un hogar activo. Es un perrito muy juguetón, ideal para deportistas que disfrutan de la aventura y el ejercicio. <br><br>Le encanta jugar con todo lo que encuentra y también es muy sociable, incluso le gustan los gatos. Mailo está listo para encontrar una familia que comparta su energía y entusiasmo por la vida. ¡No te pierdas la oportunidad de tener a este pequeño compañero lleno de vitalidad!."
+    }
+  ],
+  "eventos": [
+    {
+      "id": "7574",
+      "nombre": "Jornada de Vacunación",
+      "imagen": "../img/vacunacion.png",
+      "fecha": "24/11/2024 10:00 AM",
+      "hora": "2024-11-24",
+      "ciudad": "Bogotá",
+      "direccion": "Parque Buenavista",
+      "descripcion": "Este es el momento perfecto para asegurar la salud de tus peludos. Trae a tus mascotas y permíteles recibir sus vacunas en un ambiente amigable y seguro.<br><br>Además, contaremos con la presencia de vendedores locales que ofrecerán una variedad de productos y servicios para consentir a tus animales.<br><br>Lo mejor de todo es que una parte de lo recaudado irá destinada a la Fundación Huellitas, que trabaja incansablemente por el bienestar de los animales.<br><br>¡No te lo pierdas! Ven, cuida de tu mascota y apoya una noble causa."
+    },
+    {
+      "id": "7574",
+      "nombre": "¡Feria de Adopción Animal!",
+      "imagen": "https://img.freepik.com/foto-gratis/lindo-perro-jugando-mujer-refugio-adopcion_23-2148682996.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
+      "fecha": "16/11/2024 10:00 AM",
+      "hora": "2024-11-16",
+      "ciudad": "Bogota",
+      "direccion": "Parque Simon Bolivar",
+      "descripcion": "Te invitamos a un evento único donde podrás encontrar a tu compañero perfecto. Esta feria es la oportunidad ideal para conocer a perros y gatos que esperan un hogar lleno de amor.<br><br>A lo largo del día, ofreceremos actividades educativas sobre el bienestar animal, así como consejos prácticos para el cuidado de tus mascotas. Veterinarios y expertos estarán disponibles para resolver tus dudas y brindarte información valiosa.<br><br>¡No dejes pasar la oportunidad de cambiar la vida de un animal y hacer una gran diferencia! Ven y únete a nosotros en este hermoso evento."
+    },
+    {
+      "id": "7574",
+      "nombre": "Feria Gastronómica",
+      "imagen": "../img/feriagastronomica.png",
+      "fecha": "29/11/2024 07:00 PM",
+      "hora": "2024-11-29",
+      "ciudad": "Bogota",
+      "direccion": "Corferias",
+      "descripcion": "Ven y disfruta de una deliciosa variedad de comidas y bebidas, ¡tanto para ti como para tus mascotas! Esta feria no solo será un festín para tus sentidos, sino que también tiene un propósito noble.<br><br>Todo lo recaudado se destinará a una jornada de esterilización en los barrios con mayor cantidad de animales en abandono y donde muchas personas no pueden costear estos servicios. Tu participación hará una gran diferencia en la vida de muchos animales y sus dueños."
+    }
+  ],
+  "educacion": [
+    {
+      "id": "e134",
+      "titulo": "¿Es bueno dormir con mi mascota?",
+      "enfoque": "perro",
+      "imagen": "https://img.freepik.com/fotos-premium/seccion-media-hombre-durmiendo-perro_1048944-30888310.jpg?w=740",
+      "descripcion": "Dormir con tu mascota puede tener tanto beneficios como consideraciones a tener en cuenta. Aquí te presentamos algunos puntos clave para ayudarte a decidir:<br><br>• Beneficios emocionales: La cercanía con tu mascota puede proporcionar una sensación de confort y seguridad, ayudando a reducir el estrés y la ansiedad.<br>• Vínculo afectivo: Compartir la cama puede fortalecer el vínculo entre tú y tu mascota, promoviendo una relación más cercana.<br>• Calor y compañía: La presencia de tu mascota puede ofrecer calidez y compañía durante la noche, haciendo que el sueño sea más placentero.<br>• Consideraciones de higiene: Ten en cuenta la higiene. Asegúrate de que tu mascota esté limpia y libre de pulgas o parásitos para mantener un ambiente saludable.<br>• Problemas de sueño: Algunos dueños pueden experimentar interrupciones en el sueño si su mascota se mueve mucho durante la noche o si ocupa demasiado espacio.<br>• Tamaño y comportamiento: Considera el tamaño y comportamiento de tu mascota. Un perro grande o un gato inquieto pueden dificultar el sueño.<br>• Salud y alergias: Si tienes alergias o problemas de salud, es posible que debas reconsiderar la idea de dormir con tu mascota."
+    },
+    {
+      "id": "e132",
+      "titulo": "¿Qué es la depresión en animales, cuáles son sus cuidados y qué alertas debes tener?",
+      "enfoque": "ambos",
+      "imagen": "https://img.freepik.com/foto-gratis/vista-cerca-lindo-perro-marron-cara-triste_181624-17928.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
+      "descripcion": "La depresión en animales puede afectar su bienestar físico y emocional. Es importante reconocer los signos y proporcionar el cuidado adecuado. Aquí te dejamos algunos aspectos clave a considerar:<br><br>• Identificación de síntomas: Presta atención a cambios en el comportamiento, como falta de interés en jugar, reducción del apetito, letargo o cambios en los hábitos de sueño.<br>• Causas comunes: La depresión puede ser provocada por cambios en el entorno, pérdida de un compañero (humano o animal), estrés, enfermedades o falta de estimulación.<br>• Estimulación mental y física: Asegúrate de que tu mascota tenga suficiente ejercicio y actividades para mantenerla mentalmente activa, como juguetes interactivos y paseos regulares.<br>• Rutina estable: Mantener una rutina diaria puede ayudar a tu mascota a sentirse más segura y disminuir la ansiedad.<br>• Interacción social: Proporciona oportunidades para socializar con otros animales y personas, lo que puede ayudar a mejorar su estado de ánimo.<br>• Consulta veterinaria: Si los síntomas persisten, consulta a un veterinario. Pueden ser necesarios tratamientos o terapias específicas, incluida la medicación si es necesario.<br>• Paciencia y cariño: Muestra comprensión y paciencia mientras tu mascota se adapta o se recupera. Bríndale cariño y atención extra."
+    },
+    {
+      "id": "e135",
+      "titulo": "¿Cuál es la importancia de sacar a tu perro a diario?",
+      "enfoque": "perro",
+      "imagen": "https://img.freepik.com/fotos-premium/mujer-esta-acariciando-perro-lengua-fuera_795871-22299.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
+      "descripcion": "Sacar a tu perro a pasear al parque es fundamental para su bienestar físico y mental. Aquí te presentamos algunas razones clave por las que esto es tan importante:<br><br>• Ejercicio físico: Los paseos regulares ayudan a mantener a tu perro en buena forma física, previniendo la obesidad y fomentando la salud cardiovascular.<br>• Estimulación mental: Explorar nuevos olores, sonidos y vistas estimula la mente de tu perro, lo que es esencial para su bienestar emocional.<br>• Socialización: El parque es un lugar ideal para que tu perro interactúe con otros perros y personas, ayudando a desarrollar habilidades sociales y reducir la timidez o agresividad.<br>• Alivio del estrés: Pasear al aire libre puede ayudar a reducir la ansiedad y el estrés tanto en los perros como en sus dueños, proporcionando una oportunidad para relajarse y disfrutar del entorno.<br>• Mejora del comportamiento: Un perro que recibe suficiente ejercicio tiende a ser más equilibrado y menos propenso a comportamientos destructivos, como morder muebles o ladrar en exceso.<br>• Oportunidad para entrenar: Los paseos son excelentes momentos para practicar obediencia y entrenamiento, reforzando comandos y enseñando buenos modales.<br>• Conexión con el dueño: Pasear juntos fortalece el vínculo entre tú y tu perro, creando momentos de calidad que mejoran la relación."
+    },
+    {
+      "id": "e136",
+      "titulo": "¿Cómo bañar a mi gato?",
+      "enfoque": "gato",
+      "imagen": "https://img.freepik.com/fotos-premium/pequeno-gatito-mojado-asustado-negro-limpia-toalla-despues-bano_98725-1403.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
+      "descripcion": "Bañar a un gato puede ser un desafío, pero con la preparación adecuada, se puede hacer de manera efectiva. Aquí te dejamos una guía paso a paso para lograrlo sin estrés:<br><br>• Prepara el espacio: Elige un lugar adecuado, como un lavabo o una bañera. Ten a mano todo lo necesario: shampoo para gatos, toallas y una jarra o manguera de ducha.<br>• Usa agua tibia: Llena el recipiente con agua tibia. Evita temperaturas extremas que puedan incomodar a tu gato.<br>• Moja suavemente: Comienza a mojar al gato despacio, comenzando por la parte posterior y evitando la cabeza. Usa una jarra o una manguera de ducha con poca presión.<br>• Aplica shampoo: Utiliza un shampoo específico para gatos. Aplica una pequeña cantidad y masajea suavemente su pelaje, evitando el contacto con los ojos y oídos.<br>• Enjuaga bien: Asegúrate de eliminar completamente el shampoo, ya que los residuos pueden irritar su piel.<br>• Sécalo adecuadamente: Usa una toalla para secar al gato. Si lo tolera, puedes usar un secador de pelo en una configuración baja y a una distancia segura.<br>• Premia a tu gato: Después del baño, ofrece una golosina o caricias para crear una asociación positiva con la experiencia."
+    },
+    {
+      "id": "e137",
+      "titulo": "¿Qué cuidado dar a mi gata en embarazo?",
+      "enfoque": "gato",
+      "imagen": "https://images.pexels.com/photos/2646483/pexels-photo-2646483.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "descripcion": "Durante el embarazo, es esencial brindar a tu gata un cuidado especial para asegurar su salud y la de sus gatitos. Aquí te dejamos algunos aspectos clave a considerar:<br><br>• Alimentación adecuada: Proporciona un alimento específico para gatos gestantes, rico en nutrientes y proteínas.<br>• Veterinario: Realiza chequeos regulares con el veterinario para monitorear la salud de la madre y el desarrollo de los gatitos.<br>• Ambiente tranquilo: Crea un espacio tranquilo y cómodo donde pueda descansar y sentirse segura.<br>• Ejercicio moderado: Permite que haga ejercicio ligero, pero evita actividades demasiado intensas.<br>• Hidratación: Asegúrate de que siempre tenga acceso a agua fresca.<br>• Preparación para el parto: Investiga sobre el proceso de parto y ten listos los materiales necesarios, como una caja de parto.<br>Brindar estos cuidados ayudará a tu gata a tener un embarazo saludable y a preparar el camino para el nacimiento de sus gatitos."
+    },
+    {
+      "id": "e139",
+      "titulo": "¿Cómo cuidar a mi gata y sus crías?",
+      "enfoque": "gato",
+      "imagen": "https://img.freepik.com/fotos-premium/primer-plano-gato-descansando-cama_1048944-2317937.jpg?w=740",
+      "descripcion": "Cuidar de una gata y sus crías es fundamental para asegurar su salud y bienestar. Aquí tienes algunas pautas clave para hacerlo correctamente:<br><br>• Alimentación adecuada: Proporciona a la gata un alimento específico para gatos gestantes o lactantes, rico en nutrientes y calorías para apoyar su salud y la de sus crías.<br>• Agua fresca: Asegúrate de que tenga acceso constante a agua limpia y fresca para mantenerse hidratada.<br>• Ambiente seguro: Crea un espacio tranquilo y seguro para que la gata dé a luz y críe a sus gatitos. Asegúrate de que esté libre de corrientes de aire y peligros.<br>• Supervisión: Observa a la gata y a sus crías, pero evita interrumpir demasiado su privacidad. Permítele cuidar de ellos sin estrés.<br>• Control de salud: Lleva a la gata y a los gatitos al veterinario para chequeos de salud. Es importante monitorear el desarrollo de los gatitos y la salud de la madre.<br>• Socialización de los gatitos: A partir de las dos semanas, comienza a manejar a los gatitos suavemente para familiarizarlos con la interacción humana, lo que facilitará su socialización en el futuro.<br>• Preparación para la adopción: Si planeas encontrar hogares para los gatitos, asegúrate de que estén listos para ser adoptados a partir de las 8-12 semanas de edad."
+    },
+    {
+      "id": "e140",
+      "titulo": "¿Cómo convivir con perros territoriales?",
+      "enfoque": "perro",
+      "imagen": "https://img.freepik.com/fotos-premium/vista-angulo-alto-perros-luchando-campo_1048944-9922857.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
+      "descripcion": "Convivir con perros territoriales puede ser un desafío, pero con el enfoque adecuado, se puede lograr una convivencia armoniosa. Aquí te presentamos algunos consejos para manejar esta situación:<br><br>• Conoce el territorio: Identifica los espacios que tu perro considera como su territorio y respétalos, permitiendo que se sienta seguro en su entorno.<br>• Socialización gradual: Introduce lentamente a nuevos animales o personas en su espacio. Hazlo en un ambiente controlado y positivo.<br>• Refuerzo positivo: Utiliza recompensas, como golosinas o elogios, para reforzar comportamientos tranquilos y amistosos cuando haya visitas o nuevos elementos en su territorio.<br>• Ejercicio regular: Asegúrate de que tu perro tenga suficiente ejercicio físico y mental, lo que puede ayudar a reducir comportamientos territoriales excesivos.<br>• Establecer reglas claras: Define límites y reglas en casa para que tu perro entienda lo que se permite y lo que no.<br>• Consulta a un profesional: Si los comportamientos territoriales son problemáticos, considera buscar la ayuda de un adiestrador profesional o un etólogo canino. Siguiendo estos consejos, puedes facilitar una convivencia más armoniosa con perros territoriales."
+    },
+    {
+      "id": "e141",
+      "titulo": "¿Cómo cuidar a mi perro de tercera edad?",
+      "enfoque": "perro",
+      "imagen": "https://img.freepik.com/foto-gratis/vista-cercana-hermoso-perro-pajarita_23-2148786569.jpg?t=st=1729544499~exp=1729548099~hmac=db6a3f07d1ae1da388f5efa20c5db2197f3a73bfc116804df27c72d44c8c51dd&w=740",
+      "descripcion": "Cuidar de un perro anciano requiere atención especial para asegurar su bienestar y comodidad. Aquí te dejamos algunas pautas esenciales para su cuidado:<br><br>• Visitas al veterinario: Realiza chequeos regulares para monitorear su salud y detectar problemas a tiempo. Las pruebas de sangre y revisiones dentales son importantes.<br>• Dieta adecuada: Proporciona un alimento formulado para perros mayores, que sea fácil de digerir y contenga los nutrientes necesarios para su edad.<br>• Ejercicio suave: Mantén una rutina de ejercicio regular pero adaptada a su capacidad. Paseos cortos y juegos suaves son ideales.<br>• Comodidad en el hogar: Asegúrate de que tenga un lugar cómodo y cálido para descansar, preferiblemente con una cama ortopédica que brinde soporte.<br>• Cuidado dental: Mantén una buena higiene dental, ya que los perros mayores son propensos a problemas dentales. Cepilla sus dientes regularmente y considera limpiezas profesionales.<br>• Control de peso: Vigila su peso y ajusta su dieta y ejercicio para prevenir la obesidad, que puede agravar problemas de salud.<br>• Atención a los signos de dolor: Presta atención a cambios en su comportamiento, como falta de interés en actividades, dificultad para moverse o cambios en el apetito, que pueden indicar dolor o malestar."
+    },
+    {
+      "id": "e142",
+      "titulo": "¿Cómo alimentar adecuadamente a mi perro cachorro?",
+      "enfoque": "perro",
+      "imagen": "https://images.pexels.com/photos/8895723/pexels-photo-8895723.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "descripcion": "Alimentar a un cachorro de manera adecuada es crucial para su crecimiento y desarrollo saludable. Aquí tienes algunas pautas esenciales para asegurar una nutrición óptima:<br><br>• Elige un alimento específico: Opta por un alimento formulado especialmente para cachorros, ya que contiene los nutrientes necesarios para su crecimiento.<br>• Frecuencia de las comidas: Aliméntalo de 3 a 4 veces al día. A medida que crezca, puedes reducir la frecuencia a 2 comidas diarias.<br>• Porciones adecuadas: Sigue las recomendaciones del fabricante en cuanto a la cantidad de alimento, ajustando según el peso y la raza de tu cachorro.<br>• Agua fresca: Asegúrate de que siempre tenga acceso a agua limpia y fresca para mantenerlo hidratado.<br>• Evita alimentos peligrosos: No le des alimentos tóxicos para perros, como chocolate, cebolla o uvas. Consulta con tu veterinario para conocer más sobre esto.<br>• Consulta con el veterinario: Programa revisiones periódicas con el veterinario para asegurarte de que tu cachorro está creciendo adecuadamente y recibe la nutrición que necesita."
+    },
+    {
+      "id": "e144",
+      "titulo": "¿Qué tips puedo seguir para enseñar a mi perro a jugar?",
+      "enfoque": "perro",
+      "imagen": "https://img.freepik.com/foto-gratis/mujer-joven-toma-pelota-perro-boca_23-2147902047.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
+      "descripcion": "Enseñar a tu perro a jugar es una excelente manera de fortalecer el vínculo entre ustedes y proporcionar ejercicio mental y físico. Aquí tienes algunos consejos útiles:<br><br>• Elige los juguetes adecuados: Opta por juguetes que sean seguros y atractivos para tu perro, como pelotas, cuerdas o juguetes de peluche.<br>• Inicia con juegos simples: Comienza con juegos sencillos, como lanzar una pelota o tirar de una cuerda, para captar su interés.<br>• Usa refuerzo positivo: Premia a tu perro con golosinas o elogios cuando muestre interés en el juego. Esto le ayudará a asociar la actividad con experiencias positivas.<br>• Sé paciente: Cada perro aprende a su propio ritmo. Si no muestra interés de inmediato, no te desanimes. Prueba diferentes juegos o juguetes.<br>• Establece un horario de juego: Dedica tiempo diario a jugar con tu perro. Esto no solo refuerza el comportamiento de juego, sino que también fomenta la rutina.<br>• Juega con otros perros: Si es posible, permite que tu perro juegue con otros perros. Esto puede ayudar a socializarlo y enseñarle a jugar de manera apropiada.<br>• Varía los juegos: Introduce nuevos juegos y juguetes para mantener el interés de tu perro y estimular su mente."
+    },
+    {
+      "id": "e145",
+      "titulo": "¿Cómo hacer convivir a perros con gatos?",
+      "enfoque": "ambos",
+      "imagen": "https://img.freepik.com/fotos-premium/foto-gratis-mujer-joven-hermosa-su-encantador-gato-tabby-parque_812048-759.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
+      "descripcion": "Lograr que perros y gatos convivan en armonía puede requerir paciencia y estrategia. Aquí te ofrecemos algunos consejos para facilitar esta convivencia:<br><br>• Presentaciones graduales: Realiza las presentaciones entre el perro y el gato de manera gradual. Comienza con el gato en un lugar seguro, como una habitación cerrada, y permite que el perro lo vea desde la distancia.<br>• Control de la situación: Mantén al perro con correa durante las primeras interacciones para tener el control y evitar movimientos bruscos.<br>• Utiliza recompensas: Ofrece golosinas y elogios a ambos animales cuando se comporten de manera tranquila y amigable durante las presentaciones.<br>• Crea espacios separados: Asegúrate de que cada animal tenga su propio espacio donde pueda retirarse si se siente incómodo o amenazado.<br>• Supervisa las interacciones: Observa las interacciones al principio y no dejes que jueguen sin supervisión hasta que estés seguro de que se llevan bien.<br>• Fomenta el respeto mutuo: Enséñales a respetar el espacio del otro. Asegúrate de que el perro no persiga al gato y viceversa.<br>• Paciencia y tiempo: Cada animal es diferente. Puede tomar tiempo y varias sesiones de interacción para que se sientan cómodos el uno con el otro."
+    },
+    {
+      "id": "e146",
+      "titulo": "¿Cómo tranquilizar a un perro asustado por pólvora o ruidos fuertes?",
+      "enfoque": "perro",
+      "imagen": "https://images.pexels.com/photos/15448565/pexels-photo-15448565/free-photo-of-hombre-pareja-mujer-animal.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "descripcion": "Cuando un perro se asusta por ruidos fuertes, como petardos o tormentas, es importante actuar con calma y ofrecerle apoyo. Aquí te dejamos algunos consejos para ayudar a tranquilizarlo:<br><br><br>• Crea un refugio seguro: Proporciona un lugar donde tu perro se sienta seguro, como una caja o un espacio tranquilo en casa, donde pueda retirarse durante los ruidos.<br>• Mantén la calma: Tu propia tranquilidad puede influir en el comportamiento de tu perro. Habla en un tono suave y relajado.<br>• Usa música o ruido blanco: Reproduce música suave o ruido blanco para ayudar a enmascarar los ruidos aterradores y crear un ambiente más relajado.<br>• Distracción positiva: Ofrece juguetes o golosinas para distraer a tu perro y redirigir su atención durante los momentos de miedo.<br>• Entrenamiento de desensibilización: Con el tiempo, expón a tu perro a ruidos suaves de manera controlada, recompensándolo por permanecer tranquilo. Esto puede ayudar a reducir su miedo a largo plazo.<br>• Considera un abrigo de ansiedad: Los chalecos o abrigos de ansiedad pueden proporcionar una sensación de seguridad y ayudar a calmar a tu perro.<br>• Consulta al veterinario: Si el miedo de tu perro es severo, consulta a un veterinario sobre opciones de manejo del estrés o medicamentos para ayudar a calmarlo."
+    }
+  ]
+}
