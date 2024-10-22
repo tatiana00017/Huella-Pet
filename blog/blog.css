@@ -1,0 +1,857 @@
+.body-blog {
+    background-color: #F3F3F3;
+}
+
+.card-blog {
+    margin-top: 130px;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+    padding: 0px 2%;
+}
+
+.card-blog-opciones {
+    transition: background-color 0.5s ease-in-out; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b299847a;
+    border: 1px solid #b29984;
+    border-radius: 8px;
+    padding: 10px;
+    width: 360px;
+    height: 370px;
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    text-align: center;
+    transition: transform 0.7s ease;
+}
+
+.card-blog-opciones:hover{
+    transform: scale(1.05);
+    transition: transform 0.7s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} 
+
+.card-blog-opciones img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+}
+
+.titulo-blog-opciones{
+    font-size: 18px;
+    font-weight: bold;
+    color: #212529;
+    margin-top: 10px;
+    line-height: 1;
+}
+
+.texto-opciones-blog{
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.btn-blog-opciones{
+    background-color: #2F6A74;
+    margin-top: 10px;
+    width: 120px;
+    height: auto;
+    color: white;
+}
+
+.btn-blog-opciones:hover{
+    background-color: #398891;
+    color: #f0f7f9; 
+}
+
+.hidden {
+    opacity: 0;
+    position: absolute;
+}
+
+/* .hidden {
+    display: none;
+}  */
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    padding: 10px;
+    display: none; 
+    text-align: center;
+}
+
+.back-to-top.show {
+    display: block; 
+}
+
+
+/******************************* Seccion Adopcion *******/
+
+/**** contenedor *******/
+
+.contenedor-adopciones {
+    flex-direction: row;
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.tarjetas-adopciones{
+    flex-direction: row;
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 30px 30px;
+    margin-top: 45px;
+}
+
+/* Texto encabezaddo fijo*/
+
+.texto-fijo-adopcion {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center; 
+}
+
+#titulo-texto-fijo-adopcion, #eslogan-adopcion {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px; 
+    margin-bottom: 30px;
+    font-size: 30px; 
+    color: #2F6A74;
+}
+
+.container1-texto-adopcion {
+    width: 80%;
+    justify-content: center;
+    align-items: center;  
+}
+
+#info1-texto-fijo-adopcion {
+    text-align: center;
+    color: #2F6A74;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    margin-bottom: 30px;
+}
+
+.container2-texto-adopcion {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    border-radius: 8px;
+    padding: 20px; 
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    background-color: #b299847a;
+    border: 1px solid #b29984;
+}
+
+#subtitulo-texto-fijo-adopcion {
+    font-weight: bold;
+    font-size: 24px; 
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+#info2-texto-fijo-adopcion{
+    width: 90%; 
+    text-align: center;
+}
+
+.btn-requisitos, .btn-form-adopcion{
+    background-color: #2F6A74;
+    margin-top: 15px;
+    width: 120px;
+    height: auto;
+    color: white;
+}
+
+.btn-requisitos:hover, .btn-form-adopcion:hover{
+    background-color: #398891;
+    color: #f0f7f9; 
+}
+
+.botones-adopcion {
+    display: flex; 
+    padding: 0;
+    gap: 5px;
+    width: 300px;
+}
+
+.botones-adopcion .text-center {
+    flex: 1; 
+    display: flex; 
+    align-items: center;  
+    justify-content: center;    
+}
+
+#eslogan-adopcion{
+    margin-top: 0;  
+}
+
+.linea-adopcion {
+    border: none;
+    border-top: 2px dashed #2F6A74; 
+    opacity: 1;
+}
+
+
+/** tarjetas adopcion ****/
+
+.card-adopcion{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0%;
+    width: 610px;
+    height: 412px;
+    box-shadow: 0 2px 5px #398891;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.card-elementos-adopcion {
+    width: 95%;
+    height: 90%; 
+    overflow: hidden;
+}
+
+
+/**** imagen *******/
+
+.contenedor-carrusel-adopcion{
+    width: 35%;
+    height: 100%;
+} 
+
+.contenedor-slide{
+    width: 100%;
+    height: 100%;
+}
+
+.card-carrusel-adopcion {
+    width: 100%;
+    height: 100%; 
+    border-radius: 8px;
+    margin-left: 0% ;
+}
+
+.card-carrusel-adopcion img {
+    width: 100%;
+    height: 100%; 
+    border-radius: 8px;
+    object-fit: cover;
+}
+    
+.carrusel-adopcion{
+    width: 100%;
+    height: 100%;
+}
+
+/**** Texto *******/
+
+.contenedor-descripcion-adopcion{
+    width: 65%;
+    height: 100%; 
+}
+
+.body-descripcion{
+    line-height: 1;
+    background-color:#2F6A74;
+    border-radius: 8px;
+    padding: 20px 20px;
+    margin-left: 15px;
+    color: white;
+    height: 332px;
+}
+
+.nombre-animal{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: #2F6A74;
+    margin-bottom: 15px;
+}
+
+#datos-adopcion{
+    margin-left: 10px;
+}
+
+.condiciones-animal{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.descripcion-animal{
+    text-align: justify;
+    line-height: 1;
+    height: 55%;
+    
+}
+
+/********** Modal Requisitos adopcion ************/
+
+.modal-requisitos {
+    display: none; 
+    position: fixed; 
+    z-index: 998; 
+    left: 0;
+    top: 0; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    width: 100%; 
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .modal-content-requisitos {
+    background-color: #fefefe;
+    padding: 20px;
+    padding-top: 35px;
+    width: 500px;
+    color: #2F6A74;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    position: relative;
+
+  }
+
+.cerrar-requisitos{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    right: 20px;
+} 
+  
+.requisitos {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: start;
+    margin: 20px 20px; 
+}
+
+.requisitos li {
+    padding-left: 10px; 
+    position: relative; 
+}
+
+.requisitos li::before {
+    content: "•"; 
+    position: absolute; 
+    left: 0; 
+    font-weight: bold;
+}
+
+#nota-requisitos{
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 20px;
+
+}
+
+/********** Modal formulario adopcion ************/
+
+.modal-FormAdopcion {
+    display: none; 
+    position: fixed; 
+    z-index: 998; 
+    left: 0;
+    top: 0; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    width: 100%; 
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+.modal-content-FormAdopcion {
+    background-color: #fefefe;
+    padding: 20px;
+    width: 820px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.modal-content-FormAdopcion form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+  }
+
+.modal-content-FormAdopcion form div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: black;  
+    
+  }
+
+#titulo-formulario-adopcion{
+    color: #2F6A74;
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+.input-adopcion{
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    outline: 0;
+    transition: border-color 0.9s;
+  }
+
+.input-adopcion:focus{
+    border: 2px solid #2F6A74;
+}
+
+.input-nucleoFamiliar{
+    width: 500px;
+    height: 100px;
+    border-radius: 8px;
+  }
+
+.input-nucleoFamiliar :focus{
+    border: 2px solid #2F6A74;
+}  
+
+.cerrar-formadopcion{
+    position: absolute;
+    cursor: pointer;
+    top: 12%;
+    right: 25%;
+} 
+
+.btn-submit-adoptar{
+    background-color: #2F6A74;
+    margin: 30px 0;
+    width: 120px;
+    height: auto;
+    color: white;
+}
+
+.btn-submit-adoptar:hover{
+    background-color: #398891;
+    color: #f0f7f9; 
+}
+
+#nota-formAdopcion{
+    line-height: 1;
+    margin: 0 20px;
+    margin-bottom:  20px;
+    color: #2F6A74;
+    text-align: justify;
+} 
+
+/******************************* Seccion Eventos *******/
+
+.contenedor-eventos {
+    flex-direction: row;
+    width: 100%;
+    gap: 30px 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    margin: 10px 0; 
+}
+
+/* Texto encabezaddo fijo*/
+
+.texto-fijo-eventos {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#titulo-texto-fijo-eventos, #eslogan-eventos {
+    font-weight: bold;
+    font-size: 30px; 
+    color: #2F6A74;
+    margin-bottom: 30px;
+}
+
+.container1-texto-eventos {
+    width: 80%; 
+    height: auto;
+    margin: 0 auto; 
+}
+
+#info1-texto-fijo-eventos {
+    text-align: center;
+    color: #2F6A74;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    margin-bottom: 30px;
+}
+
+.container2-texto-eventos {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    border-radius: 8px;
+    padding: 20px; 
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    background-color: #b299847a;
+    border: 1px solid #b29984;
+}
+
+#subtitulo-texto-fijo-eventos {
+    font-weight: bold;
+    font-size: 24px; 
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#info2-texto-fijo-eventos{
+    width: 90%; 
+    text-align: center;
+}
+
+#eslogan-eventos{
+    margin-top: 0;
+    line-height: 1;
+}
+
+.linea-eventos {
+    border: none;
+    border-top: 2px dashed #2F6A74; /* Línea punteada */
+    margin: 25px 0;
+    opacity: 1;
+}
+
+/** tarjetas eventos ****/
+
+.contenedor-eventos {
+    flex-direction: row;
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.tarjetas-eventos{
+    flex-direction: row;
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 30px 30px;
+    margin-top: 30px;
+
+}
+
+.card-eventos{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    width: 430px;
+    height: 800px;
+    box-shadow: 0 2px 5px #398891;
+}
+
+.card-elementos-eventos {  
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    background-color: white;
+}
+
+.img-evento{
+    /* width: 100%;
+    height: 50%;  */
+
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+
+    /* width: 100%;
+    height: auto; */
+}
+
+/**** Texto *******/ 
+
+.body-informacion-evento{
+    padding: 0;
+    width: 100%;
+}
+
+.datos-evento{
+    background-color: #2F6A74;
+    border-radius: 8px;
+    color: white;
+    margin: 15px 15px;
+    padding: 15px;
+
+    
+}
+
+.titulo-evento{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 15px;
+}
+
+.fecha-evento{
+    text-align: center; 
+    line-height: 1; 
+}
+
+.descripcion-evento{
+    text-align: justify;
+    color: #2F6A74;
+    margin: 15px 15px;   
+    line-height: 1; 
+}
+
+
+
+/******************************* Seccion Educacion *******/
+
+.contenedor-educacion {
+    flex-direction: row;
+    width: 100%;
+    gap: 30px 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    margin: 10px 0; 
+}
+
+/* Texto encabezaddo fijo*/
+
+.texto-fijo-educacion {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#titulo-texto-fijo-educacion, #eslogan-educacion {
+    font-weight: bold;
+    margin-top: 45px; 
+    margin-bottom: 30px; 
+    font-size: 30px; 
+    color: #2F6A74;
+}
+
+.container1-texto-educacion {
+    width: 60%; 
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#info1-texto-fijo-educacion {
+    text-align: center;
+    color: #2F6A74;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    margin-bottom: 30px;
+}
+
+
+/*** Opciones, perro gato */
+
+.container2-botones-educacion {
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    color: white;
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(167, 36, 36, 0.1);
+    background-color: #b299847a;
+    border: 1px solid #b29984;
+}
+
+.fila-botones-educacion {
+    display: flex; 
+    align-items: center;  
+    justify-content: center; 
+    gap: 50px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap; 
+}
+
+.columna-perro, .columna-gato, .columna-ambos {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#carrusel-blog-eduacion {
+    overflow: hidden; 
+}
+
+#carousel-item-eduacion img {
+    object-fit: contain; 
+
+}
+
+.tamaño-img {
+    border-radius: 50%; 
+}
+
+.btn-submit-perro, .btn-submit-gato, .btn-submit-ambos {
+    background-color:#2F6A74;
+    width: 120px;
+    margin-top: 10px;
+    height: auto;
+    color: white;
+    cursor: pointer;
+    position: relative; 
+    z-index: 10; 
+}
+
+.btn-submit-perro:hover, .btn-submit-gato:hover, .btn-submit-ambos:hover{
+    background-color: #398891;
+    color: #f0f7f9; 
+}
+
+
+/********/
+
+
+.linea-educacion {
+    border: none;
+    border-top: 2px dashed #2F6A74; 
+    opacity: 1;
+    margin-top: 45px;
+}
+
+
+#eslogan-educacion{
+    margin-top: 0;
+    line-height: 1;
+}
+
+
+/** tarjetas eventos ****/
+
+.contenedor-educacion {
+    flex-direction: row;
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+
+}
+
+.tarjetas-educacion{
+    flex-direction: row;
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 30px 30px;
+    margin-top: 5px;
+}
+
+.card-educacion{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    width: 80%;
+    height: auto;
+    
+}
+
+.card-elementos-educacion {  
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #398891;
+
+}
+
+.img-educacion{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/**** Texto *******/ 
+
+.container-informacion-educacion{
+    padding: 20px;
+}
+
+.body-informacion-educacion{    
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color:#2F6A74;
+}
+
+.titulo-educacion{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; 
+    color: #2F6A74;
+    margin: 20px 0;
+
+}
+
+.descripcion-educacion{
+    display: flex;
+    border-radius: 8px;
+    color: white;
+    text-align: justify;
+ 
+    
+}
+
+
+
+
+/************************/
+
+
+
+

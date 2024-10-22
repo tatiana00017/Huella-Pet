@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "fullcalendar": "^6.1.15",
     "json-server": "^1.0.0-beta.3"
   }
 }
