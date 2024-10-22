@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
+  <title>HuellaPet Blog</title>
 
   <!-- Calendario-->
   <link href='https://unpkg.com/@fullcalendar/common@5.11.3/main.min.css' rel='stylesheet' />
@@ -30,9 +30,11 @@
   <!-- Hoja de estilos -->
   <link rel="stylesheet" href="../index.css">
   <link rel="stylesheet" href="./blog.css">
+  <link rel="stylesheet" href="../carrito/carrito.css">
   <!-- Estilos login -->
   <link rel="stylesheet" href="../inicioSesion/login.css">
 
+  <link rel="stylesheet" href="blog.html">>
 </head>
 
 <body class="body-blog">
@@ -66,8 +68,11 @@
             <h6 class="btnInicio-login"> <i class="fa-solid fa-user icon-nav "></i> Iniciar Sesión</h6>
           </a>
           <h6 class="icon-nav"><i class="fa-solid fa-location-dot "></i> Bogotá</h6>
-          <a href="../carrito/carrito.html">
-            <h6 href="" class=""> <i class="fa-solid fa-cart-shopping icon-nav"></i>Comprar</h6>
+          <a>
+            <h6 class="btn-carrito"> 
+              <i class="fa-solid fa-cart-shopping icon-nav"></i>Comprar
+              <span id="cart-count" class="cart-count">0</span>
+            </h6>
           </a>
         </div>
       </div>
@@ -75,9 +80,9 @@
 
     <section class="nav2">
 
-      <div>
-        <i class="fa-solid fa-layer-group" style="color: #ffffff;"></i>
-        <h6 class="boton-categorias"> Categorias</h6>
+      <div class="boton-categorias">
+        <i class="fa-solid fa-layer-group fa-beat" style="color: #ffffff;"></i>
+        <h6> Categorias</h6>
       </div>
       <div>
         <a href="../mundoOfertas/mundoOfertas.html">
@@ -92,13 +97,13 @@
         </a>
       </div>
       <div>
-        <a href="../misCompras/misCompras.html">
+        <a href="../misCompras/misCompras.html" id="mis-compras">
           <i class="fa-solid fa-cart-arrow-down" style="color: #ffffff;"></i>
           <h6>Mis Compras</h6>
         </a>
       </div>
       <div>
-        <a href="./blog.html">
+        <a href="../blog/blog.html">
           <i class="fa-brands fa-blogger" style="color: #ffffff;"></i>
           <h6>Blog</h6>
         </a>
@@ -147,7 +152,7 @@
       <form action="" id="loginForm">
 
         <div class="input-form">
-          <input type="email" placeholder="Esciba su correo electrónico" id="correo-login" required outofocus>
+          <input type="email" placeholder="Escriba su correo electrónico" id="correo-login" required outofocus>
         </div>
 
         <div class="input-form">
@@ -181,6 +186,9 @@
       </form>
 
     </section>
+
+    <!-- Registro -->
+
     <section class="registro-container mostrar-registro">
       <i class="fa-solid fa-xmark fa-xl cerrar-registro" style="color: #2F6A74;"></i>
 
@@ -189,15 +197,20 @@
       <form action="" id="registroForm">
 
         <div class="input-form">
-          <input type="texto" placeholder="Esciba sus nombres y apellidos" id="nombreApellido" required outofocus>
+          <input type="texto" placeholder="Escriba sus nombres y apellidos" id="nombreApellido" required outofocus>
         </div>
 
         <div class="input-form">
-          <input type="email" placeholder="Esciba su correo electronico" id="correo-registro" required outofocus>
+          <input type="email" placeholder="Escriba su correo electronico" id="correo-registro" required outofocus>
         </div>
 
         <div class="input-form">
-          <input type="password" placeholder="Esciba su contraseña" id="password-registro" required>
+          <input type="password" placeholder="Escriba su contraseña" id="password-registro" required>
+          <button type="button" id="togglePassword" aria-label="Mostrar contraseña">
+            <i class="fa-solid fa-eye fa-shake icono-contraseña" style="color: #2F6A74;"></i>
+            <i class="fa-solid fa-eye-slash icono-contraseña" style="color: #2F6A74; display: none;"></i>
+          </button>
+          <h5 class="condicion-contraseña">Debe contener al menos 8 caracteres y una mayuscula *</h5>
         </div>
 
         <p class="mascota">¿Tienes mascota?</p>
@@ -212,14 +225,16 @@
         </div>
 
         <div class="tyc">
-          <input type="checkbox" name="condiciones" value="condiciones">
-          <label for="condiciones"> Acepto términos y condiciones y autorizo tratamiento de datos y
-            politicas.</label>
+          <input type="checkbox" name="condiciones" value="condiciones" required>
+          <label for="condiciones"> Acepto términos y condiciones y autorizo <a
+              href="https://drive.google.com/file/d/1L_bXOPT4kBmFB6Wgdw8wjVUI033o7i6S/view?usp=sharing"
+              target="_blank">tratamiento de datos y
+              politicas.</a></label>
         </div>
 
         <button type="submit" class="login-button">Crear Cuenta</button>
 
-        <button id="login-registro" class="registro-link">¿ ya tienes una cuenta? <strong><b>Inicia
+        <button id="login-registro" class="registro-link">¿Ya tienes una cuenta? <strong><b>Inicia
               Sesión</b></strong></button>
 
         <div class="opcion-redes">
@@ -240,6 +255,22 @@
 
     </section>
   </div>
+
+<!-- Carrito de compras ----------------------------------------->
+
+<div class="modal-carrito">
+  <section class="carrito-container" >
+    <i class="fa-solid fa-xmark fa-xl cerrar-carrito" style="color: #2F6A74;"></i>
+    <h4 class="titulo-carrito">Carrito</h4>
+    <div id="productos-carrito">
+      <!-- muestra productos en el carrito -->
+    </div>
+    <button class="boton-carrito-compras" id="vaciar-carrito-btn">Vaciar Carrito</button>
+    <div id="total-carrito">
+      <h5 id="continuar-compra-btn">Continuar Compra <span id="total-precio">$0</span></h5>
+    </div>
+  </section>
+</div>
 
    <!--------- Menu blog---------------------------->
    
@@ -625,10 +656,12 @@
     </div>
   </footer>
 
-
+  <script src="../misCompras/misCompras.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="../inicioSesion/loginRegistro.js"></script>
+  <script src="../inicioSesion/modalLogin.js"></script> 
   <script src="./modalRequisitosAdopcion.js"></script>
   <script src="./formularioBlog/new.js"></script>
   <script src="./modalFormAdopcion.js"></script>
@@ -636,7 +669,10 @@
   <script src="../inicioSesion/loginRegistro.js"></script>
   <script src="../inicioSesion/modalLogin.js"></script> 
   <script src="./formularioBlog/formularioBlog.js"></script>
+  <script src="../carrito/carrito.js"></script>
+  <script src="../categoria/formularioProducto/formulario.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 
