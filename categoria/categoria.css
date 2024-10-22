@@ -15,6 +15,17 @@
     object-fit: cover;
 }
 
+.fav-icon{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+
+}
+
+.fav-iconVacio{
+    display: none;
+}
+
 #mostrar-productos{
     display: flex;
     justify-content: center;

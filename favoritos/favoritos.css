@@ -1,0 +1,67 @@
+.mostrar-publicidad {
+    margin: 140px auto 0;
+    width: 70%; 
+    overflow: hidden; 
+}
+
+.mostrar-publicidad img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+h2.text-center.mb-4 {
+    color: #2F6A74 !important;
+}
+
+.alert1 {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #e7f3fe;
+    color: #31708f;
+    text-align: center;
+}
+
+
+#productos-favoritos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 15px; /* Mejora la apariencia de la tarjeta */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+    height: auto; 
+}
+
+.card-title {
+    font-size: 1.25rem; /* Tamaño de fuente del título */
+}
+
+.card-text {
+    font-size: 1rem; /* Tamaño de fuente del texto */
+}
+
+@media(max-width: 991px){
+    .mostrar-publicidad {
+        margin: 100px auto 0; 
+    }
+    .mostrar-publicidad {
+        width: 100%;
+    }
+}
+

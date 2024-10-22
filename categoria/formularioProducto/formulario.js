@@ -11,54 +11,67 @@ document.addEventListener("DOMContentLoaded", function () {
     mostrarProductos(categoria);
   }
 
-  // Mostrar productos filtrados por categoría
-  function mostrarProductos(categoria) {
-    fetch("http://localhost:3000/productos")
-      .then((response) => response.json())
-      .then((data) => {
-        const productosFiltrados = data.filter(
-          (producto) => producto.categoria === categoria
-        );
-        const cards = productosFiltrados
-          .map((producto) => {
-            const precioFormateado = producto.precio.toLocaleString("es-ES");
-            return `
-                <div class="card container-card" style="width: 17rem;">
-                  <img src="${
-                    producto.imagen
-                  }" class="card-img-top imagen-product" alt="${
-              producto.nombre
-            }">
-                  <div class="card-body card-info-product">
-                    <h5 class="card-title title-product">${producto.nombre}</h5>
-                    <p class="card-text descrpcion-product">${
-                      producto.descripcion
-                    }</p>
-                    <h5 class="precio-product">$ ${precioFormateado}</h5>
-                    <div class="content-boton">
-                      <button class="boton-huellapet agregar-carrito-btn" data-producto='${JSON.stringify(
-                        producto
-                      )}'>Agregar al carrito</button>
-                    </div>
+   // Mostrar productos filtrados por categoría
+function mostrarProductos(categoria) {
+  fetch("http://localhost:3000/productos")
+    .then((response) => response.json())
+    .then((data) => {
+      const productosFiltrados = data.filter(
+        (producto) => producto.categoria === categoria
+      );
+      const cards = productosFiltrados
+        .map((producto) => {
+          const precioFormateado = producto.precio.toLocaleString("es-ES");
+          const esFavorito = localStorage.getItem(`favorito_${producto.id}`) === "true"; // Chequear si es favorito
+          
+          return `
+              <div class="card container-card" style="width: 17rem;">
+                <img src="${producto.imagen}" class="card-img-top imagen-product" alt="${producto.nombre}">
+                <div class="card-body card-info-product">
+                  <i class="fa-heart fa-xl fav-icon ${esFavorito ? 'fa-solid' : 'fa-regular'}" style="color: #2F6A74;" data-id="${producto.id}"></i>                 
+                  <h5 class="card-title title-product">${producto.nombre}</h5>
+                  <p class="card-text descrpcion-product">${producto.descripcion}</p>
+                  <h5 class="precio-product">$ ${precioFormateado}</h5>
+                  <div class="content-boton">
+                    <button class="boton-huellapet agregar-carrito-btn" data-producto='${JSON.stringify(producto)}'>Agregar al carrito</button>
                   </div>
                 </div>
-              `;
-          })
-          .join("");
-        contenedorProductos.innerHTML = cards;
+              </div>
+            `;
+        })
+        .join("");
+      contenedorProductos.innerHTML = cards;
 
-        // Agregar event listener a todos los botones de "Agregar al carrito"
-        const botonesCarrito = document.querySelectorAll(
-          ".agregar-carrito-btn"
-        );
-        botonesCarrito.forEach((boton) => {
-          boton.addEventListener("click", function () {
-            const producto = JSON.parse(this.getAttribute("data-producto"));
-            agregarAlCarrito(producto);
-          });
+      // Agregar event listener a todos los botones de "Agregar al carrito"
+      const botonesCarrito = document.querySelectorAll(".agregar-carrito-btn");
+      botonesCarrito.forEach((boton) => {
+        boton.addEventListener("click", function () {
+          const producto = JSON.parse(this.getAttribute("data-producto"));
+          agregarAlCarrito(producto);
         });
       });
-  }
+
+      // Agregar event listener a todos los íconos de "Agregar a favoritos"
+      const iconosFavoritos = document.querySelectorAll(".fav-icon");
+      iconosFavoritos.forEach((icono) => {
+        icono.addEventListener("click", function () {
+          const productoId = this.getAttribute("data-id");
+          const esFavorito = localStorage.getItem(`favorito_${productoId}`) === "true";
+
+          // Alternar entre el icono vacío y lleno
+          this.classList.toggle("fa-regular");
+          this.classList.toggle("fa-solid");
+
+          // Actualizar el estado en localStorage
+          if (esFavorito) {
+            localStorage.setItem(`favorito_${productoId}`, "false");
+          } else {
+            localStorage.setItem(`favorito_${productoId}`, "true");
+          }
+        });
+      });
+    });
+}
 
   // Función para agregar al carrito
   function agregarAlCarrito(producto) {
