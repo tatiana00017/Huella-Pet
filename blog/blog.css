@@ -1,5 +1,11 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .body-blog {
     background-color: #F3F3F3;
+    overflow-x: hidden;
 }
 
 .card-blog {
@@ -113,6 +119,7 @@
     flex-wrap: wrap; 
     gap: 30px 30px;
     margin-top: 45px;
+
 }
 
 /* Texto encabezaddo fijo*/
@@ -131,6 +138,11 @@
     margin-bottom: 30px;
     font-size: 30px; 
     color: #2F6A74;
+}
+
+#titulo-texto-fijo-adopcion{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .container1-texto-adopcion {
@@ -221,11 +233,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    /* background-color: white; */
+    background-image: url('../img/fondo-adopcion.png');  
     border-radius: 8px;
     padding: 0%;
-    width: 610px;
-    height: 412px;
+    width: 590px;
+    height: 410px;
     box-shadow: 0 2px 5px #398891;
     transition: background-color 0.5s ease-in-out;
 }
@@ -234,6 +247,8 @@
     width: 95%;
     height: 90%; 
     overflow: hidden;
+    
+    
 }
 
 
@@ -275,16 +290,6 @@
     height: 100%; 
 }
 
-.body-descripcion{
-    line-height: 1;
-    background-color:#2F6A74;
-    border-radius: 8px;
-    padding: 20px 20px;
-    margin-left: 15px;
-    color: white;
-    height: 332px;
-}
-
 .nombre-animal{
     font-weight: bold;
     text-align: center;
@@ -293,20 +298,40 @@
     margin-bottom: 15px;
 }
 
+.body-adopcion-descripcion{
+    line-height: 1;
+    background-color:#2F6A74;
+    border-radius: 8px;
+    padding: 20px 20px;
+    margin-left: 15px;
+    height: 89.5%;
+
+}
+
 #datos-adopcion{
-    margin-left: 10px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.info-animal{
+    color: white;
+    font-size: 15px;
+    margin-top: 0;
 }
 
 .condiciones-animal{
     margin: 10px 0;
     text-align: justify;
+    color: white;
+    font-size: 15px;
 }
 
 .descripcion-animal{
     text-align: justify;
     line-height: 1;
     height: 55%;
-    
+    color: white;
+    font-size: 15px;    
 }
 
 /********** Modal Requisitos adopcion ************/
@@ -570,7 +595,6 @@
     flex-wrap: wrap; 
     gap: 30px 30px;
     margin-top: 30px;
-
 }
 
 .card-eventos{
@@ -578,9 +602,10 @@
     align-items: center;
     justify-content: center;
     padding: 0%;
-    width: 430px;
-    height: 800px;
+    width: 350px;
     box-shadow: 0 2px 5px #398891;
+    border-radius: 8px;
+   
 }
 
 .card-elementos-eventos {  
@@ -591,15 +616,9 @@
 }
 
 .img-evento{
-    /* width: 100%;
-    height: 50%;  */
-
     border-radius: 8px;
     width: 100%;
     height: auto;
-
-    /* width: 100%;
-    height: auto; */
 }
 
 /**** Texto *******/ 
@@ -612,7 +631,6 @@
 .datos-evento{
     background-color: #2F6A74;
     border-radius: 8px;
-    color: white;
     margin: 15px 15px;
     padding: 15px;
 
@@ -623,12 +641,15 @@
     text-align: center;
     font-size: 24px;
     font-weight: bold; 
-    margin-bottom: 15px;
+    margin-bottom: 0;
+    color: white;
 }
 
 .fecha-evento{
     text-align: center; 
     line-height: 1; 
+    font-size: 16px;
+    color: white;
 }
 
 .descripcion-evento{
@@ -636,6 +657,7 @@
     color: #2F6A74;
     margin: 15px 15px;   
     line-height: 1; 
+    font-size: 16px;
 }
 
 
@@ -778,6 +800,7 @@
     justify-content: center; 
     flex-wrap: wrap; 
 
+
 }
 
 .tarjetas-educacion{
@@ -797,13 +820,13 @@
     padding: 0%;
     width: 80%;
     height: auto;
-    
 }
 
 .card-elementos-educacion {  
     width: 100%;
     overflow: hidden;
-    background-color: white;
+    /* background-color: white; */
+    background-image: url('../img/fondo-educacion.png'); 
     border-radius: 8px;
     box-shadow: 0 2px 5px #398891;
 
@@ -835,6 +858,7 @@
     font-weight: bold; 
     color: #2F6A74;
     margin: 20px 0;
+    line-height: 1;
 
 }
 
@@ -843,15 +867,40 @@
     border-radius: 8px;
     color: white;
     text-align: justify;
+    line-height: 1;
+    font-size: 16px;
+    margin: 0;
  
-    
 }
 
+.lista-puntos {
+    list-style-type: none; 
+    padding: 0; 
+    color: white;
+    text-align: justify; 
+}
 
+.lista-puntos li {
+    position: relative;
+    padding-left: 20px; 
+    line-height: 1; 
+}
 
+.lista-puntos li::before {
+    content: "•"; 
+    position: absolute;
+    left: 0; 
+    color: white; 
+    font-size: 1.2em; 
+}
 
 /************************/
 
+@media(max-width: 767px) {
+    #datos-adopcion {
+        margin-left: 0;
+    } 
+}    
 
 
 

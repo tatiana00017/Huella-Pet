@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
                 <div class="col-md-7 contenedor-descripcion-adopcion">
                     <h5 class="card-title nombre-animal">${data.nombre}</h5>
-                    <div class="card-body body-descripcion">
+                    <div class="card-body body-adopcion-descripcion">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <div class="contenedor-datos-adopcion">
