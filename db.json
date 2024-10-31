@@ -33,7 +33,7 @@
       "categoria": "Accesorios",
       "precio": 376785,
       "descripcion": "Dispensador de Comida Inteligente Doble Platón",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/fdb24e834f161ddf6ea7ae746b5b49cf_1710519475.jpg",
+      "imagen": "https://img.kwcdn.com/product/fancy/f14a0d41-3a57-480f-99db-64a6b98359ab.jpg?imageView2/2/w/800/q/70/format/webp",
       "disponibilidad": true
     },
     {
@@ -96,7 +96,7 @@
       "categoria": "Farmacia",
       "precio": 50000,
       "descripcion": "¡Protege a tu perro y a tu familia con NexGard®!, esta tableta masticable contra parásitos ofrece una solución mensual efectiva y segura para combatir pulgas y garrapatas. ¡Y lo mejor de todo es que a tu perro le encantará!",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/799bad5a3b514f096e69bbc4a7896cd9_1696601684.jpg",
+      "imagen": "https://kanu.vtexassets.com/arquivos/ids/167932-800-auto?v=638447377035200000&width=800&height=auto&aspect=true",
       "disponibilidad": true
     },
     {
@@ -105,15 +105,15 @@
       "categoria": "Farmacia",
       "precio": 70000,
       "descripcion": "¿Quieres ver a tu mascota disfrutar de una vida más saludable y activa? Imagina cómo sería si pudieras aliviar su dolor y mejorar su calidad de vida de manera natural. Traumeel ad us vet Tabletas es la respuesta que estabas buscando.",
-      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/10053_144346_Traumeel_Gotas_1647268581_500x500.jpg",
+      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/157281-1000-1000/traumeel-ad-us-vet-tabletas-x-50-comprimidos.jpg?v=636887057316670000",
       "disponibilidad": true
     },
     {
       "id": "3f",
-      "nombre": "SUPLEMENTO VETERINARIO RENALOF",
+      "nombre": "Suplemento Veterinario Renalof",
       "categoria": "Farmacia",
       "precio": 97500,
-      "descripcion": "SUPLEMENTO VETERINARIO RENALOF",
+      "descripcion": "Suplemento Veterinario Renalof",
       "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/161256-1200-auto?v=637696532643470000&width=1200&height=auto&aspect=true",
       "disponibilidad": true
     },
@@ -132,7 +132,7 @@
       "categoria": "Farmacia",
       "precio": 18500,
       "descripcion": "¿Quieres ayudar a tu mascota a enfrentar los desafíos emocionales con una solución natural y armonizadora? Introducimos EF STRESS SPRAY 250ML de Magnovet, exclusivamente en Animal's Veterinaria, diseñado para tranquilizar a tu compañero peludo o emplumado. Este spray vibracional de esencias florales, no solo modula los estados emocionales sino que también armoniza el campo energético de tu mascota, brindando un refugio de paz en momentos de cambio o enfermedad.",
-      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/9623_160560_Esencia_Floral_Paz_Y_Calma_1652908396_500x500.jpg",
+      "imagen": "https://www.siu-tutuava.com/wp-content/uploads/2021/09/Paz-y-Calma.png",
       "disponibilidad": true
     },
     {
@@ -140,17 +140,17 @@
       "nombre": "Suplemento Alimenticio ",
       "categoria": "Farmacia",
       "precio": 57500,
-      "descripcion": "SUPLEMENTO ALIMENTICIO CONDROMEG",
-      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/80e3b6178319591c690052e94be3c811_1690404717.jpg",
+      "descripcion": "Suplemento Alimenticio Condromeg",
+      "imagen": "https://animalhouse.com.co/tienda/img/p/1/0/0/0/0/3/8/9/1/100003891-large_default.jpg",
       "disponibilidad": true
     },
     {
       "id": "7f",
-      "nombre": "CUTAMYCON VF",
+      "nombre": "Cutamycon VF",
       "categoria": "Farmacia",
       "precio": 18200,
       "descripcion": "¿Sabías que la solución para esas molestas afecciones de piel en tus animales está a solo un clic de distancia?En Animal's Veterinaria, tu tienda de confianza, te traemos la revolución dermatológica: CUTAMYCON VF. Esta no es una crema cualquiera, es la aliada perfecta que has estado buscando para tus bovinos, equinos, perros y gatos.",
-      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/163035-1200-auto?v=638103677288670000&width=1200&height=auto&aspect=true",
+      "imagen": "https://petcol.co/cdn/shop/products/PRODUCTO_dd28032a-7a1c-4d42-9363-bc621a556546_540x.png?v=1570448637",
       "disponibilidad": true
     },
     {
@@ -173,10 +173,10 @@
     },
     {
       "id": "10f",
-      "nombre": "ENGYSTOL",
+      "nombre": "Engystol",
       "categoria": "Farmacia",
       "precio": 82400,
-      "descripcion": "ENGYSTOL",
+      "descripcion": "Engystol",
       "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/157559-1200-auto?v=638040558526300000&width=1200&height=auto&aspect=true",
       "disponibilidad": true
     },
@@ -186,7 +186,7 @@
       "categoria": "Alimento",
       "precio": 5200,
       "descripcion": "Alimento Crudo Para Perro Whole Barf Tasty Tilapia - 500 Gr",
-      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/181879-150-150/alimento-crudo-para-perro-whole-barf-tasty-tilapia-1.png?v=637914385798970000",
+      "imagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacCO/560722/w=1036,h=832,f=webp,fit=contain,q=85",
       "disponibilidad": true
     },
     {
@@ -195,7 +195,7 @@
       "categoria": "Alimento",
       "precio": 156510,
       "descripcion": "Alimento Para Perro Agility Gold Pequeños Adultos Piel - 1.5 Kg",
-      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/185225-210-210/agilitygoldfront.png?v=638071491297230000",
+      "imagen": "https://www.agrocampo.com.co/media/catalog/product/cache/d51e0dc10c379a6229d70d752fc46d83/1/1/111103037_ed-min.jpg",
       "disponibilidad": true
     },
     {
@@ -222,7 +222,7 @@
       "categoria": "Alimento",
       "precio": 6000,
       "descripcion": "Alimento Húmedo Para Perro Pouch Wow Can Sabor Pollo - 300 Gr",
-      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/176738-1000-1000/wow-can-pollo.png?v=637692156538100000",
+      "imagen": "https://www.agrocampo.com.co/media/catalog/product/cache/c49bee17ef1a166135589f0329fd61b1/1/1/111104164-min.jpg",
       "disponibilidad": true
     },
     {
@@ -231,7 +231,7 @@
       "categoria": "Alimento",
       "precio": 3150,
       "descripcion": "Alimento Húmedo Para Gato Felix Classic Atún - 85 Gr",
-      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/169911-1000-1000/7501072209801_FX_ATUNSALSA_Pouch_85g_F.png?v=637453773325630000",
+      "imagen": "https://static.wixstatic.com/media/8bd906_1178e7384b1c4bc4ae6c18bba208eb90~mv2.png/v1/fill/w_560,h_560,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8bd906_1178e7384b1c4bc4ae6c18bba208eb90~mv2.png",
       "disponibilidad": true
     },
     {
@@ -258,7 +258,7 @@
       "categoria": "Alimento",
       "precio": 5700,
       "descripcion": "Alimento Húmedo Gatofancy Feast Mousse Pescado Y Camarón - 3 Onzas",
-      "imagen": "https://puppiscolombia.vteximg.com.br/arquivos/ids/161090-150-150/_59A1523.jpg?v=637274294096400000",
+      "imagen": "https://animalsveterinaria.vtexassets.com/arquivos/ids/157720-800-auto?v=638066127891300000&width=800&height=auto&aspect=true",
       "disponibilidad": true
     },
     {
@@ -267,7 +267,7 @@
       "categoria": "Alimento",
       "precio": 30900,
       "descripcion": "Alimento Para Gato BR Cat Castrados - 1 Kg",
-      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/ba528f6232e621530cc5d058b6e837dc_1691700604.jpg",
+      "imagen": "https://www.agrocampo.com.co/media/catalog/product/cache/d51e0dc10c379a6229d70d752fc46d83/3/5/353501047_ed-min.jpg",
       "disponibilidad": true
     },
     {
@@ -285,7 +285,7 @@
       "categoria": "Cuidado",
       "precio": 20600,
       "descripcion": "CanAmor - Talco baño seco",
-      "imagen": "https://laika.com.co/cdn-cgi/image/fit=scale-down,width=250,format=auto,quality=80,onerror=redirect/https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/3738_36200_TALCO_CANAMOR_DESODORANTE_1609619051_213x278.png",
+      "imagen": "https://canamor.com/wp-content/uploads/2024/06/Talco_Cao.png",
       "disponibilidad": true
     },
     {
@@ -303,7 +303,7 @@
       "categoria": "Cuidado",
       "precio": 18000,
       "descripcion": "Allegry Pets - Jabon para el pelo de tu mascota",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/b29bc43a0b3a1f862b7a4198ee4560ab_1705697469.jpg",
+      "imagen": "https://locatelcolombia.vtexassets.com/arquivos/ids/346246-800-450?v=638255743915670000&width=800&height=450&aspect=true",
       "disponibilidad": true
     },
     {
@@ -321,7 +321,7 @@
       "categoria": "Cuidado",
       "precio": 25000,
       "descripcion": "CanAmor - perfume para perros",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/23702_36498_Perfume_Canamor_Perros_1609942816_213x278.png",
+      "imagen": "https://canamor.com/wp-content/uploads/2024/06/Perfume_SemFundo.png",
       "disponibilidad": true
     },
     {
@@ -375,7 +375,7 @@
       "categoria": "Juguetes",
       "precio": 4000,
       "descripcion": "Pelota interactiva metálica con aberturas para que tu gato se desestrese y juegue todo el día Tamaño de la mascota: Todos los Tamaños. Etapa de la vida: Todas las Edades. \n\nPelota interactiva metálica con aberturas para que tu gato se desestrese y juegue todo el día. \n\nEnriquecer el ambiente de tus peludos con micha diversión. ",
-      "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/26adfcf093d2959cd8693c8c34c8a4d2_1710856102.jpg",
+      "imagen": "https://grupotrixder.com/WebRoot/Store/Shops/Trixder/5CFF/A7BD/68E7/3A68/342B/0A6E/0E02/7E58/Set_de_Juguete_raton_en_Esfera_de_alambre_6_cm_m.jpg",
       "disponibilidad": true
     },
     {

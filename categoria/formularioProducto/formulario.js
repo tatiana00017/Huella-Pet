@@ -25,7 +25,7 @@ function mostrarProductos(categoria) {
           const esFavorito = localStorage.getItem(`favorito_${producto.id}`) === "true"; // Chequear si es favorito
           
           return `
-              <div class="card container-card" style="width: 17rem;">
+              <div class="card container-card" style="width: 15rem;">
                 <img src="${producto.imagen}" class="card-img-top imagen-product" alt="${producto.nombre}">
                 <div class="card-body card-info-product">
                   <i class="fa-heart fa-xl fav-icon ${esFavorito ? 'fa-solid' : 'fa-regular'}" style="color: #2F6A74;" data-id="${producto.id}"></i>                 
@@ -123,7 +123,7 @@ function mostrarProductos(categoria) {
         if (result.isConfirmed) {
           Swal.fire({
             title: "Compra Exitosa",
-            text: "Tus productos estan en camino",
+            text: "Estamos preparando tus productos. Gracias por tu compra.",
             icon: "success",
           });
           localStorage.removeItem("carrito"); // Vaciar el carrito
