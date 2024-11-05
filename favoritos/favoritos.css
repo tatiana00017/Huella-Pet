@@ -1,3 +1,7 @@
+body{
+    background-color: #F3F3F3;
+}
+
 #mostrar-productos{
     display: flex;
     flex-direction: column;
@@ -60,6 +64,9 @@ h2.text-center.mb-4 {
 .card-text {
     font-size: 1rem; /* Tamaño de fuente del texto */
 }
+
+
+/**********/
 
 @media(max-width: 991px){
     .mostrar-publicidad {

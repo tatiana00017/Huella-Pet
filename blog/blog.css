@@ -61,7 +61,7 @@
     margin-bottom: 5px;
 }
 
-.btn-blog-opciones{
+.btn-blog-adopciones, .btn-blog-eventos, .btn-blog-educacion {
     background-color: #2F6A74;
     margin-top: 10px;
     width: 120px;
@@ -69,35 +69,19 @@
     color: white;
 }
 
-.btn-blog-opciones:hover{
+.btn-blog-adopciones:hover, .btn-blog-eventos:hover, .btn-blog-educacion:hover{
     background-color: #398891;
     color: #f0f7f9; 
 }
 
-.hidden {
+/* .hidden {
     opacity: 0;
     position: absolute;
-}
-
-/* .hidden {
-    display: none;
 }  */
 
-
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 24px;
-    padding: 10px;
-    display: none; 
-    text-align: center;
-}
-
-.back-to-top.show {
-    display: block; 
-}
-
+.hidden {
+    display: none;
+} 
 
 /******************************* Seccion Adopcion *******/
 
@@ -234,7 +218,7 @@
     align-items: center;
     justify-content: center;
     /* background-color: white; */
-    background-image: url('../img/fondo-adopcion.png');  
+    background-image: url('../img/img-blog/fondo-adopcion.png');  
     border-radius: 8px;
     padding: 0%;
     width: 590px;
@@ -469,8 +453,8 @@
 .cerrar-formadopcion{
     position: absolute;
     cursor: pointer;
-    top: 12%;
-    right: 25%;
+    top: 8%;
+    right: 22%;
 } 
 
 .btn-submit-adoptar{
@@ -505,6 +489,7 @@
     align-items: center;
     flex-wrap: wrap; 
     margin: 10px 0; 
+   
 }
 
 /* Texto encabezaddo fijo*/
@@ -826,7 +811,7 @@
     width: 100%;
     overflow: hidden;
     /* background-color: white; */
-    background-image: url('../img/fondo-educacion.png'); 
+    background-image: url('../img/img-blog/fondo-educacion.png');  
     border-radius: 8px;
     box-shadow: 0 2px 5px #398891;
 

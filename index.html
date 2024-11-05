@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="icon" type="image/x-icon" href="./img/Logo.png">
+<link rel="icon" type="image/x-icon" href="./img/Logo - pestaña.png">
 
 <head>
   <meta charset="UTF-8">
@@ -56,12 +56,12 @@
                 class="fa-solid fa-magnifying-glass lupa"></i></button>
           </form>
           <a>
-            <h6 class="btnInicio-login"> <i class="fa-solid fa-user icon-nav "></i> Iniciar Sesión</h6>
+            <h6 class="btnInicio-login"> <i class="fa-solid fa-user icon-nav" ></i> Iniciar Sesión</h6>
           </a>
           <h6 class="icon-nav"><i class="fa-solid fa-location-dot "></i> Bogotá</h6>
           <a>
             <h6 class="btn-carrito"> 
-              <i class="fa-solid fa-cart-shopping icon-nav"></i>Comprar
+              <i class="fa-solid fa-cart-shopping icon-nav" ></i>Comprar
               <span id="cart-count" class="cart-count">0</span>
             </h6>
           </a>
@@ -69,12 +69,22 @@
       </div>
     </nav>
 
-    <section class="nav2">
+    <section class="nav2 ">
 
-      <div class="boton-categorias">
+
+      <!-- <div class="boton-categorias">
         <i class="fa-solid fa-layer-group fa-beat" style="color: #ffffff;"></i>
         <h6> Categorias</h6>
+      </div> -->
+
+      <div >
+        <a class="boton-categorias" >
+          <i class="fa-solid fa-layer-group fa-beat" ></i>
+          <h6> Categorias</h6>
+        </a>
       </div>
+
+
       <!-- <div>
         <a href="./mundoOfertas/mundoOfertas.html">
           <i class="fa-solid fa-tag" style="color: #ffffff;"></i>
@@ -82,23 +92,25 @@
         </a>
       </div> -->
       <div>
-        <a href="./favoritos/favoritos.html">
-          <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+        <a href="./favoritos/favoritos.html" >
+          <i class="fa-solid fa-heart" ></i>
           <h6>Mis Favoritos</h6>
         </a>
       </div>
       <div>
         <a href="./misCompras/misCompras.html" id="mis-compras">
-          <i class="fa-solid fa-cart-arrow-down" style="color: #ffffff;"></i>
+          <i class="fa-solid fa-cart-arrow-down" ></i>
           <h6>Mis Compras</h6>
         </a>
       </div>
       <div>
         <a href="./blog/blog.html">
-          <i class="fa-brands fa-blogger" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-blogger" ></i>
           <h6>Blog</h6>
         </a>
       </div>
+      
+
 
     </section>
 
@@ -135,17 +147,24 @@
 
   <!-- ---------------------------------pagina de inicio--------------- -->
   <main>
-
+    <div id="top"></div>
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner carousel-baner">
-        <div class="carousel-item active" data-bs-interval="5000">
-          <img src="./img/img-home/homeFinal.png" class="d-block w-100 img-baner" alt="...">
+        <div class="carousel-item active boton-categorias" data-bs-interval="5000">
+          <img src="./img/img-home/imagenBaner1.png" class="d-block w-100 img-baner img-pointer" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="./img/img-home/imagenBaner3.png" class="d-block w-100 img-baner" alt="...">
+          <img src="./img/img-home/imagenBaner2.png" class="d-block w-100 img-baner" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="./img/img-home/imagenBaner5.png" class="d-block w-100 img-baner" alt="...">
+          <a href="./blog/blog.html">
+            <img  src="./img/img-home/imagenBaner3.png" class="d-block w-100 img-baner img-pointer" alt="...">
+          </a>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <a href="./blog/blog.html">
+            <img src="./img/img-home/imagenBaner4.gif" class="d-block w-100 img-baner img-pointer" alt="...">
+          </a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -163,7 +182,7 @@
     <section class="section-categoria" aria-label="categoria">
       <div class="container">
         <h2 class="section-categoria-title">
-          <span class="span">Nuestras</span> categorias
+          <span class="span">Nuestras</span> Categorías
         </h2>
         <ul class="container-target-categy">
 
@@ -234,8 +253,8 @@
           <div class="card-content-blog">
             <div>
               <h5 class="card-title">¡Adopta!</h5>
-              <p class="card-text">Es la oportunidad de dejar tu <span>Huella</span></p>
-              <a href="#" class="btn-blog">Más información</a>
+              <p class="card-text">Es la oportunidad de dejar tu <span>Huella.</span></p>
+              <a href="./blog/blog.html" class="btn-blog">Más información</a>
             </div>
           </div>
         </div>
@@ -247,8 +266,8 @@
           <div class="card-content-blog">
             <div>
               <h5 class="card-title">Vacunación</h5>
-              <p class="card-text">Protege su salud, asegura su felicidad</span></p>
-              <a href="#" class="btn-blog">Más información</a>
+              <p class="card-text">Protege su salud, asegura su felicidad.</span></p>
+              <a href="./blog/blog.html" class="btn-blog">Más información</a>
             </div>
           </div>
         </div>
@@ -259,9 +278,9 @@
           </div>
           <div class="card-content-blog">
             <div>
-              <h5 class="card-title">Estirilización</h5>
-              <p class="card-text">Esteriliza más salud,menos abandono</span></p>
-              <a href="#" class="btn-blog">Más información</a>
+              <h5 class="card-title">Esterilización</h5>
+              <p class="card-text">Esteriliza: más salud, menos abandono.</span></p>
+              <a href="./blog/blog.html" class="btn-blog">Más información</a>
             </div>
           </div>
         </div>
@@ -285,15 +304,14 @@
             <div class="im-container-alianzas" >
               <img
                 src="https://seeklogo.com/images/A/alcaldia-mayor-de-bogota-logo-CA468F866B-seeklogo.com.png" width="280" height="150"
-                width="150" height="150" alt="logo Idpyba">
+                width="150" height="150" alt="logo alcaldiaBogota">
             </div>
           </li>
 
           <li class="list-alianzas-item">
             <div class="im-container-alianzas">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXnQYa1aET2oaw-0GkJ43XkuyAliuAnSOqw&s"
-              width="150"
-              height="150" alt="logo Bogotá" >
+              <img src="./img/img-home/logoidpyba.png"
+              height="150" alt="logo idpyba" >
             </div>
           </li>
 
@@ -308,7 +326,9 @@
 
       </div>
     </section>
-
+    <a href="#top" id="back-to-top-scroll" class="back-to-top-scroll">
+      <i class="fa-solid fa-circle-chevron-up fa-bounce fa-2xl" style="color: #2F6A74"></i>
+    </a> 
   </main>
 
   <!-- ------------------------------------fin de pagina de inicio--------------- -->
@@ -457,27 +477,29 @@
           <ul>
             <li class="list-info-pie">Ak. 58 #127-59</li>
             <li class="list-info-pie">Bogotá, Colombia</li>
-            <li class="list-info-pie">+57 3102806291</li>
-            <li class="list-info-pie">contactenos@huellapet.com</li>
+            <li class="list-info-pie ">+57 3102806291</li>
+            <li class="list-info-pie">
+              <a href="mailto:contactenos@huellapet.com">contactenos@huellapet.com</a>
+            </li>
           </ul>
         </div>
         <div class=" info-pie info-pie-nosotros">
           <h5>Categorías</h5>
           <ul>
             <a href="/Huella-Pet/categoria/categoria.html?categoria=Cuidado">
-              <li class="list-info-pie">Cuidado e Higiene</li>
+              <li class="list-info-pie list-info-pie-enlace">Cuidado e Higiene</li>
             </a>
             <a href="/Huella-Pet/categoria/categoria.html?categoria=Alimento">
-              <li class="list-info-pie">Alimento</li>
+              <li class="list-info-pie list-info-pie-enlace">Alimento</li>
             </a>
             <a href="/Huella-Pet/categoria/categoria.html?categoria=Farmacia">
-              <li class="list-info-pie">Farmacia</li>
+              <li class="list-info-pie list-info-pie-enlace">Farmacia</li>
             </a>
             <a href="/Huella-Pet/categoria/categoria.html?categoria=Accesorios">
-              <li class="list-info-pie">Accesorios</li>
+              <li class="list-info-pie list-info-pie-enlace">Accesorios</li>
             </a>
             <a href="/Huella-Pet/categoria/categoria.html?categoria=Juguetes">
-              <li class="list-info-pie">Juguetes</li>
+              <li class="list-info-pie list-info-pie-enlace">Juguetes</li>
             </a>
           </ul>
         </div>
@@ -485,10 +507,10 @@
           <h5>Otros Links</h5>
           <ul>
             <a href="./contactenos/contactenos.html">
-              <li class="list-info-pie">Contactenos</li>
+              <li class="list-info-pie list-info-pie-enlace">Contactenos</li>
             </a>
             <a href="./nosotros/nosotros.html">
-              <li class="list-info-pie">Sobre Nosotros</li>
+              <li class="list-info-pie list-info-pie-enlace">Sobre Nosotros</li>
             </a>
           </ul>
         </div>
@@ -549,6 +571,9 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./misCompras/misCompras.js"></script>
   <script src="./carrito/carrito.js"></script>
+  <!-- <script src="./blog/formularioBlog/new.js"></script> -->
+  <script src="./index.js"></script>
+
 
 
 </body>

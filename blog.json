@@ -40,17 +40,17 @@
       "descripcion": "Este es Bruno, un encantador perrito que busca un hogar donde se sienta seguro. A sus 5 años, es un compañero leal y lleno de energía. Sin embargo, es un poco nervioso con los niños, por lo que se recomienda un hogar sin pequeños o con adultos que puedan ayudarlo a adaptarse.<br><br>Rescatado recientemente, Bruno está listo para encontrar una familia que lo quiera y le dé el espacio que necesita para prosperar. Su ternura y lealtad seguramente llenarán tu hogar de alegría."
     },
     {
-      "id": "15",
-      "imagen1": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15721.jpg?t=st=1729530255~exp=1729533855~hmac=a600bc448b14b0b6d6d8e785a32b980179044513c45ad23dd1060fef958e231a&w=360",
-      "imagen2": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15272.jpg?t=st=1729530250~exp=1729533850~hmac=66e3640673b621075f13869c17134c689d553cfbb31425fec89fcc52cf978013&w=360",
-      "imagen3": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15272.jpg?t=st=1729530250~exp=1729533850~hmac=66e3640673b621075f13869c17134c689d553cfbb31425fec89fcc52cf978013&w=360",
-      "nombre": "Manolo",
-      "especie": "Canino",
+      "id": "19",
+      "imagen1": "https://img.freepik.com/foto-gratis/cerrar-lindo-gato-interior_23-2148882585.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen2": "https://img.freepik.com/foto-gratis/hermoso-gato-acostado-sobre-almohada_23-2148882583.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
+      "imagen3": "https://img.freepik.com/foto-gratis/lindo-gato-sentado-silla_23-2148882589.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
+      "nombre": "Roki",
+      "especie": "Felino",
       "genero": "Macho",
-      "edad": 9,
+      "edad": 6,
       "raza": "Criollo",
       "condiciones": "Ninguna",
-      "descripcion": "Este es Manolo, un encantador perrito de 9 años que busca un hogar cálido y amoroso. Ha pasado casi toda su vida en la calle, enfrentando desafíos, hasta que finalmente fue rescatado y ahora está listo para disfrutar de su merecido descanso. <br><br> Es muy dormilón por su edad y le encanta estar acompañado, así que buscará la compañía de su familia para sentirse seguro y amado. Manolo es un perro muy consentido, listo para compartir su cariño y alegrar tu hogar. ¡Permítele convertirse en tu fiel compañero!"
+      "descripcion": "Este es Roki, un encantador gatito de 6 años que busca un hogar donde se sienta cómodo. Es un felino independiente que no disfruta de que lo miman demasiado, prefiriendo recibir caricias solo cuando él lo desea. <br><br> Sin condiciones especiales, Roki está listo para encontrar una familia que respete su espacio y le brinde el cariño que le gusta. Su carácter único y su presencia segura harán que tu hogar sea un lugar especial. ¡Dale la oportunidad de conocerte y formar parte de tu vida!."
     },
     {
       "id": "13",
@@ -105,17 +105,17 @@
       "descripcion": "Esta es Rita, una gatita de 1 año que busca un hogar cariñoso. Es muy dormilona y disfruta acurrucarse, pero también le gusta jugar e interactuar con perros, así que sería una gran compañera para los que ya tienen mascotas. <br><br> Su familia actual no puede tenerla, así que está lista para encontrar un nuevo hogar donde la cuiden y le den el amor que necesita. Su dulzura y cariño llenarán tu hogar de alegría. ¡Dale una oportunidad a Rita!."
     },
     {
-      "id": "19",
-      "imagen1": "https://img.freepik.com/foto-gratis/cerrar-lindo-gato-interior_23-2148882585.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
-      "imagen2": "https://img.freepik.com/foto-gratis/hermoso-gato-acostado-sobre-almohada_23-2148882583.jpg?uid=R165272234&ga=GA1.2.1348421391.1729213540",
-      "imagen3": "https://img.freepik.com/foto-gratis/lindo-gato-sentado-silla_23-2148882589.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540",
-      "nombre": "Roki",
-      "especie": "Felino",
+      "id": "15",
+      "imagen1": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15721.jpg?t=st=1729530255~exp=1729533855~hmac=a600bc448b14b0b6d6d8e785a32b980179044513c45ad23dd1060fef958e231a&w=360",
+      "imagen2": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15272.jpg?t=st=1729530250~exp=1729533850~hmac=66e3640673b621075f13869c17134c689d553cfbb31425fec89fcc52cf978013&w=360",
+      "imagen3": "https://img.freepik.com/foto-gratis/disparo-vertical-lindo-perro-teddy-roosevelt-terrier-sentado-cesped_181624-15272.jpg?t=st=1729530250~exp=1729533850~hmac=66e3640673b621075f13869c17134c689d553cfbb31425fec89fcc52cf978013&w=360",
+      "nombre": "Manolo",
+      "especie": "Canino",
       "genero": "Macho",
-      "edad": 6,
+      "edad": 9,
       "raza": "Criollo",
       "condiciones": "Ninguna",
-      "descripcion": "Este es Roki, un encantador gatito de 6 años que busca un hogar donde se sienta cómodo. Es un felino independiente que no disfruta de que lo miman demasiado, prefiriendo recibir caricias solo cuando él lo desea. <br><br> Sin condiciones especiales, Roki está listo para encontrar una familia que respete su espacio y le brinde el cariño que le gusta. Su carácter único y su presencia segura harán que tu hogar sea un lugar especial. ¡Dale la oportunidad de conocerte y formar parte de tu vida!."
+      "descripcion": "Este es Manolo, un encantador perrito de 9 años que busca un hogar cálido y amoroso. Ha pasado casi toda su vida en la calle, enfrentando desafíos, hasta que finalmente fue rescatado y ahora está listo para disfrutar de su merecido descanso. <br><br> Es muy dormilón por su edad y le encanta estar acompañado, así que buscará la compañía de su familia para sentirse seguro y amado. Manolo es un perro muy consentido, listo para compartir su cariño y alegrar tu hogar. ¡Permítele convertirse en tu fiel compañero!"
     },
     {
       "id": "20",
@@ -213,7 +213,7 @@
     {
       "id": "7574",
       "nombre": "Jornada de Vacunación",
-      "imagen": "../img/evento-vacunacion.png",
+      "imagen": "../img/img-blog/evento-vacunacion.png",
       "fecha": "24/11/2024 10:00 AM",
       "hora": "2024-11-24",
       "ciudad": "Bogotá",
@@ -223,20 +223,30 @@
     {
       "id": "7574",
       "nombre": "¡Feria de Adopción!",
-      "imagen": "../img/evento-adopcion.jpg",
+      "imagen": "../img/img-blog/evento-adopcion.jpg",
       "fecha": "16/11/2024 10:00 AM",
       "hora": "2024-11-16",
-      "ciudad": "Bogota",
+      "ciudad": "Bogotá",
       "direccion": "Parque Simon Bolivar",
       "descripcion": "Te invitamos a un evento único donde podrás encontrar a tu compañero perfecto. Esta feria es la oportunidad ideal para conocer a perros y gatos que esperan un hogar lleno de amor.<br><br>A lo largo del día, ofreceremos actividades educativas sobre el bienestar animal, así como consejos prácticos para el cuidado de tus mascotas. Veterinarios y expertos estarán disponibles para resolver tus dudas y brindarte información valiosa.<br><br>¡No dejes pasar la oportunidad de cambiar la vida de un animal y hacer una gran diferencia! Ven y únete a nosotros en este hermoso evento."
     },
     {
       "id": "7574",
+      "nombre": "Jornada de Esterilización",
+      "imagen": "https://img.freepik.com/foto-gratis/veterinario-sexo-femenino-que-examina-perro-tabla-clinica_23-2147928521.jpg?t=st=1730435903~exp=1730439503~hmac=e85b638b39828458b218c05fe118fb779d5099376ed3547a6340f8b0e79ed4d9&w=740",
+      "fecha": "16/11/2024 10:00 AM",
+      "hora": "2024-11-16",
+      "ciudad": "Cali",
+      "direccion": "Corregimiento La Paz - Frente a la Biblioteca Pública",
+      "descripcion": "Te invitamos a una nueva jornada de esterilización para perros y gatos. Recuerda que al esterilizar a tu mascota no solo cuidas su salud, sino que también contribuyes a controlar la sobrepoblación de animales y a mejorar el bienestar de nuestra comunidad.<br><br>¿Qué necesitas llevar?: Copia de tu documento de identidad, copia del recibo de la luz no mayor a 90 días, si tu mascota es hembra asegúrate de que no esté en celo<br><br>¡No te lo pierdas! Cuida de tu compañero y apoya una causa noble. Juntos, podemos hacer una diferencia en la vida de muchos animales."
+    },
+    {
+      "id": "7574",
       "nombre": "Feria Gastronómica",
-      "imagen": "../img/feriagastronomica.png",
+      "imagen": "../img/img-blog/evento-feria.png",
       "fecha": "29/11/2024 07:00 PM",
       "hora": "2024-11-29",
-      "ciudad": "Bogota",
+      "ciudad": "Bogotá",
       "direccion": "Corferias",
       "descripcion": "Ven y disfruta de una deliciosa variedad de comidas y bebidas, ¡tanto para ti como para tus mascotas! Esta feria no solo será un festín para tus sentidos, sino que también tiene un propósito noble.<br><br>Todo lo recaudado se destinará a una jornada de esterilización en los barrios con mayor cantidad de animales en abandono y donde muchas personas no pueden costear estos servicios. Tu participación hará una gran diferencia en la vida de muchos animales y sus dueños."
     }
@@ -268,7 +278,7 @@
       "titulo": "¿Cómo Bañar a Mi Gato y No Fallar en el Intento?",
       "enfoque": "gato",
       "imagen": "https://img.freepik.com/fotos-premium/pequeno-gatito-mojado-asustado-negro-limpia-toalla-despues-bano_98725-1403.jpg?uid=R165272234&ga=GA1.1.1348421391.1729213540&semt=ais_hybrid",
-      "descripcion": "Bañar a un gato puede ser un desafío, pero con la preparación adecuada, se puede hacer de manera efectiva. Aquí te dejamos una guía paso a paso para lograrlo sin estrés:<br><br><ul class='lista-puntos'><li>Prepara el espacio: Elige un lugar adecuado, como un lavabo o una bañera. Ten a mano todo lo necesario: shampoo para gatos, toallas y una jarra o manguera de ducha.</li><li>Usa agua tibia: Llena el recipiente con agua tibia. Evita temperaturas extremas que puedan incomodar a tu gato.</li><li>Moja suavemente: Comienza a mojar al gato despacio, comenzando por la parte posterior y evitando la cabeza. Usa una jarra o una manguera de ducha con poca presión.</li><li>Aplica shampoo: Utiliza un shampoo específico para gatos. Aplica una pequeña cantidad y masajea suavemente su pelaje, evitando el contacto con los ojos y oídos.</li><li>Enjuaga bien: Asegúrate de eliminar completamente el shampoo, ya que los residuos pueden irritar su piel.</li><li>Sécalo adecuadamente: Usa una toalla para secar al gato. Si lo tolera, puedes usar un secador de pelo en una configuración baja y a una distancia segura.</li><li>Premia a tu gato: Después del baño, ofrece una golosina o caricias para crear una asociación positiva con la experiencia.</li></ul>"  
+      "descripcion": "Bañar a un gato puede ser un desafío, pero con la preparación adecuada, se puede hacer de manera efectiva. Aquí te dejamos una guía paso a paso para lograrlo sin estrés:<br><br><ul class='lista-puntos'><li>Prepara el espacio: Elige un lugar adecuado, como un lavabo o una bañera. Ten a mano todo lo necesario: shampoo para gatos, toallas y una jarra o manguera de ducha.</li><li>Usa agua tibia: Llena el recipiente con agua tibia. Evita temperaturas extremas que puedan incomodar a tu gato.</li><li>Moja suavemente: Comienza a mojar al gato despacio, comenzando por la parte posterior y evitando la cabeza. Usa una jarra o una manguera de ducha con poca presión.</li><li>Aplica shampoo: Utiliza un shampoo específico para gatos. Aplica una pequeña cantidad y masajea suavemente su pelaje, evitando el contacto con los ojos y oídos.</li><li>Enjuaga bien: Asegúrate de eliminar completamente el shampoo, ya que los residuos pueden irritar su piel.</li><li>Sécalo adecuadamente: Usa una toalla para secar al gato. Si lo tolera, puedes usar un secador de pelo en una configuración baja y a una distancia segura.</li><li>Premia a tu gato: Después del baño, ofrece una golosina o caricias para crear una asociación positiva con la experiencia.</li></ul>"
     },
     {
       "id": "e137",
@@ -282,7 +292,7 @@
       "titulo": "¿Cómo Cuidar a Mi Gata y a Sus Crías?",
       "enfoque": "gato",
       "imagen": "https://img.freepik.com/fotos-premium/primer-plano-gato-descansando-cama_1048944-2317937.jpg?w=740",
-     "descripcion": "Cuidar de una gata y sus crías es fundamental para asegurar su salud y bienestar. Aquí tienes algunas pautas clave para hacerlo correctamente:<br><br><ul class='lista-puntos'><li>Alimentación adecuada: Proporciona a la gata un alimento específico para gatos gestantes o lactantes, rico en nutrientes y calorías para apoyar su salud y la de sus crías.</li><li>Agua fresca: Asegúrate de que tenga acceso constante a agua limpia y fresca para mantenerse hidratada.</li><li>Ambiente seguro: Crea un espacio tranquilo y seguro para que la gata dé a luz y críe a sus gatitos. Asegúrate de que esté libre de corrientes de aire y peligros.</li><li>Supervisión: Observa a la gata y a sus crías, pero evita interrumpir demasiado su privacidad. Permítele cuidar de ellos sin estrés.</li><li>Control de salud: Lleva a la gata y a los gatitos al veterinario para chequeos de salud. Es importante monitorear el desarrollo de los gatitos y la salud de la madre.</li><li>Socialización de los gatitos: A partir de las dos semanas, comienza a manejar a los gatitos suavemente para familiarizarlos con la interacción humana, lo que facilitará su socialización en el futuro.</li><li>Preparación para la adopción: Si planeas encontrar hogares para los gatitos, asegúrate de que estén listos para ser adoptados a partir de las 8-12 semanas de edad.</li></ul>"
+      "descripcion": "Cuidar de una gata y sus crías es fundamental para asegurar su salud y bienestar. Aquí tienes algunas pautas clave para hacerlo correctamente:<br><br><ul class='lista-puntos'><li>Alimentación adecuada: Proporciona a la gata un alimento específico para gatos gestantes o lactantes, rico en nutrientes y calorías para apoyar su salud y la de sus crías.</li><li>Agua fresca: Asegúrate de que tenga acceso constante a agua limpia y fresca para mantenerse hidratada.</li><li>Ambiente seguro: Crea un espacio tranquilo y seguro para que la gata dé a luz y críe a sus gatitos. Asegúrate de que esté libre de corrientes de aire y peligros.</li><li>Supervisión: Observa a la gata y a sus crías, pero evita interrumpir demasiado su privacidad. Permítele cuidar de ellos sin estrés.</li><li>Control de salud: Lleva a la gata y a los gatitos al veterinario para chequeos de salud. Es importante monitorear el desarrollo de los gatitos y la salud de la madre.</li><li>Socialización de los gatitos: A partir de las dos semanas, comienza a manejar a los gatitos suavemente para familiarizarlos con la interacción humana, lo que facilitará su socialización en el futuro.</li><li>Preparación para la adopción: Si planeas encontrar hogares para los gatitos, asegúrate de que estén listos para ser adoptados a partir de las 8-12 semanas de edad.</li></ul>"
     },
     {
       "id": "e140",

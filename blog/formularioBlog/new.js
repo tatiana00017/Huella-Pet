@@ -1,12 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const contenedorEducacion = document.getElementById("contenedor-educacion");
-    const contenedorEventos = document.getElementById("contenedor-eventos");
-    const contenedorAdopciones = document.getElementById("contenedor-adopciones");
+    const contenidoDiv = document.getElementById('contenido'); 
     
 
-    //**** Caledario Eventos */
-
-    
     // Contador para ID únicos en el carrusel 
     let adopcionCounter = 0;
 
@@ -22,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Cargar datos al iniciar la página
     function cargarDatos() {
+
         fetch('http://localhost:3001/educacion')
             .then(response => response.json())
             .then(data => {
@@ -39,149 +35,55 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch('http://localhost:3001/adopciones')
             .then(response => response.json())
             .then(data => {
-                data.forEach(item => crearTarjetaAdopciones(item)); // Aquí hay que cambiar
+                data.forEach(item => crearTarjetaAdopciones(item)); 
             })
             .catch(error => console.error('Error al cargar datos de adopciones:', error));
     }
 
     cargarDatos();
 
-    // Cargar los datos de cada seccion al precionar cada boton
+    // Cargar sección desde blogOculto
+    function cargarSeccion(seccion) {
+        const seccionVisible = contenidoDiv.querySelector(seccion);
 
-    const botones = document.querySelectorAll('.btn-blog-opciones');
-
-    botones.forEach(boton => {
-        boton.addEventListener('click', function(event) {
-            event.preventDefault(); 
-
-            const target = event.currentTarget.getAttribute('data-target');
-            const contenedorTarget = document.getElementById(target);
-
-            const isVisible = !contenedorTarget.classList.contains('hidden');
-
-            contenedorEducacion.classList.add('hidden');
-            contenedorEventos.classList.add('hidden');
-            contenedorAdopciones.classList.add('hidden');
-
-            if (isVisible) {
-                contenedorTarget.classList.add('hidden');
-            } else {
-                contenedorTarget.classList.remove('hidden');
-            }
-        });
-    });
-
-    // Formulario de envío
-    document.getElementById('formulario-blog').addEventListener('submit', function(event) {
-        console.log('Formulario enviado'); 
-        event.preventDefault();
-
-        const seleccion = document.getElementById('tipoPublicacion').value.toLowerCase();
-        let data = {};
-
-        if (seleccion === 'educación') {
-            data = {
-                titulo: document.getElementById('tituloEducacion').value,
-                enfoque: document.getElementById('enfoqueEducacion').value,
-                imagen: document.getElementById('imagenEducacion').value,
-                descripcion: document.getElementById('descripcionEducacion').value
-            };
-
-            fetch(`http://localhost:3001/educacion`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Éxito:', data);
-                alert('Publicación de Educación enviada exitosamente.');
-                crearTarjetaEducacion(data);
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Error al enviar la publicación.');
-            });
-
-
-        } else if (seleccion === 'eventos/donaciones') {
-            const fecha = document.getElementById('fechaEvento').value; 
-            const hora = document.getElementById('horaEvento').value;
-
-            const fechaHora = `${fecha}T${hora}`;
-            const fechaObj = new Date(fechaHora);
-            const opciones = { year: 'numeric', month: '2-digit', day: '2-digit', hour: 'numeric', minute: 'numeric', hour12: true };
-            const fechaFormateada = fechaObj.toLocaleString('en-US', opciones).replace(',', ''); // Reemplaza la coma
-
-            data = {
-                nombre: document.getElementById('nombreEvento').value,
-                imagen: document.getElementById('imagenEvento').value,
-                fecha: fechaFormateada,
-                hora: document.getElementById('fechaEvento').value,
-                ciudad: document.getElementById('ciudadEvento').value,
-                direccion: document.getElementById('direccionEvento').value,
-                descripcion: document.getElementById('descripcionEvento').value
-            };
-
-            fetch(`http://localhost:3001/eventos`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Éxito:', data);
-                alert('Publicación de Evento enviada exitosamente.');
-                crearTarjetaEventos(data); 
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Error al enviar la publicación.');
-            });
-
-
-        } else if (seleccion === 'adopciones') {
-            data = {
-                
-                imagen1: document.getElementById('imagenAdopcion1').value,
-                imagen2: document.getElementById('imagenAdopcion2').value,
-                imagen3: document.getElementById('imagenAdopcion3').value,
-                nombre: document.getElementById('nombre').value,
-                especie: document.getElementById('especie').value,
-                genero: document.getElementById('generoMascota').value,
-                edad: parseFloat(document.getElementById('edad').value),
-                raza: document.getElementById('raza').value,
-                condiciones: document.getElementById('condiciones').value,
-                descripcion: document.getElementById('descripcionAdopcion').value
-            };
-
-            fetch(`http://localhost:3001/adopciones`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Éxito:', data);
-                alert('Publicación de Adopción enviada exitosamente.');
-                crearTarjetaAdopciones(data); // Crear tarjeta para adopciones
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Error al enviar la publicación.');
-            });
+        if (seccionVisible) {
+            contenidoDiv.innerHTML = ''; 
+        } else {
+            fetch('blogOculto.html') 
+                .then(response => response.text())
+                .then(data => {
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(data, 'text/html');
+                    const seccionContent = doc.querySelector(seccion);
+                    if (seccionContent) {
+                        contenidoDiv.innerHTML = ''; 
+                        contenidoDiv.appendChild(seccionContent.cloneNode(true)); 
+                        cargarDatos(); 
+                         inicializarModalFormAdopcion(); 
+                        inicializarModalRequisitos(); 
+                    }
+                })
+                .catch(error => console.error('Error al cargar la sección:', error));
         }
+    }
+
+
+    // Agregar eventos a los botones
+    document.querySelector('.btn-blog-adopciones').addEventListener('click', (e) => {
+        e.preventDefault();
+        cargarSeccion('.contenedor-adopciones');
+    });
+    
+    document.querySelector('.btn-blog-eventos').addEventListener('click', (e) => {
+        e.preventDefault();
+        cargarSeccion('.contenedor-eventos');
+    });
+    
+    document.querySelector('.btn-blog-educacion').addEventListener('click', (e) => {
+        e.preventDefault();
+        cargarSeccion('.contenedor-educacion');
     });
 
-    // filtrado Tarjetas 
-
-    
     // Crear tarjetas educacion
     function crearTarjetaEducacion(data) {
         const cardHTML = `
@@ -202,17 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const contenedorTarjetas = document.querySelector('#contenedor-educacion .tarjetas-educacion');
         contenedorTarjetas.insertAdjacentHTML('beforeend', cardHTML);
-        
     }
-    //contenedorEducacion.insertAdjacentHTML('beforeend', cardHTML);
-
-       /// ****filtrado tarjetas educacion
-
-
-
-    // **** Calendario eventos ****************
-
-  
 
     // Crear tarjetas de eventos
     function crearTarjetaEventos(data) {
@@ -289,7 +181,6 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
         `;
-        // contenedorAdopciones.insertAdjacentHTML('beforeend', cardHTML);
         const contenedorTarjetas = document.querySelector('#contenedor-adopciones .tarjetas-adopciones');
         contenedorTarjetas.insertAdjacentHTML('beforeend', cardHTML);
     }

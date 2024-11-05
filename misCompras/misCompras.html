@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="icon" type="image/x-icon" href="../img/Logo.png">
+<link rel="icon" type="image/x-icon" href="../img/Logo - pestaña.png">
 
 <head>
     <meta charset="UTF-8">
@@ -136,7 +136,7 @@
     
     <main>
       <!-- Historial de compras -->
-       
+      <div id="top"></div>
       <section class="seccion-compras">
         <div class="titulo-compras">
           <h1>Mis Compras</h1>
@@ -222,8 +222,11 @@
             </div>
           </div>
         </div>
-
+        <a href="#top" id="back-to-top-scroll" class="back-to-top-scroll">
+          <i class="fa-solid fa-circle-chevron-up fa-bounce fa-2xl" style="color: #2F6A74"></i>
+        </a> 
       </section>
+
     </main>
   
     <!-- Inicio de sesion y registrate ----------------------------------------------- -->
@@ -369,26 +372,28 @@
               <li class="list-info-pie">Ak. 58 #127-59</li>
               <li class="list-info-pie">Bogotá, Colombia</li>
               <li class="list-info-pie">+57 3102806291</li>
-              <li class="list-info-pie">contactenos@huellapet.com</li>
+              <li class="list-info-pie">
+                <a href="mailto:contactenos@huellapet.com">contactenos@huellapet.com</a>
+              </li>
             </ul>
           </div>
           <div class=" info-pie info-pie-nosotros">
             <h5>Categorías</h5>
             <ul>
               <a href="/Huella-Pet/categoria/categoria.html?categoria=Cuidado">
-                <li class="list-info-pie">Cuidado e Higiene</li>
+                <li class="list-info-pie list-info-pie-enlace">Cuidado e Higiene</li>
               </a>
               <a href="/Huella-Pet/categoria/categoria.html?categoria=Alimento">
-                <li class="list-info-pie">Alimento</li>
+                <li class="list-info-pie list-info-pie-enlace">Alimento</li>
               </a>
               <a href="/Huella-Pet/categoria/categoria.html?categoria=Farmacia">
-                <li class="list-info-pie">Farmacia</li>
+                <li class="list-info-pie list-info-pie-enlace">Farmacia</li>
               </a>
               <a href="/Huella-Pet/categoria/categoria.html?categoria=Accesorios">
-                <li class="list-info-pie">Accesorios</li>
+                <li class="list-info-pie list-info-pie-enlace">Accesorios</li>
               </a>
               <a href="/Huella-Pet/categoria/categoria.html?categoria=Juguetes">
-                <li class="list-info-pie">Juguetes</li>
+                <li class="list-info-pie list-info-pie-enlace">Juguetes</li>
               </a>
             </ul>
           </div>
@@ -396,10 +401,10 @@
             <h5>Otros Links</h5>
             <ul>
               <a href="../contactenos/contactenos.html">
-                <li class="list-info-pie">Contactenos</li>
+                <li class="list-info-pie list-info-pie-enlace">Contactenos</li>
               </a>
               <a href="../nosotros/nosotros.html">
-                <li class="list-info-pie">Sobre Nosotros</li>
+                <li class="list-info-pie list-info-pie-enlace">Sobre Nosotros</li>
               </a>
             </ul>
           </div>
@@ -452,6 +457,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
   
+    
     <script src="../categoria/modal.js"></script>
     <script src="../categoria/formularioProducto/formulario.js"></script>
     <script src="../inicioSesion/loginRegistro.js"></script>
@@ -460,6 +466,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../carrito/carrito.js"></script>
     <script src="../categoria/formularioProducto/formulario.js"></script>
+    <script src="../index.js"></script>
+
     
   
   </body>
