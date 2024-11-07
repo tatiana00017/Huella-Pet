@@ -2,25 +2,32 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(180deg, #ffffff, #cfcfcf, #b4b4b4, #8a8a8a);
+    background-image: url("../../img/img-blog/fondo-adopcion.png");
+    padding: 20px;
 }
 
 .section-Crear-Productos {
     width: 100%;
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
     justify-content: center;
 }
 
 .section-form-crear-producto {
     width: 70%;
-    background-color: white;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.616);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
     border: 1px solid rgb(211, 211, 211);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 2%;
+}
+
+.form-crear-producto-img{
+    width:90px;
+    position: absolute;
+    left: 70px;
 }
 
 #titulo-crear {
@@ -34,7 +41,38 @@
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
+    gap: 4%;
+    color: #1c3d44;
 }
+
+.select-container {
+    position: relative;
+    width: 250px;  /* Ajusta el tamaño del contenedor según necesites */
+  }
+  
+  .general-input {
+    width: 100%;
+    padding: 5px 15px 5px 15px;  /* Padding a la derecha para la flecha */
+    font-size: 16px;
+    border: none;  /* Ajusta el borde */
+    border-radius: 8px;
+    background-color: #b29984;
+    color: white;
+    appearance: none;  /* Elimina la flecha predeterminada */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .select-container::after {
+    content: '\2193';  /* Código Unicode de la flecha hacia abajo */
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 10px;  /* Coloca la flecha dentro del select */
+    transform: translateY(-50%);
+    pointer-events: none;  /* No interfiere con la interacción */
+  }
+  
 
 .content-label-crear {
     width: 90%;
@@ -42,6 +80,10 @@
     flex-wrap: wrap;
     padding: 5%;
     justify-content: space-between;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    background-color: #b299845e;
+    box-shadow: inset 0px 10px 15px rgba(145, 145, 145, 0.1), inset 0px -10px 15px rgba(216, 216, 216, 0.1);
 }
 
 .label-crear {
@@ -61,6 +103,7 @@
     width: 200px;
     outline: 0;
     transition: border-color 0.9s;
+    background-color: #b4b4b400;
 }
 
 .input-crear-producto:focus {
@@ -81,27 +124,50 @@
     margin-top: 20px;
 }
 
-.content-boton-crear {
+.content-boton-crear{
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
-#boton-crear {
-    width: 200%;
+.boton-form-product {
+    width: 90px;
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid #2F6A74;
     color: white;
     background-color: #2F6A74;
-    padding: 20%;
     transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
 }
 
-#boton-crear:hover {
+.boton-form-product:hover {
     background-color: white;
     background-color: white;
-    border: 1px solid #2F6A74;
-    color: #2F6A74;
+    border: 1px solid rgb(218, 175, 59);
+    color: rgb(218, 175, 59);
+    transition: all 0.5s ease;
+}
+
+#boton-eliminar{
+    background-color: #b29984;
+    border: none
+}
+
+#boton-eliminar:hover{
+    background-color: white;
+    background-color: white;
+    border: 1px solid rgb(184, 40, 40);
+    color: rgb(184, 40, 40);
+    transition: all 0.5s ease;
+}
+
+#boton-crear:hover{
+    background-color: white;
+    background-color: white;
+    border: 1px solid rgb(51, 119, 51);
+    color: rgb(51, 119, 51);
     transition: all 0.5s ease;
 }
 

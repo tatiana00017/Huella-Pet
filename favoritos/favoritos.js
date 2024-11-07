@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Función para cargar productos favoritos desde localStorage
     function cargarProductosFavoritos() {
-      fetch("http://localhost:3000/productos")
+      fetch("http://localhost:8080/producto/traer")
         .then((response) => response.json())
         .then((data) => {
           // Filtrar productos que están guardados como favoritos en localStorage
           const productosFavoritos = data.filter((producto) =>
-            localStorage.getItem(`favorito_${producto.id}`) === "true"
+            localStorage.getItem(`favorito_${producto.id_producto}`) === "true"
           );
   
           if (productosFavoritos.length === 0) {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <p class="card-text descrpcion-product">${producto.descripcion}</p>
                     <h5 class="precio-product">$ ${precioFormateado}</h5>
                     <div class="content-boton">
-                      <button class="boton-huellapet quitar-favorito-btn" data-id="${producto.id}">Quitar de Favoritos</button>
+                      <button class="boton-huellapet quitar-favorito-btn" data-id="${producto.id_producto}">Quitar de Favoritos</button>
                     </div>
                   </div>
                 </div>

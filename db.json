@@ -41,7 +41,7 @@
       "nombre": "Cama Alina",
       "categoria": "Accesorios",
       "precio": 260910,
-      "descripcion": "La base aerodinámica está rellena de poliéster hilado elástico y proporciona a tu perro un lugar ",
+      "descripcion": "La base aerodinámica está rellena de poliéster hilado elástico y proporciona a tu perro un lugar",
       "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/99d2a4e13a47a0262eb341cfd5f11930_1688135358.jpg",
       "disponibilidad": true
     },
@@ -449,6 +449,15 @@
       "descripcion": "Hueso plástico nudo argos normal, Juguete en forma de hueso hecho de goma. Viene en diferentes colores y es de primera calidad, ya que es bastante resistente.\n\nEstá disponible en diferentes tamaños, es decir que es apto para cualquier raza de perros. Diseñado con colores llamativos y con un efecto traslúcido será el juguete favorito de tu perro y seguro estará distraido por horas jugando con él. \n\nY es especial para satisfacer la necesidad que usualmente tienen ellos por morder.  ",
       "imagen": "https://d23qt3x1ychzdy.cloudfront.net/dev_images_products/11054_161627_Hueso_Pl__stico_Nudo_Argos_1653669156_500x500.png",
       "disponibilidad": true
+    },
+    {
+      "id": "3ac8",
+      "nombre": "w",
+      "categoria": "Cuidado",
+      "precio": 12,
+      "descripcion": "w",
+      "imagen": "w",
+      "disponibilidad": false
     }
   ]
 }

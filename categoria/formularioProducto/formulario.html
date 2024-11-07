@@ -14,29 +14,42 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet"> <!-- Hoja de estilos -->
     <link rel="stylesheet" href="./formulario.css">
-</head> 
+</head>
 
 <body class="body-Crear-Productos">
     <main class="section-Crear-Productos">
         <section class="section-form-crear-producto">
-            <h1 id="titulo-crear">Agregar nuevo producto</h1>
+            <img class="form-crear-producto-img" src="../../img/Logo.png" alt="">
+            <h1 id="titulo-crear">Gestión de producto</h1>
             <form id="productoForm" class="form-crear-producto">
+
+                <!-- Select para productos a eliminar -->
+                <div class="content-label-crear">
+                    <label for="productosEliminar">Selecciona producto:</label>
+                    <div class="select-container">
+                        <select id="productosEliminar" class="general-input">
+                            <option value="">Cargar productos...</option>
+                        </select>
+                    </div>
+                </div>
+
                 <div class="content-label-crear">
                     <div class="label-crear"> <label for="imagen">Imagen*</label> <input class="input-crear-producto"
                             type="text" id="imagen" required /> </div>
                     <div class="label-crear"> <label for="nombre">Nombre*</label> <input class="input-crear-producto"
                             type="text" id="nombre" required /> </div>
                     <div class="label-crear">
-                        <label for="selectlist">Motivo de consulta *</label> 
-                        <select class="general-input"
-                            id="categoria" name="selectlist">
-                            <option value="Sin opción" name="selectlist">Seleccione...</option>
-                            <option value="Cuidado" name="selectlist">Cuidado</option>
-                            <option value="Alimento" name="selectlist">Alimento</option>
-                            <option value="Farmacia" name="selectlist">Farmacia</option>
-                            <option value="Accesorios" name="selectlist">Accesorios</option>
-                            <option value="Juguetes" name="selectlist">Juguetes</option>
-                        </select>
+                        <label for="selectlist">Categoria *</label>
+                        <div class="select-container">
+                            <select class="general-input" id="categoria" name="selectlist">
+                                <option value="Sin opción" name="selectlist">Seleccione...</option>
+                                <option value="Cuidado" name="selectlist">Cuidado</option>
+                                <option value="Alimento" name="selectlist">Alimento</option>
+                                <option value="Farmacia" name="selectlist">Farmacia</option>
+                                <option value="Accesorios" name="selectlist">Accesorios</option>
+                                <option value="Juguetes" name="selectlist">Juguetes</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="label-precio-descripcion">
                         <div class="label-crear">
@@ -54,16 +67,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-boton-crear"> <button id="boton-crear" type="submit">Agregar</button> </div>
+
+                <!-- Botones para eliminar y editar-->
+                <div class="content-boton-crear">
+                    <button class="boton-form-product" id="boton-crear" type="submit">Agregar</button>
+                    <button class="boton-form-product" id="boton-editar" type="button">Editar</button>
+                    <button class="boton-form-product" id="boton-eliminar" type="button">Eliminar</button>
+                </div>
             </form>
         </section>
     </main>
-    <div id="mostrar-productos" class="productos-container"></div>> </div>
+    <div id="mostrar-productos" class="productos-container"></div>
     <!-- ***************************---------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="./formulario.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
